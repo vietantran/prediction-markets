@@ -1,0 +1,10 @@
+{
+  "description": "Selected live public observations, not a complete research universe or investment recommendations. Preserve observed_at when reusing. No synthetic probability values.",
+  "input_runs": [
+    "data/issues/2026-09-06T164030_282793Z_2d6a20/markets.jsonl",
+    "data/smoke/2026-09-06T163856_897516Z_937c3f/markets.jsonl",
+    "data/smoke/2026-09-06T163405_515522Z_b2fd0c/candidates.jsonl"
+  ],
+  "selection": "All 3 classified issue contracts; 2026 Kalshi Senate controls; first active priced Polymarket Senate and Fed contract. Platform prices use different conventions; no equivalence inferred.",
+  "rows": 12
+}

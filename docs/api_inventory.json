@@ -1,0 +1,4867 @@
+{
+  "retrieved_at": "2026-09-06T16:34:57.587933Z",
+  "sources": [
+    {
+      "api": "polymarket-gamma",
+      "url": "https://docs.polymarket.com/api-spec/gamma-openapi.yaml",
+      "sha256": "02d14aa0ad0b958fdb41b06b777136aa4cf2f50dbbb5f29e41cabfe051cfc000",
+      "version": "1.0.0",
+      "servers": [
+        {
+          "url": "https://gamma-api.polymarket.com",
+          "description": "Polymarket Gamma API Production Server"
+        }
+      ]
+    },
+    {
+      "api": "polymarket-clob",
+      "url": "https://docs.polymarket.com/api-spec/clob-openapi.yaml",
+      "sha256": "82529177635db366c31a08777355b4b95c392a427298c3ba68904b937d4594da",
+      "version": "1.0.0",
+      "servers": [
+        {
+          "url": "https://clob.polymarket.com",
+          "description": "Production CLOB API"
+        },
+        {
+          "url": "https://clob-staging.polymarket.com",
+          "description": "Staging CLOB API"
+        }
+      ]
+    },
+    {
+      "api": "polymarket-data",
+      "url": "https://docs.polymarket.com/api-spec/data-openapi.yaml",
+      "sha256": "9d5d62b302bced648b7212e6e8c589a741b258d38bb8769a1cd57c5224ecc1fe",
+      "version": "1.0.0",
+      "servers": [
+        {
+          "url": "https://data-api.polymarket.com",
+          "description": "Relative server (same host)"
+        }
+      ]
+    },
+    {
+      "api": "polymarket-bridge",
+      "url": "https://docs.polymarket.com/api-spec/bridge-openapi.yaml",
+      "sha256": "e6ea7f3209c4b33f2e1fe8360681c0248f8a0f304c336b60b4d265fb731b6f15",
+      "version": "1.0.0",
+      "servers": [
+        {
+          "url": "https://bridge.polymarket.com",
+          "description": "Polymarket Bridge API"
+        }
+      ]
+    },
+    {
+      "api": "polymarket-relayer",
+      "url": "https://docs.polymarket.com/api-spec/relayer-openapi.yaml",
+      "sha256": "bc166abe718228203d6d479af36eae5901d77f807a1e73444fc380ee5ae385a8",
+      "version": "1.0.0",
+      "servers": [
+        {
+          "url": "https://relayer-v2.polymarket.com",
+          "description": "Polymarket Relayer API"
+        }
+      ]
+    },
+    {
+      "api": "polymarket-combos",
+      "url": "https://docs.polymarket.com/api-spec/combos-rfq-openapi.yaml",
+      "sha256": "2fd460508ace0b906948c07d0c835a49de59acf95abaed27ac59a8bffa45f638",
+      "version": "1.0.0",
+      "servers": [
+        {
+          "url": "https://combos-rfq-api.polymarket.com",
+          "description": "Production combinatorial RFQ API"
+        }
+      ]
+    },
+    {
+      "api": "polymarket-perps",
+      "url": "https://docs.polymarket.com/api-spec/perps-openapi.json",
+      "sha256": "cf5b6037debf4bb0d46b6e4a2d7f43ec22af9a08ddd95baccf4f75853a36ade0",
+      "version": "1.0.0",
+      "servers": [
+        {
+          "url": "https://api.perpetuals.polymarket.com",
+          "description": "Production Perps HTTP API"
+        }
+      ]
+    },
+    {
+      "api": "kalshi",
+      "url": "https://docs.kalshi.com/openapi.yaml",
+      "sha256": "1aea311542d8587e386deb40f8384b0d8a6d996845a98ffa8119f1df0c3c234f",
+      "version": "3.29.0",
+      "servers": [
+        {
+          "url": "https://external-api.kalshi.com/trade-api/v2",
+          "description": "Production Trade API server"
+        },
+        {
+          "url": "https://api.elections.kalshi.com/trade-api/v2",
+          "description": "Production shared API server, also supported"
+        },
+        {
+          "url": "https://external-api.demo.kalshi.co/trade-api/v2",
+          "description": "Demo Trade API server"
+        },
+        {
+          "url": "https://demo-api.kalshi.co/trade-api/v2",
+          "description": "Demo shared API server, also supported"
+        }
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/status",
+      "summary": "Gamma API Health check",
+      "operation_id": "getGammaStatus",
+      "tags": [
+        "Gamma Status"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/teams",
+      "summary": "List teams",
+      "operation_id": "listTeams",
+      "tags": [
+        "Sports"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/teams/{id}",
+      "summary": "Get team by id",
+      "operation_id": "getTeam",
+      "tags": [
+        "Sports"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/tags",
+      "summary": "List tags",
+      "operation_id": "listTags",
+      "tags": [
+        "Tags"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/tags/{id}",
+      "summary": "Get tag by id",
+      "operation_id": "getTag",
+      "tags": [
+        "Tags"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/tags/slug/{slug}",
+      "summary": "Get tag by slug",
+      "operation_id": "getTagBySlug",
+      "tags": [
+        "Tags"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/tags/{id}/related-tags",
+      "summary": "Get related tags (relationships) by tag id",
+      "operation_id": "getRelatedTagsById",
+      "tags": [
+        "Tags"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/tags/slug/{slug}/related-tags",
+      "summary": "Get related tags (relationships) by tag slug",
+      "operation_id": "getRelatedTagsBySlug",
+      "tags": [
+        "Tags"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/tags/{id}/related-tags/tags",
+      "summary": "Get tags related to a tag id",
+      "operation_id": "getTagsRelatedToATagById",
+      "tags": [
+        "Tags"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/tags/slug/{slug}/related-tags/tags",
+      "summary": "Get tags related to a tag slug",
+      "operation_id": "getTagsRelatedToATagBySlug",
+      "tags": [
+        "Tags"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/events",
+      "summary": "List events",
+      "operation_id": "listEvents",
+      "tags": [
+        "Events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/events/pagination",
+      "summary": "List events (paginated)",
+      "operation_id": "listEventsPagination",
+      "tags": [
+        "Events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/events/results",
+      "summary": "List sport events results",
+      "operation_id": "listSportEventsResults",
+      "tags": [
+        "Events",
+        "Sports"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/events/{id}",
+      "summary": "Get event by id",
+      "operation_id": "getEvent",
+      "tags": [
+        "Events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/events/{id}/tweet-count",
+      "summary": "Get event tweet count",
+      "operation_id": "getEventTweetCount",
+      "tags": [
+        "Events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/events/{id}/comments/count",
+      "summary": "Get event comment count",
+      "operation_id": "getEventCommentsCount",
+      "tags": [
+        "Events",
+        "Comments"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/events/{id}/tags",
+      "summary": "Get event tags",
+      "operation_id": "getEventTags",
+      "tags": [
+        "Events",
+        "Tags"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/events/slug/{slug}",
+      "summary": "Get event by slug",
+      "operation_id": "getEventBySlug",
+      "tags": [
+        "Events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/events/creators",
+      "summary": "List event creators",
+      "operation_id": "listEventCreators",
+      "tags": [
+        "Events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/events/creators/{id}",
+      "summary": "Get event creator by id",
+      "operation_id": "getEventCreator",
+      "tags": [
+        "Events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/markets",
+      "summary": "List markets",
+      "operation_id": "listMarkets",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/markets/{id}",
+      "summary": "Get market by id",
+      "operation_id": "getMarket",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/markets/{id}/description",
+      "summary": "Get market description by id",
+      "operation_id": "getMarketDescription",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/markets/{id}/tags",
+      "summary": "Get market tags by id",
+      "operation_id": "getMarketTags",
+      "tags": [
+        "Markets",
+        "Tags"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/markets/slug/{slug}",
+      "summary": "Get market by slug",
+      "operation_id": "getMarketBySlug",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "POST",
+      "path": "/markets/information",
+      "summary": "Query markets by information filters",
+      "operation_id": "getMarketsInformation",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "POST",
+      "path": "/markets/abridged",
+      "summary": "Query abridged markets by information filters",
+      "operation_id": "getAbridgedMarkets",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/markets/keyset",
+      "summary": "List markets (keyset pagination)",
+      "operation_id": "listMarketsKeyset",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/events/keyset",
+      "summary": "List events (keyset pagination)",
+      "operation_id": "listEventsKeyset",
+      "tags": [
+        "Events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/series",
+      "summary": "List series",
+      "operation_id": "listSeries",
+      "tags": [
+        "Series"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/series/{id}",
+      "summary": "Get series by id",
+      "operation_id": "getSeries",
+      "tags": [
+        "Series"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/series/{id}/comments/count",
+      "summary": "Get series comment count",
+      "operation_id": "getSeriesCommentsCount",
+      "tags": [
+        "Series",
+        "Comments"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/series-summary/{id}",
+      "summary": "Get series summary by id",
+      "operation_id": "getSeriesSummaryById",
+      "tags": [
+        "Series"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/series-summary/slug/{slug}",
+      "summary": "Get series summary by slug",
+      "operation_id": "getSeriesSummaryBySlug",
+      "tags": [
+        "Series"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/comments",
+      "summary": "List comments",
+      "operation_id": "listComments",
+      "tags": [
+        "Comments"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/comments/{id}",
+      "summary": "Get comments by comment id",
+      "operation_id": "getCommentsById",
+      "tags": [
+        "Comments"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/comments/user_address/{user_address}",
+      "summary": "Get comments by user address",
+      "operation_id": "getCommentsByUserAddress",
+      "tags": [
+        "Comments",
+        "Profiles"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/public-profile",
+      "summary": "Get public profile by wallet address",
+      "operation_id": "getPublicProfile",
+      "tags": [
+        "Profiles"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/profiles/user_address/{user_address}",
+      "summary": "Get public profile by user address",
+      "operation_id": "getPublicProfileByUserAddress",
+      "tags": [
+        "Profiles"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/sports",
+      "summary": "Get sports metadata information",
+      "operation_id": "getSportsMetadata",
+      "tags": [
+        "Sports"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/sports/market-types",
+      "summary": "Get valid sports market types",
+      "operation_id": "getSportsMarketTypes",
+      "tags": [
+        "Sports"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-gamma",
+      "method": "GET",
+      "path": "/public-search",
+      "summary": "Search markets, events, and profiles",
+      "operation_id": "publicSearch",
+      "tags": [
+        "Search"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/order",
+      "summary": "Post a new order",
+      "operation_id": "postOrder",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "DELETE",
+      "path": "/order",
+      "summary": "Cancel single order",
+      "operation_id": "cancelOrder",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/orders",
+      "summary": "Post multiple orders",
+      "operation_id": "postOrders",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "DELETE",
+      "path": "/orders",
+      "summary": "Cancel multiple orders",
+      "operation_id": "cancelOrders",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/data/orders",
+      "summary": "Get user orders",
+      "operation_id": "getOrders",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/data/order/{orderID}",
+      "summary": "Get single order by ID",
+      "operation_id": "getOrder",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "DELETE",
+      "path": "/cancel-all",
+      "summary": "Cancel all orders",
+      "operation_id": "cancelAllOrders",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "DELETE",
+      "path": "/cancel-market-orders",
+      "summary": "Cancel orders for a market",
+      "operation_id": "cancelMarketOrders",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/time",
+      "summary": "Get server time",
+      "operation_id": "getTime",
+      "tags": [
+        "Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/midpoint",
+      "summary": "Get midpoint price",
+      "operation_id": "getMidpoint",
+      "tags": [
+        "Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/midpoints",
+      "summary": "Get midpoint prices (query parameters)",
+      "operation_id": "getMidpointsGet",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/midpoints",
+      "summary": "Get midpoint prices (request body)",
+      "operation_id": "getMidpointsPost",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/spread",
+      "summary": "Get spread",
+      "operation_id": "getSpread",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/spreads",
+      "summary": "Get spreads",
+      "operation_id": "getSpreads",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/last-trade-price",
+      "summary": "Get last trade price",
+      "operation_id": "getLastTradePrice",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/last-trades-prices",
+      "summary": "Get last trade prices (query parameters)",
+      "operation_id": "getLastTradesPricesGet",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/last-trades-prices",
+      "summary": "Get last trade prices (request body)",
+      "operation_id": "getLastTradesPricesPost",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/fee-rate",
+      "summary": "Get fee rate",
+      "operation_id": "getFeeRate",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/fee-rate/{token_id}",
+      "summary": "Get fee rate by path parameter",
+      "operation_id": "getFeeRateByPath",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/tick-size",
+      "summary": "Get tick size",
+      "operation_id": "getTickSize",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/tick-size/{token_id}",
+      "summary": "Get tick size by path parameter",
+      "operation_id": "getTickSizeByPath",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/neg-risk",
+      "summary": "Get negative risk flag",
+      "operation_id": "getNegRisk",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/neg-risk/{token_id}",
+      "summary": "Get negative risk flag by path parameter",
+      "operation_id": "getNegRiskByPath",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/price",
+      "summary": "Get market price",
+      "operation_id": "getPrice",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/prices",
+      "summary": "Get market prices (query parameters)",
+      "operation_id": "getPricesGet",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/prices",
+      "summary": "Get market prices (request body)",
+      "operation_id": "getPricesPost",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/book",
+      "summary": "Get order book",
+      "operation_id": "getBook",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/books",
+      "summary": "Get order books (query parameters)",
+      "operation_id": "getBooksGet",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/books",
+      "summary": "Get order books (request body)",
+      "operation_id": "getBooksPost",
+      "tags": [
+        "Market Data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/simplified-markets",
+      "summary": "Get simplified markets",
+      "operation_id": "getSimplifiedMarkets",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/sampling-markets",
+      "summary": "Get sampling markets",
+      "operation_id": "getSamplingMarkets",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/sampling-simplified-markets",
+      "summary": "Get sampling simplified markets",
+      "operation_id": "getSamplingSimplifiedMarkets",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/clob-markets/{condition_id}",
+      "summary": "Get CLOB market info",
+      "operation_id": "getClobMarketInfo",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/markets-by-token/{token_id}",
+      "summary": "Get market by token",
+      "operation_id": "getMarketByToken",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/markets/live-activity",
+      "summary": "Get live activity markets by condition IDs",
+      "operation_id": "getMarketsLiveActivity",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/markets/live-activity/{condition_id}",
+      "summary": "Get live activity market by condition ID",
+      "operation_id": "getMarketLiveActivity",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/prices-history",
+      "summary": "Get prices history",
+      "operation_id": "getPricesHistory",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/batch-prices-history",
+      "summary": "Get batch prices history",
+      "operation_id": "getBatchPricesHistory",
+      "tags": [
+        "Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/auth/api-key",
+      "summary": "Create API key",
+      "operation_id": "createApiKey",
+      "tags": [
+        "Account"
+      ],
+      "security": [
+        {
+          "polyAddress": [],
+          "polySignature": [],
+          "polyTimestamp": [],
+          "polyNonce": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "DELETE",
+      "path": "/auth/api-key",
+      "summary": "Delete API key",
+      "operation_id": "deleteApiKey",
+      "tags": [
+        "Account"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/auth/api-keys",
+      "summary": "Get API keys",
+      "operation_id": "getApiKeys",
+      "tags": [
+        "Account"
+      ],
+      "security": [
+        {
+          "polyAddress": [],
+          "polySignature": [],
+          "polyTimestamp": [],
+          "polyNonce": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/auth/derive-api-key",
+      "summary": "Derive API key",
+      "operation_id": "deriveApiKey",
+      "tags": [
+        "Account"
+      ],
+      "security": [
+        {
+          "polyAddress": [],
+          "polySignature": [],
+          "polyTimestamp": [],
+          "polyNonce": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/balance-allowance",
+      "summary": "Get balance and allowance",
+      "operation_id": "getBalanceAllowance",
+      "tags": [
+        "Account"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "PUT",
+      "path": "/balance-allowance",
+      "summary": "Update balance and allowance",
+      "operation_id": "updateBalanceAllowance",
+      "tags": [
+        "Account"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/balance-allowance/update",
+      "summary": "Update balance and allowance",
+      "operation_id": "getUpdateBalanceAllowance",
+      "tags": [
+        "Account"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/auth/ban-status/closed-only",
+      "summary": "Get closed-only mode status",
+      "operation_id": "getClosedOnlyMode",
+      "tags": [
+        "Account"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/auth/builder-api-key",
+      "summary": "Get builder API keys",
+      "operation_id": "getBuilderApiKeys",
+      "tags": [
+        "Account"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/auth/builder-api-key",
+      "summary": "Create builder API key",
+      "operation_id": "createBuilderApiKey",
+      "tags": [
+        "Account"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "DELETE",
+      "path": "/auth/builder-api-key",
+      "summary": "Revoke builder API key",
+      "operation_id": "revokeBuilderApiKey",
+      "tags": [
+        "Account"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/notifications",
+      "summary": "Get notifications",
+      "operation_id": "getNotifications",
+      "tags": [
+        "Notifications"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "DELETE",
+      "path": "/notifications",
+      "summary": "Mark notifications as read",
+      "operation_id": "dropNotifications",
+      "tags": [
+        "Notifications"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/rewards/user",
+      "summary": "Get earnings for user by date",
+      "operation_id": "getEarningsForUserForDay",
+      "tags": [
+        "Rewards"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/rewards/user/total",
+      "summary": "Get total earnings for user by date",
+      "operation_id": "getTotalEarningsForUserForDay",
+      "tags": [
+        "Rewards"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/rewards/user/percentages",
+      "summary": "Get reward percentages for user",
+      "operation_id": "getRewardPercentagesForUser",
+      "tags": [
+        "Rewards"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/rewards/user/markets",
+      "summary": "Get user earnings and markets configuration",
+      "operation_id": "getUserEarningsAndMarketsConfig",
+      "tags": [
+        "Rewards"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/rewards/markets/current",
+      "summary": "Get current active rewards configurations",
+      "operation_id": "getCurrentRewards",
+      "tags": [
+        "Rewards"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/rewards/markets/{condition_id}",
+      "summary": "Get raw rewards for a specific market",
+      "operation_id": "getRawRewardsForMarket",
+      "tags": [
+        "Rewards"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/rewards/markets/multi",
+      "summary": "Get multiple markets with rewards",
+      "operation_id": "getMultiMarkets",
+      "tags": [
+        "Rewards"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/rebates/current",
+      "summary": "Get current rebated fees for a maker",
+      "operation_id": "getCurrentRebatedFees",
+      "tags": [
+        "Rebates"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/heartbeats",
+      "summary": "Send heartbeat",
+      "operation_id": "sendHeartbeat",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/v1/heartbeats",
+      "summary": "Send heartbeat (v1)",
+      "operation_id": "sendHeartbeatV1",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/order-scoring",
+      "summary": "Get order scoring status",
+      "operation_id": "getOrderScoring",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/orders-scoring",
+      "summary": "Get scoring status for multiple orders",
+      "operation_id": "getOrdersScoring",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "POST",
+      "path": "/orders-scoring",
+      "summary": "Get scoring status for multiple orders (POST)",
+      "operation_id": "postOrdersScoring",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/data/trades",
+      "summary": "Get trades",
+      "operation_id": "getTrades",
+      "tags": [
+        "Trade"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-clob",
+      "method": "GET",
+      "path": "/builder/trades",
+      "summary": "Get builder trades",
+      "operation_id": "getBuilderTrades",
+      "tags": [
+        "Trade"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/",
+      "summary": "Data API Health check",
+      "operation_id": "getDataApiHealth",
+      "tags": [
+        "Data API Status"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/v1/accounting/snapshot",
+      "summary": "Download an accounting snapshot (ZIP of CSVs)",
+      "operation_id": null,
+      "tags": [
+        "Misc"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/v1/approvals",
+      "summary": "Get token approval state for a wallet",
+      "operation_id": null,
+      "tags": [
+        "Misc"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/positions",
+      "summary": "Get current positions for a user",
+      "operation_id": null,
+      "tags": [
+        "Core"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/trades",
+      "summary": "Get trades for a user or markets",
+      "operation_id": null,
+      "tags": [
+        "Core"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/activity",
+      "summary": "Get user activity",
+      "operation_id": null,
+      "tags": [
+        "Core"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/v1/activity/combos",
+      "summary": "Get user combo activity",
+      "operation_id": null,
+      "tags": [
+        "Core"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/v1/positions/combos",
+      "summary": "Get user combo positions",
+      "operation_id": null,
+      "tags": [
+        "Core"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/holders",
+      "summary": "Get top holders for markets",
+      "operation_id": null,
+      "tags": [
+        "Core"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/traded",
+      "summary": "Get total markets a user has traded",
+      "operation_id": null,
+      "tags": [
+        "Misc"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/revisions",
+      "summary": "Get moderated revisions for a question",
+      "operation_id": null,
+      "tags": [
+        "Misc"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/value",
+      "summary": "Get total value of a user's positions",
+      "operation_id": null,
+      "tags": [
+        "Core"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/oi",
+      "summary": "Get open interest",
+      "operation_id": null,
+      "tags": [
+        "Misc"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/live-volume",
+      "summary": "Get live volume for an event",
+      "operation_id": null,
+      "tags": [
+        "Misc"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/closed-positions",
+      "summary": "Get closed positions for a user",
+      "operation_id": null,
+      "tags": [
+        "Core"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/other",
+      "summary": "Get \"Other\" size for an augmented neg risk event and user",
+      "operation_id": null,
+      "tags": [
+        "Misc"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/v1/market-positions",
+      "summary": "Get positions for a market",
+      "operation_id": null,
+      "tags": [
+        "Core"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/v1/builders/leaderboard",
+      "summary": "Get aggregated builder leaderboard",
+      "operation_id": null,
+      "tags": [
+        "Builders"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/v1/builders/volume",
+      "summary": "Get daily builder volume time-series",
+      "operation_id": null,
+      "tags": [
+        "Builders"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-data",
+      "method": "GET",
+      "path": "/v1/leaderboard",
+      "summary": "Get trader leaderboard rankings",
+      "operation_id": null,
+      "tags": [
+        "Core"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-bridge",
+      "method": "GET",
+      "path": "/supported-assets",
+      "summary": "Get supported assets",
+      "operation_id": null,
+      "tags": [
+        "Bridge"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-bridge",
+      "method": "POST",
+      "path": "/quote",
+      "summary": "Get a quote",
+      "operation_id": null,
+      "tags": [
+        "Bridge"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-bridge",
+      "method": "POST",
+      "path": "/deposit",
+      "summary": "Create bridge addresses",
+      "operation_id": null,
+      "tags": [
+        "Bridge"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-bridge",
+      "method": "POST",
+      "path": "/withdraw",
+      "summary": "Create withdrawal addresses",
+      "operation_id": null,
+      "tags": [
+        "Bridge"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-bridge",
+      "method": "GET",
+      "path": "/status/{address}",
+      "summary": "Get transaction status",
+      "operation_id": null,
+      "tags": [
+        "Bridge"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-relayer",
+      "method": "POST",
+      "path": "/submit",
+      "summary": "Submit a transaction",
+      "operation_id": null,
+      "tags": [
+        "Relayer"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-relayer",
+      "method": "GET",
+      "path": "/transaction",
+      "summary": "Get a transaction by ID",
+      "operation_id": null,
+      "tags": [
+        "Relayer"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-relayer",
+      "method": "GET",
+      "path": "/transactions",
+      "summary": "Get recent transactions for a user",
+      "operation_id": null,
+      "tags": [
+        "Relayer"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-relayer",
+      "method": "GET",
+      "path": "/nonce",
+      "summary": "Get current nonce for a user",
+      "operation_id": null,
+      "tags": [
+        "Relayer"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-relayer",
+      "method": "GET",
+      "path": "/relay-payload",
+      "summary": "Get relayer address and nonce",
+      "operation_id": null,
+      "tags": [
+        "Relayer"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-relayer",
+      "method": "GET",
+      "path": "/deployed",
+      "summary": "Check if a wallet is deployed",
+      "operation_id": null,
+      "tags": [
+        "Relayer"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-relayer",
+      "method": "GET",
+      "path": "/relayer/api/keys",
+      "summary": "Get all relayer API keys",
+      "operation_id": null,
+      "tags": [
+        "Relayer API Keys"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-combos",
+      "method": "GET",
+      "path": "/v1/rfq/combo-markets",
+      "summary": "Get combo markets",
+      "operation_id": "getComboMarkets",
+      "tags": [
+        "Combo Markets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-combos",
+      "method": "POST",
+      "path": "/v1/maker/quotes",
+      "summary": "Submit a quote",
+      "operation_id": "submitMakerQuote",
+      "tags": [
+        "Maker"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-combos",
+      "method": "POST",
+      "path": "/v1/maker/quotes/cancel",
+      "summary": "Cancel a quote",
+      "operation_id": "cancelMakerQuote",
+      "tags": [
+        "Maker"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-combos",
+      "method": "POST",
+      "path": "/v1/maker/confirmations",
+      "summary": "Confirm or decline last look",
+      "operation_id": "submitMakerConfirmation",
+      "tags": [
+        "Maker"
+      ],
+      "security": [
+        {
+          "polyApiKey": [],
+          "polyAddress": [],
+          "polySignature": [],
+          "polyPassphrase": [],
+          "polyTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/ping",
+      "summary": "Test Connection",
+      "operation_id": "getPing",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/time",
+      "summary": "Get Server Time",
+      "operation_id": "getTime",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/exchange",
+      "summary": "Get Exchange Info",
+      "operation_id": "getExchange",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/assets",
+      "summary": "Get Collateral Assets",
+      "operation_id": "getAssets",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/instruments",
+      "summary": "Get Instruments",
+      "operation_id": "getInstruments",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/tickers",
+      "summary": "Get Tickers",
+      "operation_id": "getTickers",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/statistics",
+      "summary": "Get Statistics",
+      "operation_id": "getStatistics",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/klines",
+      "summary": "Get Klines",
+      "operation_id": "getKlines",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/mark-history",
+      "summary": "Get Mark Price History",
+      "operation_id": "getMarkHistory",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/bbo",
+      "summary": "Get BBO",
+      "operation_id": "getBBO",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/book",
+      "summary": "Get Book",
+      "operation_id": "getBook",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/index",
+      "summary": "Get Index",
+      "operation_id": "getIndex",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/trades",
+      "summary": "Get Recent Trades",
+      "operation_id": "getTrades",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/portfolio",
+      "summary": "Get Public Portfolio",
+      "operation_id": "getPublicPortfolio",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/position-fills",
+      "summary": "Get Current Position Fills",
+      "operation_id": "getPublicPositionFills",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/funding",
+      "summary": "Get Historical Funding",
+      "operation_id": "getFundingHistory",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/fees",
+      "summary": "Get Fees",
+      "operation_id": "getInfoFees",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/limit-tiers",
+      "summary": "Get Limit Tiers",
+      "operation_id": "getLimitTiers",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/info/invite",
+      "summary": "Check Invite Code",
+      "operation_id": "checkInviteCode",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "POST",
+      "path": "/v1/trade/orders",
+      "summary": "Create Orders",
+      "operation_id": "createOrders",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "DELETE",
+      "path": "/v1/trade/orders",
+      "summary": "Cancel Orders",
+      "operation_id": "cancelOrders",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "PATCH",
+      "path": "/v1/trade/orders",
+      "summary": "Modify Orders",
+      "operation_id": "modifyOrders",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "DELETE",
+      "path": "/v1/trade/orders/all",
+      "summary": "Cancel All Orders",
+      "operation_id": "cancelAllOrders",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "DELETE",
+      "path": "/v1/trade/orders-coid",
+      "summary": "Cancel Orders COID",
+      "operation_id": "cancelOrdersByCoid",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "PATCH",
+      "path": "/v1/trade/orders-coid",
+      "summary": "Modify Orders COID",
+      "operation_id": "modifyOrdersByCoid",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "PATCH",
+      "path": "/v1/trade/auto-cancel",
+      "summary": "Set Auto-Cancel",
+      "operation_id": "setAutoCancel",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "PATCH",
+      "path": "/v1/trade/leverage",
+      "summary": "Update Leverage",
+      "operation_id": "updateLeverage",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "PATCH",
+      "path": "/v1/trade/leverage/batch",
+      "summary": "Update Leverage for Multiple Instruments",
+      "operation_id": "updateLeverages",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "POST",
+      "path": "/v1/account/proxy",
+      "summary": "Create Proxy",
+      "operation_id": "createProxy",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "DELETE",
+      "path": "/v1/account/proxy",
+      "summary": "Delete Proxy",
+      "operation_id": "deleteProxy",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/credentials",
+      "summary": "Get Credentials",
+      "operation_id": "getCredentials",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/orders",
+      "summary": "Get Orders",
+      "operation_id": "getOrders",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/open-orders",
+      "summary": "Get Open Orders",
+      "operation_id": "getOpenOrders",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/balances",
+      "summary": "Get Balances",
+      "operation_id": "getBalances",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/portfolio",
+      "summary": "Get Portfolio",
+      "operation_id": "getPortfolio",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/fills",
+      "summary": "Get Fills",
+      "operation_id": "getFills",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/equity",
+      "summary": "Get Equity",
+      "operation_id": "getEquityHistory",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/pnl",
+      "summary": "Get PnL",
+      "operation_id": "getPnlHistory",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/funding",
+      "summary": "Get Funding Charges",
+      "operation_id": "getAccountFunding",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "POST",
+      "path": "/v1/account/withdraw",
+      "summary": "Withdraw",
+      "operation_id": "withdraw",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "POST",
+      "path": "/v1/account/internal-transfer",
+      "summary": "Internal Transfer",
+      "operation_id": "internalTransfer",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/deposits",
+      "summary": "Get Deposits",
+      "operation_id": "getDeposits",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/internal-transfers",
+      "summary": "Get Internal Transfers",
+      "operation_id": "getInternalTransfers",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/withdrawals",
+      "summary": "Get Withdrawals",
+      "operation_id": "getWithdrawals",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/stats",
+      "summary": "Get Account Stats",
+      "operation_id": "getAccountStats",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/limits",
+      "summary": "Get Account Limits",
+      "operation_id": "getAccountLimits",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/rewards",
+      "summary": "Get Account Rewards",
+      "operation_id": "getAccountRewards",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/config",
+      "summary": "Get Instrument Config",
+      "operation_id": "getConfig",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/auto-cancel",
+      "summary": "Get Auto-Cancel Status",
+      "operation_id": "getAutoCancel",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "POST",
+      "path": "/v1/account/invite",
+      "summary": "Create Account Invite",
+      "operation_id": "createAccountInvite",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/referral",
+      "summary": "Get Account Referral",
+      "operation_id": "getAccountReferral",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "POST",
+      "path": "/v1/account/referral",
+      "summary": "Apply Referral Code",
+      "operation_id": "applyReferral",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "PATCH",
+      "path": "/v1/trade/margin",
+      "summary": "Update Isolated Margin",
+      "operation_id": "updateMargin",
+      "tags": null,
+      "security": [],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/account/notifications",
+      "summary": "Get Notifications",
+      "operation_id": "getAccountNotifications",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "POST",
+      "path": "/v1/account/notifications/read",
+      "summary": "Mark Notifications Read",
+      "operation_id": "markAccountNotificationsRead",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/blp/enrollment",
+      "summary": "Get BLP Enrollment",
+      "operation_id": "getBlpEnrollment",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "POST",
+      "path": "/v1/blp/enroll",
+      "summary": "Set BLP Instrument Subscription",
+      "operation_id": "postBlpEnroll",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "polymarket-perps",
+      "method": "GET",
+      "path": "/v1/blp/liquidations",
+      "summary": "List BLP Liquidations",
+      "operation_id": "getBlpLiquidations",
+      "tags": null,
+      "security": [
+        {
+          "polymarket_proxy": [],
+          "polymarket_secret": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/exchange/status",
+      "summary": "Get Exchange Status",
+      "operation_id": "GetExchangeStatus",
+      "tags": [
+        "exchange"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/series/fee_changes",
+      "summary": "Get Series Fee Changes",
+      "operation_id": "GetSeriesFeeChanges",
+      "tags": [
+        "exchange"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/exchange/schedule",
+      "summary": "Get Exchange Schedule",
+      "operation_id": "GetExchangeSchedule",
+      "tags": [
+        "exchange"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/exchange/user_data_timestamp",
+      "summary": "Get User Data Timestamp",
+      "operation_id": "GetUserDataTimestamp",
+      "tags": [
+        "exchange"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/series/{series_ticker}/markets/{ticker}/candlesticks",
+      "summary": "Get Market Candlesticks",
+      "operation_id": "GetMarketCandlesticks",
+      "tags": [
+        "market"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/markets/trades",
+      "summary": "Get Trades",
+      "operation_id": "GetTrades",
+      "tags": [
+        "market"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/markets/{ticker}/orderbook",
+      "summary": "Get Market Orderbook",
+      "operation_id": "GetMarketOrderbook",
+      "tags": [
+        "market"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/markets/orderbooks",
+      "summary": "Get Multiple Market Orderbooks",
+      "operation_id": "GetMarketOrderbooks",
+      "tags": [
+        "market"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/series/{series_ticker}",
+      "summary": "Get Series",
+      "operation_id": "GetSeries",
+      "tags": [
+        "market"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/series",
+      "summary": "Get Series List",
+      "operation_id": "GetSeriesList",
+      "tags": [
+        "market"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/markets",
+      "summary": "Get Markets",
+      "operation_id": "GetMarkets",
+      "tags": [
+        "market"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/markets/{ticker}",
+      "summary": "Get Market",
+      "operation_id": "GetMarket",
+      "tags": [
+        "market"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/markets/candlesticks",
+      "summary": "Batch Get Market Candlesticks",
+      "operation_id": "BatchGetMarketCandlesticks",
+      "tags": [
+        "market"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/series/{series_ticker}/events/{ticker}/candlesticks",
+      "summary": "Get Event Candlesticks",
+      "operation_id": "GetMarketCandlesticksByEvent",
+      "tags": [
+        "events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/events",
+      "summary": "Get Events",
+      "operation_id": "GetEvents",
+      "tags": [
+        "events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/events/multivariate",
+      "summary": "Get Multivariate Events",
+      "operation_id": "GetMultivariateEvents",
+      "tags": [
+        "events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/events/fee_changes",
+      "summary": "Get Event Fee Changes",
+      "operation_id": "GetEventFeeChanges",
+      "tags": [
+        "events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/events/{event_ticker}",
+      "summary": "Get Event",
+      "operation_id": "GetEvent",
+      "tags": [
+        "events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/events/{event_ticker}/metadata",
+      "summary": "Get Event Metadata",
+      "operation_id": "GetEventMetadata",
+      "tags": [
+        "events"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/series/{series_ticker}/events/{ticker}/forecast_percentile_history",
+      "summary": "Get Event Forecast Percentile History",
+      "operation_id": "GetEventForecastPercentilesHistory",
+      "tags": [
+        "events"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/orders",
+      "summary": "Get Orders",
+      "operation_id": "GetOrders",
+      "tags": [
+        "orders"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/orders/{order_id}",
+      "summary": "Get Order",
+      "operation_id": "GetOrder",
+      "tags": [
+        "orders"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/orders/queue_positions",
+      "summary": "Get Queue Positions for Orders",
+      "operation_id": "GetOrderQueuePositions",
+      "tags": [
+        "orders"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/orders/{order_id}/queue_position",
+      "summary": "Get Order Queue Position",
+      "operation_id": "GetOrderQueuePosition",
+      "tags": [
+        "orders"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/portfolio/events/orders",
+      "summary": "Create Order (V2)",
+      "operation_id": "CreateOrderV2",
+      "tags": [
+        "orders"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "DELETE",
+      "path": "/portfolio/events/orders",
+      "summary": "Cancel All Orders",
+      "operation_id": "CancelAllOrders",
+      "tags": [
+        "orders"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/portfolio/events/orders/batched",
+      "summary": "Batch Create Orders (V2)",
+      "operation_id": "BatchCreateOrdersV2",
+      "tags": [
+        "orders"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "DELETE",
+      "path": "/portfolio/events/orders/batched",
+      "summary": "Batch Cancel Orders (V2)",
+      "operation_id": "BatchCancelOrdersV2",
+      "tags": [
+        "orders"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "DELETE",
+      "path": "/portfolio/events/orders/{order_id}",
+      "summary": "Cancel Order (V2)",
+      "operation_id": "CancelOrderV2",
+      "tags": [
+        "orders"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/portfolio/events/orders/{order_id}/amend",
+      "summary": "Amend Order (V2)",
+      "operation_id": "AmendOrderV2",
+      "tags": [
+        "orders"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/portfolio/events/orders/{order_id}/decrease",
+      "summary": "Decrease Order (V2)",
+      "operation_id": "DecreaseOrderV2",
+      "tags": [
+        "orders"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/order_groups",
+      "summary": "Get Order Groups",
+      "operation_id": "GetOrderGroups",
+      "tags": [
+        "order-groups"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/portfolio/order_groups/create",
+      "summary": "Create Order Group",
+      "operation_id": "CreateOrderGroup",
+      "tags": [
+        "order-groups"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/order_groups/{order_group_id}",
+      "summary": "Get Order Group",
+      "operation_id": "GetOrderGroup",
+      "tags": [
+        "order-groups"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "DELETE",
+      "path": "/portfolio/order_groups/{order_group_id}",
+      "summary": "Delete Order Group",
+      "operation_id": "DeleteOrderGroup",
+      "tags": [
+        "order-groups"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "PUT",
+      "path": "/portfolio/order_groups/{order_group_id}/reset",
+      "summary": "Reset Order Group",
+      "operation_id": "ResetOrderGroup",
+      "tags": [
+        "order-groups"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "PUT",
+      "path": "/portfolio/order_groups/{order_group_id}/trigger",
+      "summary": "Trigger Order Group",
+      "operation_id": "TriggerOrderGroup",
+      "tags": [
+        "order-groups"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "PUT",
+      "path": "/portfolio/order_groups/{order_group_id}/limit",
+      "summary": "Update Order Group Limit",
+      "operation_id": "UpdateOrderGroupLimit",
+      "tags": [
+        "order-groups"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/balance",
+      "summary": "Get Balance",
+      "operation_id": "GetBalance",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/portfolio/intra_exchange_instance_transfer",
+      "summary": "Intra Account Transfer",
+      "operation_id": "IntraExchangeInstanceTransfer",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/intra_exchange_instance_transfers",
+      "summary": "Get Intra Account Transfers",
+      "operation_id": "GetIntraExchangeInstanceTransfers",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/intra_exchange_instance_transfers/{transfer_id}",
+      "summary": "Get Intra Account Transfer",
+      "operation_id": "GetIntraExchangeInstanceTransfer",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/portfolio/subaccounts",
+      "summary": "Create Subaccount",
+      "operation_id": "CreateSubaccount",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/portfolio/subaccounts/transfer",
+      "summary": "Transfer Between Subaccounts",
+      "operation_id": "ApplySubaccountTransfer",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/subaccounts/balances",
+      "summary": "Get All Subaccount Balances",
+      "operation_id": "GetSubaccountBalances",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/subaccounts/transfers",
+      "summary": "Get Subaccount Transfers",
+      "operation_id": "GetSubaccountTransfers",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "PUT",
+      "path": "/portfolio/subaccounts/netting",
+      "summary": "Update Subaccount Netting",
+      "operation_id": "UpdateSubaccountNetting",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/subaccounts/netting",
+      "summary": "Get Subaccount Netting",
+      "operation_id": "GetSubaccountNetting",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/positions",
+      "summary": "Get Positions",
+      "operation_id": "GetPositions",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/settlements",
+      "summary": "Get Settlements",
+      "operation_id": "GetSettlements",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/deposits",
+      "summary": "Get Deposits",
+      "operation_id": "GetDeposits",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/withdrawals",
+      "summary": "Get Withdrawals",
+      "operation_id": "GetWithdrawals",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/summary/total_resting_order_value",
+      "summary": "Get Total Resting Order Value",
+      "operation_id": "GetPortfolioRestingOrderTotalValue",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/fills",
+      "summary": "Get Fills",
+      "operation_id": "GetFills",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/communications/id",
+      "summary": "Get Communications ID",
+      "operation_id": "GetCommunicationsID",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/communications/block-trade-proposals",
+      "summary": "Get Block Trade Proposals",
+      "operation_id": "GetBlockTradeProposals",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/communications/block-trade-proposals",
+      "summary": "Propose Block Trade",
+      "operation_id": "ProposeBlockTrade",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/communications/block-trade-proposals/{block_trade_proposal_id}/accept",
+      "summary": "Accept Block Trade Proposal",
+      "operation_id": "AcceptBlockTradeProposal",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/communications/rfqs",
+      "summary": "Get RFQs",
+      "operation_id": "GetRFQs",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/communications/rfqs",
+      "summary": "Create RFQ",
+      "operation_id": "CreateRFQ",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/communications/rfqs/{rfq_id}",
+      "summary": "Get RFQ",
+      "operation_id": "GetRFQ",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "DELETE",
+      "path": "/communications/rfqs/{rfq_id}",
+      "summary": "Delete RFQ",
+      "operation_id": "DeleteRFQ",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/communications/rfqs/{rfq_id}/quotes/{quote_id}",
+      "summary": "Get RFQ Quote",
+      "operation_id": "GetRFQQuote",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "DELETE",
+      "path": "/communications/rfqs/{rfq_id}/quotes/{quote_id}",
+      "summary": "Delete RFQ Quote",
+      "operation_id": "DeleteRFQQuote",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "PUT",
+      "path": "/communications/rfqs/{rfq_id}/quotes/{quote_id}/accept",
+      "summary": "Accept RFQ Quote",
+      "operation_id": "AcceptRFQQuote",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "PUT",
+      "path": "/communications/rfqs/{rfq_id}/quotes/{quote_id}/confirm",
+      "summary": "Confirm RFQ Quote",
+      "operation_id": "ConfirmRFQQuote",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/communications/quotes",
+      "summary": "Get Quotes",
+      "operation_id": "GetQuotes",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/communications/quotes",
+      "summary": "Create Quote",
+      "operation_id": "CreateQuote",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/communications/quotes/{quote_id}",
+      "summary": "Get Quote",
+      "operation_id": "GetQuote",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": true,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "DELETE",
+      "path": "/communications/quotes/{quote_id}",
+      "summary": "Delete Quote",
+      "operation_id": "DeleteQuote",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": true,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "PUT",
+      "path": "/communications/quotes/{quote_id}/accept",
+      "summary": "Accept Quote",
+      "operation_id": "AcceptQuote",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": true,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "PUT",
+      "path": "/communications/quotes/{quote_id}/confirm",
+      "summary": "Confirm Quote",
+      "operation_id": "ConfirmQuote",
+      "tags": [
+        "communications"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": true,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/api_keys",
+      "summary": "Get API Keys",
+      "operation_id": "GetApiKeys",
+      "tags": [
+        "api-keys"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/api_keys",
+      "summary": "Create API Key",
+      "operation_id": "CreateApiKey",
+      "tags": [
+        "api-keys"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/api_keys/generate",
+      "summary": "Generate API Key",
+      "operation_id": "GenerateApiKey",
+      "tags": [
+        "api-keys"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "DELETE",
+      "path": "/api_keys/{api_key}",
+      "summary": "Delete API Key",
+      "operation_id": "DeleteApiKey",
+      "tags": [
+        "api-keys"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/account/limits",
+      "summary": "Get Account API Limits",
+      "operation_id": "GetAccountApiLimits",
+      "tags": [
+        "account"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/account/api_usage_level/upgrade",
+      "summary": "Upgrade Account API Usage Level",
+      "operation_id": "UpgradeAccountApiUsageLevel",
+      "tags": [
+        "account"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/account/api_usage_level/volume_progress",
+      "summary": "Get Account API Usage Level Volume Progress",
+      "operation_id": "GetAccountApiUsageLevelVolumeProgress",
+      "tags": [
+        "account"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/account/endpoint_costs",
+      "summary": "List Non-Default Endpoint Costs",
+      "operation_id": "GetAccountEndpointCosts",
+      "tags": [
+        "account"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/search/tags_by_categories",
+      "summary": "Get Tags for Series Categories",
+      "operation_id": "GetTagsForSeriesCategories",
+      "tags": [
+        "search"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/search/filters_by_sport",
+      "summary": "Get Filters for Sports",
+      "operation_id": "GetFiltersForSports",
+      "tags": [
+        "search"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/live_data/milestone/{milestone_id}",
+      "summary": "Get Live Data",
+      "operation_id": "GetLiveDataByMilestone",
+      "tags": [
+        "live-data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/live_data/{type}/milestone/{milestone_id}",
+      "summary": "Get Live Data (with type)",
+      "operation_id": "GetLiveData",
+      "tags": [
+        "live-data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/live_data/batch",
+      "summary": "Get Multiple Live Data",
+      "operation_id": "GetLiveDatas",
+      "tags": [
+        "live-data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/live_data/milestone/{milestone_id}/game_stats",
+      "summary": "Get Game Stats",
+      "operation_id": "GetGameStats",
+      "tags": [
+        "live-data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/live_data/events/{event_ticker}",
+      "summary": "Get Event Live Data",
+      "operation_id": "GetEventLiveData",
+      "tags": [
+        "live-data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/live_data/weather/{city}",
+      "summary": "Get Weather Index",
+      "operation_id": "GetWeatherIndex",
+      "tags": [
+        "live-data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/live_data/weather/{city}/calibrations",
+      "summary": "Get Weather Index Calibrations",
+      "operation_id": "GetWeatherIndexCalibrations",
+      "tags": [
+        "live-data"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/structured_targets",
+      "summary": "Get Structured Targets",
+      "operation_id": "GetStructuredTargets",
+      "tags": [
+        "structured-targets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/structured_targets/{structured_target_id}",
+      "summary": "Get Structured Target",
+      "operation_id": "GetStructuredTarget",
+      "tags": [
+        "structured-targets"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/milestones/{milestone_id}",
+      "summary": "Get Milestone",
+      "operation_id": "GetMilestone",
+      "tags": [
+        "milestone"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/milestones",
+      "summary": "Get Milestones",
+      "operation_id": "GetMilestones",
+      "tags": [
+        "milestone"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/multivariate_event_collections/{collection_ticker}",
+      "summary": "Get Multivariate Event Collection",
+      "operation_id": "GetMultivariateEventCollection",
+      "tags": [
+        "multivariate"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/multivariate_event_collections/{collection_ticker}",
+      "summary": "Create Market In Multivariate Event Collection",
+      "operation_id": "CreateMarketInMultivariateEventCollection",
+      "tags": [
+        "multivariate"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/multivariate_event_collections",
+      "summary": "Get Multivariate Event Collections",
+      "operation_id": "GetMultivariateEventCollections",
+      "tags": [
+        "multivariate"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/incentive_programs",
+      "summary": "Get Incentives",
+      "operation_id": "GetIncentivePrograms",
+      "tags": [
+        "incentive-programs"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/fcm/orders",
+      "summary": "Get FCM Orders",
+      "operation_id": "GetFCMOrders",
+      "tags": [
+        "fcm"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/portfolio/target_balance_allocation",
+      "summary": "Get Target Balance Allocation",
+      "operation_id": "GetTargetBalanceAllocation",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "POST",
+      "path": "/portfolio/target_balance_allocation",
+      "summary": "Set Target Balance Allocation",
+      "operation_id": "SetTargetBalanceAllocation",
+      "tags": [
+        "portfolio"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "review; most are state-changing"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/fcm/positions",
+      "summary": "Get FCM Positions",
+      "operation_id": "GetFCMPositions",
+      "tags": [
+        "fcm"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/historical/cutoff",
+      "summary": "Get Historical Cutoff Timestamps",
+      "operation_id": "GetHistoricalCutoff",
+      "tags": [
+        "historical"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/historical/markets/{ticker}/candlesticks",
+      "summary": "Get Historical Market Candlesticks",
+      "operation_id": "GetMarketCandlesticksHistorical",
+      "tags": [
+        "historical"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/historical/fills",
+      "summary": "Get Historical Fills",
+      "operation_id": "GetFillsHistorical",
+      "tags": [
+        "historical"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/historical/orders",
+      "summary": "Get Historical Orders",
+      "operation_id": "GetHistoricalOrders",
+      "tags": [
+        "historical"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/historical/positions",
+      "summary": "Get Historical Positions",
+      "operation_id": "GetHistoricalPositions",
+      "tags": [
+        "historical"
+      ],
+      "security": [
+        {
+          "kalshiAccessKey": [],
+          "kalshiAccessSignature": [],
+          "kalshiAccessTimestamp": []
+        }
+      ],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/historical/trades",
+      "summary": "Get Historical Trades",
+      "operation_id": "GetTradesHistorical",
+      "tags": [
+        "historical"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/historical/markets",
+      "summary": "Get Historical Markets",
+      "operation_id": "GetHistoricalMarkets",
+      "tags": [
+        "historical"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    },
+    {
+      "api": "kalshi",
+      "method": "GET",
+      "path": "/historical/markets/{ticker}",
+      "summary": "Get Historical Market",
+      "operation_id": "GetHistoricalMarket",
+      "tags": [
+        "historical"
+      ],
+      "security": [],
+      "deprecated": false,
+      "research_use": "GET extraction candidate"
+    }
+  ],
+  "errors": []
+}
