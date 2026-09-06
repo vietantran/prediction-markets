@@ -6,6 +6,8 @@ The package is designed for **data collection and research triage**. It preserve
 
 ## Start here
 
+For a self-contained introduction, open [the standalone API tutorial notebook](polymarket_kalshi_api_tutorial.ipynb). It uses ordinary Python HTTP requests to explore Polymarket Gamma, CLOB, Data and streaming APIs, plus Kalshi discovery, books, trades, candles and historical data. Public examples need no credentials or installation of this package.
+
 Requires Python 3.11+. From this directory:
 
 ```powershell
