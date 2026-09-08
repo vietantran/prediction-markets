@@ -1,0 +1,245 @@
+﻿issue_id,series_ticker,subject,word_normalized,latest14d_events,latest14d_mean_probability,prior28d_events,prior28d_mean_probability,matched_supported,change_pp,interpretation
+affordability_inflation,KXEARNINGSMENTIONAC,air canada,inflation,0,,1,0.575,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXEARNINGSMENTIONCMG,chipotle mexican grill inc.,inflation,0,,1,0.965,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXEARNINGSMENTIONDASH,doordash inc.,afford / affordable / affordability,0,,1,0.755,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXEARNINGSMENTIONDELL,dell technologies inc.,inflation / inflationary,1,0.61,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXEARNINGSMENTIONHD,home depot,inflation,0,,1,0.6,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXEARNINGSMENTIONKLAR,klarna group plc,inflation,0,,1,0.22499999999999998,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXEARNINGSMENTIONPGR,the progressive corporation,inflation,0,,1,0.775,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXEARNINGSMENTIONTGT,target corporation,inflation,0,,1,0.5800000000000001,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXEARNINGSMENTIONTLN,talen energy corporation,afford / affordable / affordability,0,,1,0.565,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXEARNINGSMENTIONWEN,the wendys company,inflation,0,,1,0.895,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXFEDMENTION,kevin warsh,goods inflation,0,,1,0.165,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXFOXNEWSMENTION,joe manchin,afford / affordability / affordable,0,,1,0.14500000000000002,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXGOVERNORMENTION,abigail spanberger,afford / affordable / affordability,1,0.545,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXHEARINGMENTION,any participating witness,afford / affordable / affordability,0,,2,0.5375000000000001,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXMADDOWMENTION,rachel maddow,afford / affordable / affordability,0,,1,0.225,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXMAMDANIMENTION,zohran mamdani,afford / affordable / affordability,2,0.64,6,0.6716666666666666,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXMAMDANIMENTION,zohran mamdani,grocery,2,0.2175,5,0.228,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXTRUMPMENTION,donald trump,afford / affordable / affordability,2,0.2,7,0.4085714285714286,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXTRUMPMENTIONB,donald trump,afford / affordable / affordability,1,0.305,1,0.185,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXVANCEMENTION,jd vance,afford / affordable / affordability,1,0.735,2,0.7575000000000001,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+affordability_inflation,KXVANCEMENTION,jd vance,inflation,1,0.35,2,0.46499999999999997,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXDEBATEMENTION,any participating candidate,ai / artificial intelligence,0,,1,0.56,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONAAPL,apple inc.,openai / chatgpt,0,,1,0.255,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONAMD,advanced micro devices inc.,agentic ai,0,,1,0.705,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONAMD,advanced micro devices inc.,openai,0,,1,0.72,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONAMZN,amazon.com inc.,anthropic,0,,1,0.815,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONAMZN,amazon.com inc.,gen-ai / generative ai,0,,1,0.735,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONAMZN,amazon.com inc.,openai,0,,1,0.685,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONAVGO,broadcom,anthropic,1,0.925,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONAVGO,broadcom,openai,1,0.95,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCAVA,cava group inc.,ai / artificial intelligence,0,,1,0.845,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCAVA,cava group inc.,automation,0,,1,0.165,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCBRS,cerebras systems inc.,openai,0,,1,0.92,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCMG,chipotle mexican grill inc.,automation,0,,1,0.065,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCRM,salesforce inc.,anthropic,1,0.83,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCRM,salesforce inc.,openai,1,0.695,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCRWD,crowdstrike holdings inc.,ai detection,1,0.555,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCRWD,crowdstrike holdings inc.,gen ai / generative ai,1,0.255,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCRWD,crowdstrike holdings inc.,openai,1,0.75,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCRWV,coreweave inc.,anthropic,0,,1,0.755,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCVNA,carvana co.,ai / artificial intelligence,0,,1,0.655,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONCVNA,carvana co.,automation,0,,1,0.225,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONDE,deere company,ai / artificial intelligence,0,,1,0.46499999999999997,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONDE,deere company,automation,0,,1,0.805,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONDELL,dell technologies inc.,ai factory,1,0.785,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONDELL,dell technologies inc.,secure ai alliance,1,0.21000000000000002,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONDIS,the walt disney company,ai / artificial intelligence,0,,1,0.775,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONEBAY,ebay,ai / artificial intelligence,0,,1,0.945,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONEBAY,ebay,openai / chatgpt,0,,1,0.32999999999999996,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONF,ford motor company,ai / artificial intelligence,0,,1,0.625,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONFIG,figma,ai / artificial intelligence,0,,1,0.965,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONFIG,figma,anthropic,0,,1,0.235,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONFIG,figma,openai / chatgpt,0,,1,0.335,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONHPE,hewlett packard enterprise,automation,1,0.695,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONHPE,hewlett packard enterprise,private cloud ai,1,0.895,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONKLAR,klarna group plc,ai / artificial intelligence,0,,1,0.73,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONLLY,eli lilly and company,ai / artificial intelligence,0,,1,0.555,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONLUNR,intuitive machines inc.,ai / artificial intelligence,0,,1,0.66,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONLYFT,lyft inc.,anthropic / claude,0,,1,0.255,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONMELI,mercadolibre inc.,ai / artificial intelligence,0,,1,0.825,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONMELI,mercadolibre inc.,automated / automation,0,,1,0.315,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONMSFT,microsoft corporation,anthropic,0,,1,0.515,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONMSFT,microsoft corporation,openai,0,,1,0.945,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONNVDA,nvidia corporation,automation,1,0.33,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONPANW,palo alto networks,protect ai,1,0.245,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONPATH,uipath,claude / anthropic,1,0.46499999999999997,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONPATH,uipath,openai,1,0.37,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONPGR,the progressive corporation,ai / artificial intelligence,0,,1,0.745,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONPLTR,palantir technologies inc.,anthropic / claude,0,,1,0.245,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONPLTR,palantir technologies inc.,slop / ai slop,0,,1,0.615,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONPLTR,palantir technologies inc.,sovereign ai,0,,1,0.64,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONPYPL,paypal holdings inc.,anthropic / claude,0,,1,0.22999999999999998,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONRDDT,reddit inc.,openai / open ai,0,,1,0.425,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONSBUX,starbucks corporation,ai / artificial intelligence,0,,1,0.365,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONSHOP,shopify inc.,automation,0,,1,0.38,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONSHOP,shopify inc.,openai,0,,1,0.385,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONSNOW,snowflake,openai,1,0.665,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONSPCX,space exploration technologies corp.,anthropic / openai,0,,1,0.785,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONTGT,target corporation,autonomous / automation,0,,1,0.11000000000000001,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONTLN,talen energy corporation,anthropic / claude,0,,1,0.10500000000000001,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONULTA,ulta beauty inc.,ai / artificial intelligence,1,0.905,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONWING,wingstop inc.,ai / artificial intelligence,0,,1,0.425,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONWMT,walmart inc.,automation,0,,1,0.905,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONYETI,yeti holdings inc.,ai / artificial intelligence,0,,1,0.705,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONYUM,yum brands inc.,ai / artificial intelligence,0,,1,0.915,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONZETA,zeta global holdings corp.,ai infrastructure,0,,1,0.46499999999999997,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONZETA,zeta global holdings corp.,openai,0,,1,0.635,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONZM,zoom communications inc.,ai companion,1,0.935,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXEARNINGSMENTIONZS,zscaler,claude / anthropic,1,0.535,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXELONMENTION,elon musk,ai / artificial intelligence,0,,1,0.83,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXELONMENTION,elon musk,anthropic / openai,0,,1,0.5800000000000001,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXFEDMENTION,kevin warsh,ai / artificial intelligence,0,,1,0.765,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXFOXNEWSMENTION,joe manchin,ai / artificial intelligence,0,,1,0.12,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXFOXNEWSMENTION,marco rubio,ai / artificial intelligence,0,,1,0.265,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXHEARINGMENTION,any participating witness,automate / automated / automation,0,,1,0.73,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXMADDOWMENTION,rachel maddow,ai / artificial intelligence,0,,1,0.105,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXMAMDANIMENTION,zohran mamdani,ai / artificial intelligence,2,0.1,6,0.11666666666666667,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXMELANIAMENTION,melania trump,ai / artificial intelligence,0,,1,0.13,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXTRUMPMENTION,donald trump,ai / artificial intelligence,1,0.22999999999999998,7,0.28285714285714286,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXTRUMPMENTIONB,donald trump,ai / artificial intelligence,1,0.335,1,0.375,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXTRUMPSAYCOMPANY,trump,anthropic / claude,0,,1,0.325,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXTRUMPSAYCOMPANY,trump,chatgpt / openai,0,,1,0.375,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+ai_jobs_regulation,KXVANCEMENTION,jd vance,ai / artificial intelligence,0,,1,0.10500000000000001,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+electricity_datacenters,KXDEBATEMENTION,any participating candidate,data center,0,,1,0.5800000000000001,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+electricity_datacenters,KXEARNINGSMENTIONAMZN,amazon.com inc.,data center,0,,1,0.835,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+electricity_datacenters,KXEARNINGSMENTIONCELH,celsius holdings inc.,electric vibe,0,,1,0.595,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+electricity_datacenters,KXEARNINGSMENTIONDELL,dell technologies inc.,data center,1,0.8400000000000001,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+electricity_datacenters,KXEARNINGSMENTIONF,ford motor company,electric vehicle / ev,0,,1,0.955,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+electricity_datacenters,KXEARNINGSMENTIONSPCX,space exploration technologies corp.,data center,0,,1,0.925,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+electricity_datacenters,KXHEARINGMENTION,any participating witness,data center,0,,2,0.6,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+electricity_datacenters,KXTRUMPMENTION,donald trump,data center,1,0.065,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+electricity_datacenters,KXVANCEMENTION,jd vance,data center,1,0.095,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONAC,air canada,iran / middle east,0,,1,0.875,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONAMZN,amazon.com inc.,iran / middle east,0,,1,0.09,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONAS,amer sports inc.,iran / middle east,0,,1,0.19,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONAS,amer sports inc.,oil,0,,1,0.325,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONBA,the boeing company,iran,0,,1,0.32499999999999996,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONBA,the boeing company,oil,0,,1,0.125,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONBJ,bjs wholesale club holdings inc.,gasoline,0,,1,0.87,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONCMG,chipotle mexican grill inc.,iran,0,,1,0.165,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONCVNA,carvana co.,iran / middle east,0,,1,0.235,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONDE,deere company,oil / gas / gasoline,0,,1,0.655,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONF,ford motor company,iran / middle east,0,,1,0.46499999999999997,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONGRAB,grab holdings limited,iran / middle east,0,,1,0.42,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONLULU,lululemon,iran / middle east,1,0.415,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONLYFT,lyft inc.,iran / middle east,0,,1,0.10500000000000001,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONLYFT,lyft inc.,oil / gas / gasoline,0,,1,0.395,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONMCD,mcdonalds corporation,iran / middle east,0,,1,0.605,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONMELI,mercadolibre inc.,oil / gas / gasoline,0,,1,0.255,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONPGR,the progressive corporation,iran / middle east,0,,1,0.165,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONPLTR,palantir technologies inc.,iran / iranian,0,,1,0.265,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONUBER,uber technologies inc.,iran / middle east,0,,1,0.225,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONUBER,uber technologies inc.,oil / gas / gasoline,0,,1,0.295,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONULTA,ulta beauty inc.,iran / middle east,1,0.775,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONWING,wingstop inc.,iran / middle east,0,,1,0.14500000000000002,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONWMT,walmart inc.,gas / gasoline / fuel,0,,1,0.925,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXEARNINGSMENTIONYETI,yeti holdings inc.,iran / middle east,0,,1,0.16999999999999998,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXFEDMENTION,kevin warsh,gas / gasoline / natural gas,0,,1,0.295,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXFEDMENTION,kevin warsh,iran,0,,1,0.195,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXFEDMENTION,kevin warsh,oil,0,,1,0.755,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXFOXNEWSMENTION,joe manchin,iran / iranian,0,,1,0.375,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXFOXNEWSMENTION,joe manchin,oil / gas / gasoline,0,,1,0.315,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXFOXNEWSMENTION,marco rubio,iran / iranian,0,,1,0.975,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXFOXNEWSMENTION,marco rubio,oil / gas / gasoline,0,,1,0.66,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXFOXNEWSMENTION,markwayne mullin,iran / iranian,0,,1,0.005,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXFOXNEWSMENTION,markwayne mullin,oil / gas / gasoline,0,,1,0.005,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXGOVERNORMENTION,abigail spanberger,oil / gas / gasoline,1,0.11499999999999999,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXMADDOWMENTION,rachel maddow,iran 3 + times,0,,1,0.64,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXMADDOWMENTION,rachel maddow,oil / gas / gasoline,0,,1,0.655,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXTRUMPMENTION,donald trump,hormuz,0,,3,0.3666666666666667,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXTRUMPMENTION,donald trump,iran,1,0.335,1,0.745,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXTRUMPMENTION,donald trump,iran / iranian,0,,1,0.765,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXTRUMPMENTION,donald trump,iran 3+ times,2,0.78,5,0.7,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXTRUMPMENTION,donald trump,oil / gas / gasoline,3,0.675,7,0.6842857142857143,True,-0.928571428571423,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXTRUMPMENTIONB,donald trump,hormuz,1,0.355,1,0.44,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXTRUMPMENTIONB,donald trump,iran 3+ times,1,0.7050000000000001,1,0.69,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXTRUMPMENTIONB,donald trump,oil / gas / gasoline,1,0.475,1,0.6599999999999999,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXTRUMPSAY,trump,make iran great again,1,0.015,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXTRUMPSAYMONTH,trump,make iran great again,0,,1,0.10500000000000001,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXVANCEMENTION,jd vance,iran / iranian,1,0.37,1,0.29500000000000004,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+energy_iran,KXVANCEMENTION,jd vance,oil / gas / gasoline,1,0.315,2,0.39749999999999996,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+healthcare,KXDEBATEMENTION,any participating candidate,healthcare,0,,1,0.645,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+healthcare,KXEARNINGSMENTIONCRWV,coreweave inc.,healthcare,0,,1,0.67,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+healthcare,KXEARNINGSMENTIONPLTR,palantir technologies inc.,healthcare,0,,1,0.495,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+healthcare,KXEARNINGSMENTIONYOU,clear secure inc.,medicare / medicaid,0,,1,0.755,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+healthcare,KXGOVERNORMENTION,abigail spanberger,healthcare,1,0.22999999999999998,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+healthcare,KXGOVERNORMENTION,abigail spanberger,medicaid / snap,1,0.275,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+healthcare,KXMADDOWMENTION,rachel maddow,healthcare,0,,1,0.225,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+healthcare,KXTRUMPMENTION,donald trump,healthcare,0,,4,0.3825,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+healthcare,KXVANCEMENTION,jd vance,healthcare,1,0.69,2,0.48250000000000004,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+housing,KXEARNINGSMENTIONNVDA,nvidia corporation,rent,1,0.225,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+housing,KXEARNINGSMENTIONTOL,toll brothers inc.,mortgage,0,,1,0.935,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+immigration,KXDEBATEMENTION,any participating candidate,ice,0,,1,0.5549999999999999,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+immigration,KXEARNINGSMENTIONPLTR,palantir technologies inc.,ice / immigration and customs enforcement,0,,1,0.20500000000000002,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+immigration,KXFOXNEWSMENTION,markwayne mullin,deport / deported / deportation,0,,1,0.005,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+immigration,KXFOXNEWSMENTION,markwayne mullin,immigrant / immigration,0,,1,0.005,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+immigration,KXGOVERNORMENTION,abigail spanberger,ice / border,1,0.195,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+immigration,KXMADDOWMENTION,rachel maddow,ice,0,,1,0.75,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+immigration,KXTRUMPMENTION,donald trump,deport / deported / deportation,0,,1,0.435,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+immigration,KXTRUMPMENTION,donald trump,ice,1,0.28,3,0.5783333333333334,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+immigration,KXTRUMPMENTION,donald trump,immigration / immigration,1,0.995,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+immigration,KXVANCEMENTION,jd vance,border,1,0.895,2,0.8025,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+jobs_growth,KXEARNINGSMENTIONAMZN,amazon.com inc.,layoff / job cuts,0,,1,0.095,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+jobs_growth,KXEARNINGSMENTIONMELI,mercadolibre inc.,payroll loan,0,,1,0.315,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+jobs_growth,KXEARNINGSMENTIONMSFT,microsoft corporation,layoff / job cuts,0,,1,0.14500000000000002,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+jobs_growth,KXEARNINGSMENTIONPLTR,palantir technologies inc.,commercial growth,0,,1,0.245,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+jobs_growth,KXFEDMENTION,kevin warsh,layoff,0,,1,0.275,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+jobs_growth,KXFEDMENTION,kevin warsh,productivity,0,,1,0.815,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+jobs_growth,KXFEDMENTION,kevin warsh,recession,0,,1,0.155,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+taxes_fiscal,KXEARNINGSMENTIONHD,home depot,shutdown,0,,1,0.025,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+taxes_fiscal,KXEARNINGSMENTIONINTU,intuit inc.,pro tax,1,0.87,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+taxes_fiscal,KXEARNINGSMENTIONVST,vistra corp.,production tax credit / ptc,0,,1,0.755,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+taxes_fiscal,KXEARNINGSMENTIONYOU,clear secure inc.,shutdown / shut down,0,,1,0.435,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+taxes_fiscal,KXFEDMENTION,kevin warsh,shutdown / shut down,0,,1,0.155,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+taxes_fiscal,KXFEDMENTION,kevin warsh,tax,0,,1,0.235,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+taxes_fiscal,KXMAMDANIMENTION,zohran mamdani,budget / deficit,0,,2,0.23249999999999998,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+taxes_fiscal,KXMAMDANIMENTION,zohran mamdani,tax,0,,2,0.365,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+taxes_fiscal,KXVANCEMENTION,jd vance,tax on tips / tax on overtime,1,0.815,2,0.575,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONAAOI,applied optoelectronics inc.,tariff,0,,1,0.775,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONAAP,advance auto parts inc.,tariff,0,,1,0.585,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONAAPL,apple inc.,tariff,0,,1,0.955,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONAC,air canada,tariff,0,,1,0.175,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONAMD,advanced micro devices inc.,export restriction / export control,0,,1,0.315,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONAMZN,amazon.com inc.,tariff,0,,1,0.955,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONAS,amer sports inc.,tariff,0,,1,0.935,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONBA,the boeing company,tariff,0,,1,0.47500000000000003,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONCAVA,cava group inc.,tariff,0,,1,0.245,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONCELH,celsius holdings inc.,tariff,0,,1,0.185,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONCIEN,ciena,tariff,1,0.325,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONCMG,chipotle mexican grill inc.,tariff,0,,1,0.305,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONCRWV,coreweave inc.,tariff,0,,1,0.16,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONCVNA,carvana co.,tariff,0,,1,0.485,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONDE,deere company,tariff,0,,1,0.975,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONF,ford motor company,tariff,0,,1,0.785,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONHD,home depot,tariff,0,,1,0.89,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONHIMS,hims hers health inc.,tariff,0,,1,0.195,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONHPE,hewlett packard enterprise,tariff,1,0.305,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONLLY,eli lilly and company,tariff,0,,1,0.265,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONLULU,lululemon,tariff,1,0.965,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONLYFT,lyft inc.,tariff,0,,1,0.10500000000000001,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONMCD,mcdonalds corporation,tariff,0,,1,0.255,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONMDT,medtronic,tariff,1,0.935,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONNVDA,nvidia corporation,tariff,1,0.14,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONPANW,palo alto networks,tariff,1,0.125,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONPATH,uipath,tariff,1,0.045,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONRACE,ferrari n.v.,tariff,0,,1,0.665,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONSBUX,starbucks corporation,tariff,0,,1,0.915,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONSHOP,shopify inc.,tariff,0,,1,0.33,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONSNAP,snap inc.,tariff,0,,1,0.08499999999999999,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONTGT,target corporation,tariff,0,,1,0.785,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONTLN,talen energy corporation,tariff,0,,1,0.155,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONTOL,toll brothers inc.,tariff,0,,1,0.535,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONTOST,toast inc.,tariff,0,,1,0.855,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONULTA,ulta beauty inc.,tariff,1,0.365,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONURBN,urban outfitters inc.,tariff,1,0.955,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONWEN,the wendys company,tariff,0,,1,0.165,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXEARNINGSMENTIONWMT,walmart inc.,tariff,0,,1,0.945,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXFOXNEWSMENTION,joe manchin,tariff,0,,1,0.16,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXFOXNEWSMENTION,marco rubio,tariff,0,,1,0.255,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXGOVERNORMENTION,abigail spanberger,tariff,1,0.19,0,,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXHEARINGMENTION,any participating witness,tariff,0,,1,0.32499999999999996,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXTRUMPMENTION,donald trump,tariff,1,0.005,5,0.515,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXTRUMPMENTIONB,donald trump,tariff,1,0.755,1,0.22999999999999998,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience
+trade_tariffs,KXVANCEMENTION,jd vance,tariff,1,0.815,2,0.655,False,,expected_language_at_fixed_retrospective_lead_not_observed_salience

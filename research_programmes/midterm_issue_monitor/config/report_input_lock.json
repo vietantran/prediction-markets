@@ -1,0 +1,25 @@
+{
+  "purpose": "Reviewed factual inputs and model configurations; review narrative before updating",
+  "content_sha256": {
+    "config/equity_baskets.json": "69e3583cc61c1ef0f0720a8fd69b48970e5b56fa2759a5bc35199311ef2eba84",
+    "config/fundamental_cases.json": "3a638d7e7470dc6ad7414ef2d39e6275ae2e70e62bfbeb9650f383a4486cda20",
+    "config/policy_cases.json": "c2d74df43ce627e0f955a1bc63c803f49075413ffb62d5f5b777a9236bc80f45",
+    "config/scenarios.json": "4146a01607f8e50973c39846e3afce0298b02fbe67bd98b9db02b9c2f18d7de3",
+    "inputs/broad_market_index.csv": "4ff73f69dfcbaa1764cc3c4fe54fdaf46e028cac704df9268359af66a5695b22",
+    "inputs/company_fundamentals.csv": "1f2eb43f025e095b8edc804939b1b1d20147df8c461c64d2bd55af05d04c4a3a",
+    "inputs/election_snapshot.csv": "00af127739c98117eced893c61e07b603c5dbbedda1e37be32eaba69084758d6",
+    "inputs/equity_prices.csv": "0bd47f025a9bcd918df47686c1362b5a9435eac8e2e703919e5e5ba7a107bdf6",
+    "inputs/event_calendar.csv": "f188ac9b684e1b708cf4a648aff46cf1a40543f8195008fb869e21ee4cb80db8",
+    "inputs/issue_dictionary.json": "efd8b3ef765cef9f10e839e18c0dfd9cd95921e061a2ac50b2d859f4a6b18864",
+    "inputs/macro_snapshot.csv": "f3242a15b6ba24eaaf9d24324a4edcedc20426cb644f447429aa078a00151508",
+    "inputs/market_daily.csv": "e0731f11a53fe43efcd326c14b38935b76bbb98ab0d387939ace48e2f819c54e",
+    "inputs/market_index.csv": "24be32743f173a0ac61f2dc0cc5b347a21b4612c38ba17bedfdc01da843e6713",
+    "inputs/market_session_quotes.csv": "6eaaa2a8c4eabdbdc7a29156452faaa54ca74753708865e141c004795fa3360f",
+    "inputs/mention_cohorts.csv": "b97856e222f9dee2be967c5904d619278c65aa08f7df7e8f0b45718874e9454d",
+    "inputs/mention_observations.csv": "66c7e032ef254c670f54ebd52208233605214237038bad1bced20fbea256ead2",
+    "inputs/policy_snapshot.csv": "39c6610d3d1ebcb0da393db4b4e49854a2d808452775d7778a92e2fceb033585",
+    "inputs/public_evidence.json": "84896e32fc2c8fb8e2bb44f15b702bc4395932c0e9ff2d84ee534cb8fa9df611",
+    "inputs/public_trades.csv.gz": "c269776ef4d6282d51f6385f2572b4a3138d2873225dbda098cbada829f5447b",
+    "inputs/scenarios.json": "b4951a9a759a2f428b5affa3c1ec373c605025b291382e002d5508f42fcdac66"
+  }
+}

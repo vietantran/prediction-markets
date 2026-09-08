@@ -1,0 +1,1278 @@
+{
+  "schema_version": 1,
+  "completed_at": "2026-09-08T18:07:40.656837Z",
+  "asof_utc": "2026-09-08T15:07:00+00:00",
+  "requested_start": "2026-07-08",
+  "universe_path": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\config\\midterm_equity_universe.json",
+  "universe_sha256": "a7da7045d036a5d462ef7f33a1edef36012906f32d5b7a371f9d89303012bec2",
+  "securities_declared": 25,
+  "benchmarks_declared": 11,
+  "requested_price_rows": 1548,
+  "return_rows": 108,
+  "fundamental_rows": 166,
+  "price_collections": [
+    {
+      "ticker": "MSFT",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_MSFT_1a17a7eb4b3848.json.gz"
+    },
+    {
+      "ticker": "AMZN",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_AMZN_2f008d2803d418.json.gz"
+    },
+    {
+      "ticker": "GOOGL",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_GOOGL_6d57f718700a62.json.gz"
+    },
+    {
+      "ticker": "NVDA",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_NVDA_a06db48d5026ef.json.gz"
+    },
+    {
+      "ticker": "ETN",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_ETN_77867e36c95389.json.gz"
+    },
+    {
+      "ticker": "VRT",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_VRT_afc98b51613cc2.json.gz"
+    },
+    {
+      "ticker": "AEP",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_AEP_8d4e2c25dc84b2.json.gz"
+    },
+    {
+      "ticker": "DUK",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_DUK_d96a1ab2d2163b.json.gz"
+    },
+    {
+      "ticker": "CEG",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_CEG_985348bb34a004.json.gz"
+    },
+    {
+      "ticker": "VST",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_VST_43ced81a249a15.json.gz"
+    },
+    {
+      "ticker": "DLR",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_DLR_932c7b33051cef.json.gz"
+    },
+    {
+      "ticker": "EQIX",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_EQIX_116120c29b02f3.json.gz"
+    },
+    {
+      "ticker": "XOM",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XOM_dabe72a8b54f5b.json.gz"
+    },
+    {
+      "ticker": "CVX",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_CVX_445ac456461bfb.json.gz"
+    },
+    {
+      "ticker": "DHI",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_DHI_2000a603f13594.json.gz"
+    },
+    {
+      "ticker": "LEN",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_LEN_5f760ac21556d6.json.gz"
+    },
+    {
+      "ticker": "JPM",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_JPM_8c8ef7ae40a7b6.json.gz"
+    },
+    {
+      "ticker": "UNH",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_UNH_faf3065ca462c9.json.gz"
+    },
+    {
+      "ticker": "HCA",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_HCA_d6d9a29648ae4b.json.gz"
+    },
+    {
+      "ticker": "WMT",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_WMT_9a51ca86b9c14e.json.gz"
+    },
+    {
+      "ticker": "HD",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_HD_e01007248d46cb.json.gz"
+    },
+    {
+      "ticker": "CAT",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_CAT_72ea84fbdf2147.json.gz"
+    },
+    {
+      "ticker": "DE",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_DE_7a6c09b802db0f.json.gz"
+    },
+    {
+      "ticker": "FAST",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_FAST_322c783dd00e9d.json.gz"
+    },
+    {
+      "ticker": "CMG",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_CMG_a11d8d1ba49042.json.gz"
+    },
+    {
+      "ticker": "SPY",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_SPY_9aac0b4fdae71a.json.gz"
+    },
+    {
+      "ticker": "XLK",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLK_81a208d47c3786.json.gz"
+    },
+    {
+      "ticker": "XLY",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLY_25c38a8758ca32.json.gz"
+    },
+    {
+      "ticker": "XLC",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLC_25cdf58529c1e9.json.gz"
+    },
+    {
+      "ticker": "XLI",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLI_66976b55d96115.json.gz"
+    },
+    {
+      "ticker": "XLU",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLU_200007adebc0c8.json.gz"
+    },
+    {
+      "ticker": "XLRE",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLRE_3617ec22415a50.json.gz"
+    },
+    {
+      "ticker": "XLE",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLE_019e4a9adbb1c6.json.gz"
+    },
+    {
+      "ticker": "XLF",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLF_e0365eee8ceba9.json.gz"
+    },
+    {
+      "ticker": "XLV",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLV_7cd94a96638fc4.json.gz"
+    },
+    {
+      "ticker": "XLP",
+      "status": "ok",
+      "rows_with_lookback": 79,
+      "requested_rows": 43,
+      "first_date": "2026-05-14",
+      "last_date": "2026-09-04",
+      "excluded_unfinished_session_bars": 1,
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLP_104ca2e78d425d.json.gz"
+    }
+  ],
+  "fundamental_collections": [
+    {
+      "ticker": "MSFT",
+      "status": "ok",
+      "rows": 23,
+      "missing_metrics": 0,
+      "stale_metrics_withheld": 0,
+      "acceptance_timestamps": "available_recent_filings",
+      "raw_files": [
+        "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_MSFT_7e823e6e58c80c.json.gz"
+      ]
+    },
+    {
+      "ticker": "VRT",
+      "status": "ok",
+      "rows": 23,
+      "missing_metrics": 0,
+      "stale_metrics_withheld": 0,
+      "acceptance_timestamps": "available_recent_filings",
+      "raw_files": [
+        "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_VRT_6e23d11ee6879b.json.gz"
+      ]
+    },
+    {
+      "ticker": "AEP",
+      "status": "ok",
+      "rows": 17,
+      "missing_metrics": 0,
+      "stale_metrics_withheld": 11,
+      "acceptance_timestamps": "available_recent_filings",
+      "raw_files": [
+        "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_AEP_7e9e68823adc71.json.gz"
+      ]
+    },
+    {
+      "ticker": "XOM",
+      "status": "ok",
+      "rows": 20,
+      "missing_metrics": 1,
+      "stale_metrics_withheld": 2,
+      "acceptance_timestamps": "available_recent_filings",
+      "raw_files": [
+        "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_XOM_34d8687274a74a.json.gz",
+        "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_XOM_successor_65f1c41be3d805.json.gz"
+      ]
+    },
+    {
+      "ticker": "DHI",
+      "status": "ok",
+      "rows": 20,
+      "missing_metrics": 3,
+      "stale_metrics_withheld": 0,
+      "acceptance_timestamps": "available_recent_filings",
+      "raw_files": [
+        "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_DHI_4c5c7363f0d5ae.json.gz"
+      ]
+    },
+    {
+      "ticker": "JPM",
+      "status": "ok",
+      "rows": 17,
+      "missing_metrics": 4,
+      "stale_metrics_withheld": 1,
+      "acceptance_timestamps": "available_recent_filings",
+      "raw_files": [
+        "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_JPM_e3233f987ab790.json.gz"
+      ]
+    },
+    {
+      "ticker": "UNH",
+      "status": "ok",
+      "rows": 23,
+      "missing_metrics": 0,
+      "stale_metrics_withheld": 1,
+      "acceptance_timestamps": "available_recent_filings",
+      "raw_files": [
+        "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_UNH_10385f8ca01101.json.gz"
+      ]
+    },
+    {
+      "ticker": "WMT",
+      "status": "ok",
+      "rows": 23,
+      "missing_metrics": 0,
+      "stale_metrics_withheld": 0,
+      "acceptance_timestamps": "available_recent_filings",
+      "raw_files": [
+        "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_WMT_de9af12f5d81f6.json.gz"
+      ]
+    }
+  ],
+  "return_error": null,
+  "status": "complete_with_documented_metric_gaps",
+  "requests": [
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:32.664874Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_MSFT_1a17a7eb4b3848.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:32.972686Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_AMZN_2f008d2803d418.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:33.269424Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_GOOGL_6d57f718700a62.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:33.564258Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_NVDA_a06db48d5026ef.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/ETN",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:33.866965Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_ETN_77867e36c95389.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/VRT",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:34.161496Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_VRT_afc98b51613cc2.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/AEP",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:34.464619Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_AEP_8d4e2c25dc84b2.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/AEP?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/DUK",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:34.765982Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_DUK_d96a1ab2d2163b.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/DUK?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CEG",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:35.068436Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_CEG_985348bb34a004.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/CEG?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/VST",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:35.359823Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_VST_43ced81a249a15.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/VST?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/DLR",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:35.653893Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_DLR_932c7b33051cef.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/DLR?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/EQIX",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:35.961821Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_EQIX_116120c29b02f3.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/EQIX?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:36.273666Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XOM_dabe72a8b54f5b.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CVX",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:36.584342Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_CVX_445ac456461bfb.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/CVX?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/DHI",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:36.881571Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_DHI_2000a603f13594.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/DHI?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/LEN",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:37.179126Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_LEN_5f760ac21556d6.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/LEN?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/JPM",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:37.478236Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_JPM_8c8ef7ae40a7b6.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/JPM?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/UNH",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:37.780924Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_UNH_faf3065ca462c9.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/UNH?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/HCA",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:38.075322Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_HCA_d6d9a29648ae4b.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/HCA?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/WMT",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:38.376711Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_WMT_9a51ca86b9c14e.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/WMT?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/HD",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:38.672788Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_HD_e01007248d46cb.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/HD?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CAT",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:38.972340Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_CAT_72ea84fbdf2147.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/CAT?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/DE",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:39.273528Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_DE_7a6c09b802db0f.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/DE?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/FAST",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:39.576170Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_FAST_322c783dd00e9d.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/FAST?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CMG",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:39.877376Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_CMG_a11d8d1ba49042.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/CMG?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:40.183633Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_SPY_9aac0b4fdae71a.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:40.496655Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLK_81a208d47c3786.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLY",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:40.802911Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLY_25c38a8758ca32.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLY?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLC",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:41.100108Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLC_25cdf58529c1e9.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLC?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLI",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:41.394731Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLI_66976b55d96115.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLI?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLU",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:41.683755Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLU_200007adebc0c8.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLU?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLRE",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:41.990957Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLRE_3617ec22415a50.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLRE?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLE",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:42.291002Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLE_019e4a9adbb1c6.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLE?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLF",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:42.595567Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLF_e0365eee8ceba9.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLF?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLV",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:42.894951Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLV_7cd94a96638fc4.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLV?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLP",
+      "params": {
+        "period1": 1778716800,
+        "period2": 1788880021,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "retrieved_at": "2026-09-08T18:03:43.184368Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\yahoo_XLP_104ca2e78d425d.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLP?period1=1778716800&period2=1788880021&interval=1d&events=div%2Csplits",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:43.493844Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_MSFT_7e823e6e58c80c.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:44.794151Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_submissions_MSFT_64b33867e34b52.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001674101.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:45.098755Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_VRT_6e23d11ee6879b.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001674101.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001674101.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:45.609963Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_submissions_VRT_a89ce649a48bcd.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/submissions/CIK0001674101.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000004904.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:45.914385Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_AEP_7e9e68823adc71.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000004904.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000004904.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:47.437326Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_submissions_AEP_1928f74d29b595.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/submissions/CIK0000004904.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000034088.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:47.899525Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_XOM_34d8687274a74a.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000034088.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000034088.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:48.648790Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_submissions_XOM_a0115ea2a04287.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/submissions/CIK0000034088.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002115436.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:06:06.820621Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_XOM_successor_65f1c41be3d805.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002115436.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0002115436.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:07:39.822602Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_submissions_XOM_successor_abc6f3b688ca83.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/submissions/CIK0002115436.json",
+      "status": "ok"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000882184.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:48.957721Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_DHI_4c5c7363f0d5ae.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000882184.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000882184.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:49.696892Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_submissions_DHI_a0a5eb7759e100.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/submissions/CIK0000882184.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:50.001294Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_JPM_e3233f987ab790.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000019617.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:51.587127Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_submissions_JPM_b5ca17a2a48d73.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/submissions/CIK0000019617.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000731766.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:52.644374Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_UNH_10385f8ca01101.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000731766.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000731766.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:53.622535Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_submissions_UNH_b6e21c1e4d765e.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/submissions/CIK0000731766.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:53.929037Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_facts_WMT_de9af12f5d81f6.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json",
+      "status": "ok",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000104169.json",
+      "params": null,
+      "retrieved_at": "2026-09-08T18:03:54.800239Z",
+      "raw_file": "C:\\Users\\Viet An\\OneDrive\\Documents\\ChatGPT\\prediction-markets\\data\\midterm_research_20260908\\equities\\raw\\sec_submissions_WMT_6310b50d2a64ef.json.gz",
+      "attempt": 1,
+      "http_status": 200,
+      "response_url": "https://data.sec.gov/submissions/CIK0000104169.json",
+      "status": "ok",
+      "cached": true
+    }
+  ],
+  "limitations": [
+    "Current vendor adjusted history; not a historical point-in-time data archive.",
+    "Regular NY close required. Frozen 2026-09-08 15:07 UTC excludes the entire Sep8 daily bar; Sep7 market holiday is naturally absent from observed SPY sessions.",
+    "Common-window return begins at first completed daily close on/after requested start, not an intraday Kalshi timestamp.",
+    "Long-only equal-initial-weight illustrative cohorts; current economic selection, not an investable index or licensed MSCI benchmark.",
+    "Relative returns and peer differences do not identify causal election effects or investor positioning.",
+    "SEC facts selected by availability before cutoff, preserving tag, unit, fiscal period and accession; same-day filing without acceptance timestamp excluded.",
+    "TTM requires same-tag annual and matched current/prior fiscal YTDs. Missing metrics are never imputed.",
+    "Snapshot values older than 180 days (annual 460 days), or earlier than the latest available 10-Q/10-K report date, are withheld; raw historical facts remain preserved.",
+    "Explicitly configured Exxon predecessor and July 2026 successor entity facts are merged with per-fact CIK provenance; no generic entity linkage is inferred.",
+    "Cash FCF excludes finance-lease additions/acquisitions; bank FCF and operating-margin valuation are not constructed.",
+    "Reported-share market cap, trailing P/E and FCF yield are simple dated proxies, not fair values or buy recommendations."
+  ],
+  "files": {
+    "company_fundamentals.csv": {
+      "bytes": 58987,
+      "sha256": "1f2eb43f025e095b8edc804939b1b1d20147df8c461c64d2bd55af05d04c4a3a"
+    },
+    "equity_baskets.csv": {
+      "bytes": 4172,
+      "sha256": "fe5195e8f0186a3def90efc9401685f1f2f9efc1ffab56f1ebc651481d31dadf"
+    },
+    "equity_basket_history.csv": {
+      "bytes": 22092,
+      "sha256": "1313374f5353fbdc3df41fb7a4976ea9ecf3fc20f2cd8c8c825190ff9427f236"
+    },
+    "equity_prices.csv": {
+      "bytes": 434866,
+      "sha256": "0bd47f025a9bcd918df47686c1362b5a9435eac8e2e703919e5e5ba7a107bdf6"
+    },
+    "equity_returns.csv": {
+      "bytes": 42209,
+      "sha256": "b7232d4aa634b73eb82469cbc89242d37c8fa0a4070719cc872d011947c623b5"
+    }
+  }
+}

@@ -1,0 +1,527 @@
+issue_id,channel,day,new_contracts,affected_events,affected_families,contracts_added_to_existing_events,new_events,families_with_new_events,new_events_in_preexisting_archive_families,first_observed_families,issue_label
+affordability_inflation,macro,2026-07-13T00:00:00Z,1,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,macro,2026-07-14T00:00:00Z,39,3,2,0,3,2,3,0,Affordability and inflation
+affordability_inflation,macro,2026-07-15T00:00:00Z,30,3,3,0,3,3,3,0,Affordability and inflation
+affordability_inflation,macro,2026-07-16T00:00:00Z,11,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,macro,2026-07-20T00:00:00Z,21,4,3,21,0,0,0,0,Affordability and inflation
+affordability_inflation,macro,2026-07-22T00:00:00Z,42,4,4,2,3,3,3,0,Affordability and inflation
+affordability_inflation,macro,2026-07-23T00:00:00Z,5,1,1,5,0,0,0,0,Affordability and inflation
+affordability_inflation,macro,2026-07-26T00:00:00Z,13,3,3,13,0,0,0,0,Affordability and inflation
+affordability_inflation,macro,2026-07-27T00:00:00Z,1,1,1,0,1,1,0,1,Affordability and inflation
+affordability_inflation,macro,2026-07-29T00:00:00Z,26,2,1,0,2,1,0,1,Affordability and inflation
+affordability_inflation,macro,2026-08-06T00:00:00Z,3,1,1,3,0,0,0,0,Affordability and inflation
+affordability_inflation,macro,2026-08-11T00:00:00Z,1,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,macro,2026-08-16T00:00:00Z,90,6,6,14,5,5,5,0,Affordability and inflation
+affordability_inflation,macro,2026-08-19T00:00:00Z,1,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,macro,2026-08-28T00:00:00Z,8,1,1,0,1,1,0,1,Affordability and inflation
+affordability_inflation,mention,2026-07-10T00:00:00Z,1,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,mention,2026-07-13T00:00:00Z,6,5,4,0,5,4,5,0,Affordability and inflation
+affordability_inflation,mention,2026-07-14T00:00:00Z,4,4,4,0,4,4,4,0,Affordability and inflation
+affordability_inflation,mention,2026-07-15T00:00:00Z,3,3,3,0,3,3,3,0,Affordability and inflation
+affordability_inflation,mention,2026-07-16T00:00:00Z,3,3,3,0,3,3,3,0,Affordability and inflation
+affordability_inflation,mention,2026-07-17T00:00:00Z,2,2,2,0,2,2,2,0,Affordability and inflation
+affordability_inflation,mention,2026-07-20T00:00:00Z,8,8,8,0,8,8,6,2,Affordability and inflation
+affordability_inflation,mention,2026-07-21T00:00:00Z,5,5,5,0,5,5,3,2,Affordability and inflation
+affordability_inflation,mention,2026-07-22T00:00:00Z,2,2,2,0,2,2,2,0,Affordability and inflation
+affordability_inflation,mention,2026-07-23T00:00:00Z,9,9,9,0,9,9,4,5,Affordability and inflation
+affordability_inflation,mention,2026-07-24T00:00:00Z,2,2,2,0,2,2,2,0,Affordability and inflation
+affordability_inflation,mention,2026-07-26T00:00:00Z,1,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,mention,2026-07-27T00:00:00Z,3,3,3,0,3,3,2,1,Affordability and inflation
+affordability_inflation,mention,2026-07-28T00:00:00Z,4,4,2,0,4,2,4,0,Affordability and inflation
+affordability_inflation,mention,2026-07-29T00:00:00Z,5,4,4,0,4,4,4,0,Affordability and inflation
+affordability_inflation,mention,2026-07-30T00:00:00Z,5,5,5,0,5,5,4,1,Affordability and inflation
+affordability_inflation,mention,2026-07-31T00:00:00Z,1,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,mention,2026-08-03T00:00:00Z,5,4,3,0,4,3,4,0,Affordability and inflation
+affordability_inflation,mention,2026-08-04T00:00:00Z,5,3,3,0,3,3,3,0,Affordability and inflation
+affordability_inflation,mention,2026-08-05T00:00:00Z,3,2,2,0,2,2,2,0,Affordability and inflation
+affordability_inflation,mention,2026-08-06T00:00:00Z,7,6,5,0,6,5,6,0,Affordability and inflation
+affordability_inflation,mention,2026-08-07T00:00:00Z,4,3,3,0,3,3,3,0,Affordability and inflation
+affordability_inflation,mention,2026-08-10T00:00:00Z,6,4,3,0,4,3,4,0,Affordability and inflation
+affordability_inflation,mention,2026-08-11T00:00:00Z,2,2,2,0,2,2,2,0,Affordability and inflation
+affordability_inflation,mention,2026-08-12T00:00:00Z,3,2,2,0,2,2,2,0,Affordability and inflation
+affordability_inflation,mention,2026-08-13T00:00:00Z,4,4,4,0,4,4,4,0,Affordability and inflation
+affordability_inflation,mention,2026-08-14T00:00:00Z,2,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,mention,2026-08-17T00:00:00Z,1,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,mention,2026-08-18T00:00:00Z,6,4,4,0,4,4,4,0,Affordability and inflation
+affordability_inflation,mention,2026-08-19T00:00:00Z,1,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,mention,2026-08-20T00:00:00Z,2,2,2,0,2,2,2,0,Affordability and inflation
+affordability_inflation,mention,2026-08-21T00:00:00Z,4,3,3,0,3,3,3,0,Affordability and inflation
+affordability_inflation,mention,2026-08-24T00:00:00Z,6,5,4,0,5,4,5,0,Affordability and inflation
+affordability_inflation,mention,2026-08-25T00:00:00Z,5,4,4,0,4,4,4,0,Affordability and inflation
+affordability_inflation,mention,2026-08-26T00:00:00Z,4,3,3,0,3,3,3,0,Affordability and inflation
+affordability_inflation,mention,2026-08-27T00:00:00Z,6,6,5,0,6,5,6,0,Affordability and inflation
+affordability_inflation,mention,2026-08-28T00:00:00Z,4,2,2,0,2,2,2,0,Affordability and inflation
+affordability_inflation,mention,2026-08-31T00:00:00Z,4,3,2,0,3,2,3,0,Affordability and inflation
+affordability_inflation,mention,2026-09-01T00:00:00Z,2,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,mention,2026-09-02T00:00:00Z,7,4,4,0,4,4,4,0,Affordability and inflation
+affordability_inflation,mention,2026-09-04T00:00:00Z,2,1,1,0,1,1,1,0,Affordability and inflation
+affordability_inflation,policy,2026-07-28T00:00:00Z,5,1,1,0,1,1,0,1,Affordability and inflation
+affordability_inflation,policy,2026-08-17T00:00:00Z,1,1,1,0,1,1,0,1,Affordability and inflation
+affordability_inflation,policy,2026-09-01T00:00:00Z,3,1,1,0,1,1,0,1,Affordability and inflation
+affordability_inflation,policy,2026-09-02T00:00:00Z,1,1,1,0,1,1,0,1,Affordability and inflation
+ai_jobs_regulation,macro,2026-08-28T00:00:00Z,2,1,1,0,1,1,0,1,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-09T00:00:00Z,1,1,1,0,1,1,1,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-10T00:00:00Z,1,1,1,0,1,1,1,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-13T00:00:00Z,11,11,6,0,11,6,10,1,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-14T00:00:00Z,4,4,4,0,4,4,4,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-15T00:00:00Z,4,4,3,0,4,3,4,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-16T00:00:00Z,6,6,6,0,6,6,4,2,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-17T00:00:00Z,2,2,2,0,2,2,2,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-18T00:00:00Z,4,4,4,0,4,4,0,4,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-20T00:00:00Z,15,12,10,0,12,10,7,6,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-21T00:00:00Z,19,12,12,0,12,12,2,10,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-22T00:00:00Z,1,1,1,0,1,1,1,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-23T00:00:00Z,21,14,14,0,14,14,3,11,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-24T00:00:00Z,4,4,4,0,4,4,2,2,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-26T00:00:00Z,1,1,1,0,1,1,1,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-27T00:00:00Z,4,4,4,0,4,4,3,1,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-28T00:00:00Z,6,6,4,0,6,4,6,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-29T00:00:00Z,4,4,3,0,4,3,4,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-30T00:00:00Z,8,6,6,0,6,6,5,1,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-07-31T00:00:00Z,1,1,1,0,1,1,1,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-03T00:00:00Z,5,4,3,0,4,3,3,1,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-04T00:00:00Z,7,5,5,0,5,5,3,2,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-05T00:00:00Z,2,2,2,0,2,2,2,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-06T00:00:00Z,6,6,5,0,6,5,6,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-07T00:00:00Z,4,4,3,0,4,3,4,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-10T00:00:00Z,5,5,4,0,5,4,4,1,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-11T00:00:00Z,5,4,4,0,4,4,1,3,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-12T00:00:00Z,2,2,2,0,2,2,2,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-13T00:00:00Z,4,4,4,0,4,4,4,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-14T00:00:00Z,2,2,2,0,2,2,2,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-17T00:00:00Z,1,1,1,0,1,1,1,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-18T00:00:00Z,6,5,5,0,5,5,4,1,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-19T00:00:00Z,1,1,1,0,1,1,0,1,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-20T00:00:00Z,3,3,3,0,3,3,3,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-21T00:00:00Z,2,2,1,0,3,2,3,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-24T00:00:00Z,4,4,3,0,4,3,4,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-25T00:00:00Z,3,3,3,0,3,3,3,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-26T00:00:00Z,21,14,14,0,14,14,6,8,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-27T00:00:00Z,5,5,3,1,4,3,4,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-28T00:00:00Z,1,1,1,0,1,1,1,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-08-31T00:00:00Z,2,2,2,0,2,2,2,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-09-01T00:00:00Z,3,2,2,0,2,2,2,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-09-02T00:00:00Z,3,3,3,0,3,3,3,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-09-03T00:00:00Z,2,2,2,0,2,2,2,0,"AI, jobs and regulation"
+ai_jobs_regulation,mention,2026-09-04T00:00:00Z,1,1,1,0,1,1,1,0,"AI, jobs and regulation"
+ai_jobs_regulation,policy,2026-07-28T00:00:00Z,1,1,1,0,1,1,0,1,"AI, jobs and regulation"
+ai_jobs_regulation,policy,2026-08-17T00:00:00Z,1,1,1,0,1,1,0,1,"AI, jobs and regulation"
+ai_jobs_regulation,policy,2026-08-24T00:00:00Z,1,1,1,0,1,1,0,1,"AI, jobs and regulation"
+ai_jobs_regulation,policy,2026-09-02T00:00:00Z,1,1,1,0,1,1,0,1,"AI, jobs and regulation"
+ai_jobs_regulation,policy,2026-09-04T00:00:00Z,3,1,1,0,1,1,0,1,"AI, jobs and regulation"
+electoral_context,election,2026-07-20T00:00:00Z,1,1,1,1,0,0,0,0,Election outcomes and control
+electoral_context,election,2026-07-22T00:00:00Z,1,1,1,1,0,0,0,0,Election outcomes and control
+electoral_context,election,2026-07-29T00:00:00Z,2,2,2,2,0,0,0,0,Election outcomes and control
+electoral_context,election,2026-08-03T00:00:00Z,16,1,1,0,1,1,0,1,Election outcomes and control
+electoral_context,election,2026-08-05T00:00:00Z,1,1,1,1,0,0,0,0,Election outcomes and control
+electoral_context,election,2026-08-12T00:00:00Z,2,1,1,0,1,1,0,1,Election outcomes and control
+electoral_context,election,2026-08-19T00:00:00Z,55,8,1,0,8,1,8,0,Election outcomes and control
+electoral_context,election,2026-08-20T00:00:00Z,2,1,1,0,1,1,0,1,Election outcomes and control
+electoral_context,election,2026-08-23T00:00:00Z,2,1,1,0,1,1,0,1,Election outcomes and control
+electoral_context,election,2026-09-03T00:00:00Z,1,1,1,1,0,0,0,0,Election outcomes and control
+electricity_datacenters,macro,2026-07-15T00:00:00Z,7,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,macro,2026-08-14T00:00:00Z,7,1,1,0,1,1,0,1,Electricity and data centers
+electricity_datacenters,macro,2026-08-16T00:00:00Z,7,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,macro,2026-08-18T00:00:00Z,4,1,1,0,1,1,0,1,Electricity and data centers
+electricity_datacenters,macro,2026-08-19T00:00:00Z,3,1,1,3,0,0,0,0,Electricity and data centers
+electricity_datacenters,macro,2026-08-28T00:00:00Z,23,2,1,0,2,1,0,1,Electricity and data centers
+electricity_datacenters,macro,2026-08-29T00:00:00Z,12,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,macro,2026-08-30T00:00:00Z,12,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,macro,2026-08-31T00:00:00Z,12,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,macro,2026-09-01T00:00:00Z,19,2,2,0,2,2,2,0,Electricity and data centers
+electricity_datacenters,macro,2026-09-03T00:00:00Z,28,2,1,0,2,1,2,0,Electricity and data centers
+electricity_datacenters,macro,2026-09-04T00:00:00Z,14,2,1,2,1,1,1,0,Electricity and data centers
+electricity_datacenters,macro,2026-09-05T00:00:00Z,12,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,macro,2026-09-06T00:00:00Z,12,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,macro,2026-09-07T00:00:00Z,12,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,mention,2026-07-13T00:00:00Z,2,2,1,0,2,1,2,0,Electricity and data centers
+electricity_datacenters,mention,2026-07-18T00:00:00Z,1,1,1,0,1,1,0,1,Electricity and data centers
+electricity_datacenters,mention,2026-07-20T00:00:00Z,1,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,mention,2026-07-21T00:00:00Z,2,2,2,0,2,2,0,2,Electricity and data centers
+electricity_datacenters,mention,2026-07-23T00:00:00Z,3,2,2,0,2,2,1,1,Electricity and data centers
+electricity_datacenters,mention,2026-07-24T00:00:00Z,2,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,mention,2026-07-26T00:00:00Z,1,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,mention,2026-07-27T00:00:00Z,1,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,mention,2026-07-28T00:00:00Z,2,2,2,0,2,2,1,1,Electricity and data centers
+electricity_datacenters,mention,2026-07-29T00:00:00Z,1,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,mention,2026-07-30T00:00:00Z,3,3,3,0,3,3,2,1,Electricity and data centers
+electricity_datacenters,mention,2026-08-03T00:00:00Z,0,0,0,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,mention,2026-08-05T00:00:00Z,1,1,1,1,0,0,0,0,Electricity and data centers
+electricity_datacenters,mention,2026-08-06T00:00:00Z,1,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,mention,2026-08-18T00:00:00Z,1,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,mention,2026-08-21T00:00:00Z,1,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,mention,2026-08-24T00:00:00Z,1,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,mention,2026-08-28T00:00:00Z,1,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,policy,2026-07-14T00:00:00Z,1,1,1,0,1,1,1,0,Electricity and data centers
+electricity_datacenters,policy,2026-07-21T00:00:00Z,4,1,1,0,1,1,0,1,Electricity and data centers
+electricity_datacenters,policy,2026-07-23T00:00:00Z,1,1,1,0,1,1,0,1,Electricity and data centers
+electricity_datacenters,policy,2026-08-04T00:00:00Z,1,1,1,0,1,1,0,1,Electricity and data centers
+electricity_datacenters,policy,2026-08-17T00:00:00Z,5,5,2,0,5,2,0,2,Electricity and data centers
+energy_iran,macro,2026-07-09T00:00:00Z,67,5,4,13,2,2,2,0,Energy and Iran
+energy_iran,macro,2026-07-10T00:00:00Z,102,5,5,0,5,5,5,0,Energy and Iran
+energy_iran,macro,2026-07-11T00:00:00Z,17,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,macro,2026-07-12T00:00:00Z,17,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,macro,2026-07-13T00:00:00Z,345,11,5,10,10,5,10,0,Energy and Iran
+energy_iran,macro,2026-07-14T00:00:00Z,1001,27,4,10,26,4,26,0,Energy and Iran
+energy_iran,macro,2026-07-15T00:00:00Z,993,26,4,0,26,4,26,0,Energy and Iran
+energy_iran,macro,2026-07-16T00:00:00Z,985,26,4,0,26,4,26,0,Energy and Iran
+energy_iran,macro,2026-07-17T00:00:00Z,923,26,7,5,25,6,25,0,Energy and Iran
+energy_iran,macro,2026-07-18T00:00:00Z,27,2,2,10,1,1,1,0,Energy and Iran
+energy_iran,macro,2026-07-19T00:00:00Z,153,6,4,16,4,2,4,0,Energy and Iran
+energy_iran,macro,2026-07-20T00:00:00Z,1021,29,7,16,27,5,27,0,Energy and Iran
+energy_iran,macro,2026-07-21T00:00:00Z,997,26,4,0,26,4,26,0,Energy and Iran
+energy_iran,macro,2026-07-22T00:00:00Z,1071,32,9,45,28,6,28,0,Energy and Iran
+energy_iran,macro,2026-07-23T00:00:00Z,960,27,5,23,24,3,24,0,Energy and Iran
+energy_iran,macro,2026-07-24T00:00:00Z,956,26,7,12,25,6,25,0,Energy and Iran
+energy_iran,macro,2026-07-25T00:00:00Z,22,2,2,5,1,1,1,0,Energy and Iran
+energy_iran,macro,2026-07-26T00:00:00Z,147,5,3,10,4,2,4,0,Energy and Iran
+energy_iran,macro,2026-07-27T00:00:00Z,1018,28,5,10,27,5,27,0,Energy and Iran
+energy_iran,macro,2026-07-28T00:00:00Z,1062,30,6,32,26,4,26,0,Energy and Iran
+energy_iran,macro,2026-07-29T00:00:00Z,1012,29,6,19,26,4,26,0,Energy and Iran
+energy_iran,macro,2026-07-30T00:00:00Z,898,24,4,10,23,3,23,0,Energy and Iran
+energy_iran,macro,2026-07-31T00:00:00Z,964,65,7,0,65,7,25,1,Energy and Iran
+energy_iran,macro,2026-08-01T00:00:00Z,37,2,2,0,2,2,2,0,Energy and Iran
+energy_iran,macro,2026-08-02T00:00:00Z,145,4,2,0,4,2,4,0,Energy and Iran
+energy_iran,macro,2026-08-03T00:00:00Z,1155,125,6,10,124,6,124,0,Energy and Iran
+energy_iran,macro,2026-08-04T00:00:00Z,1230,128,7,30,125,7,125,0,Energy and Iran
+energy_iran,macro,2026-08-05T00:00:00Z,1127,124,6,4,123,5,123,0,Energy and Iran
+energy_iran,macro,2026-08-06T00:00:00Z,1023,120,4,0,120,4,120,0,Energy and Iran
+energy_iran,macro,2026-08-07T00:00:00Z,1010,121,7,0,121,7,121,0,Energy and Iran
+energy_iran,macro,2026-08-08T00:00:00Z,113,97,2,0,97,2,97,0,Energy and Iran
+energy_iran,macro,2026-08-09T00:00:00Z,139,5,3,2,4,2,4,0,Energy and Iran
+energy_iran,macro,2026-08-10T00:00:00Z,1055,29,5,10,28,5,28,0,Energy and Iran
+energy_iran,macro,2026-08-11T00:00:00Z,1142,125,6,15,123,5,123,0,Energy and Iran
+energy_iran,macro,2026-08-12T00:00:00Z,1086,122,5,0,122,5,122,0,Energy and Iran
+energy_iran,macro,2026-08-13T00:00:00Z,1030,121,5,4,120,4,120,0,Energy and Iran
+energy_iran,macro,2026-08-14T00:00:00Z,1010,121,7,0,121,7,121,0,Energy and Iran
+energy_iran,macro,2026-08-15T00:00:00Z,41,25,2,0,25,2,25,0,Energy and Iran
+energy_iran,macro,2026-08-16T00:00:00Z,151,5,3,14,4,2,4,0,Energy and Iran
+energy_iran,macro,2026-08-17T00:00:00Z,1148,124,6,0,124,6,124,0,Energy and Iran
+energy_iran,macro,2026-08-18T00:00:00Z,1127,124,6,0,124,6,123,1,Energy and Iran
+energy_iran,macro,2026-08-19T00:00:00Z,1123,123,5,0,123,5,123,0,Energy and Iran
+energy_iran,macro,2026-08-20T00:00:00Z,1022,113,5,3,112,4,112,0,Energy and Iran
+energy_iran,macro,2026-08-21T00:00:00Z,1009,120,7,0,120,7,120,0,Energy and Iran
+energy_iran,macro,2026-08-22T00:00:00Z,49,26,3,8,25,2,25,0,Energy and Iran
+energy_iran,macro,2026-08-23T00:00:00Z,163,6,4,9,5,3,4,1,Energy and Iran
+energy_iran,macro,2026-08-24T00:00:00Z,1125,125,8,0,125,8,123,2,Energy and Iran
+energy_iran,macro,2026-08-25T00:00:00Z,1277,131,12,0,131,12,125,6,Energy and Iran
+energy_iran,macro,2026-08-26T00:00:00Z,1254,132,13,8,131,13,129,2,Energy and Iran
+energy_iran,macro,2026-08-27T00:00:00Z,1156,149,12,9,148,11,118,1,Energy and Iran
+energy_iran,macro,2026-08-28T00:00:00Z,1197,223,14,9,222,13,222,0,Energy and Iran
+energy_iran,macro,2026-08-29T00:00:00Z,167,55,9,0,55,9,55,0,Energy and Iran
+energy_iran,macro,2026-08-30T00:00:00Z,258,11,9,19,10,8,10,0,Energy and Iran
+energy_iran,macro,2026-08-31T00:00:00Z,1389,228,15,0,228,15,228,0,Energy and Iran
+energy_iran,macro,2026-09-01T00:00:00Z,1497,234,20,4,233,20,228,5,Energy and Iran
+energy_iran,macro,2026-09-02T00:00:00Z,1447,233,18,6,231,18,231,0,Energy and Iran
+energy_iran,macro,2026-09-03T00:00:00Z,1343,214,18,31,211,16,211,0,Energy and Iran
+energy_iran,macro,2026-09-04T00:00:00Z,1263,227,17,10,226,17,226,0,Energy and Iran
+energy_iran,macro,2026-09-05T00:00:00Z,266,61,15,14,60,14,60,0,Energy and Iran
+energy_iran,macro,2026-09-06T00:00:00Z,354,17,15,20,15,13,15,0,Energy and Iran
+energy_iran,macro,2026-09-07T00:00:00Z,698,213,18,0,213,18,213,0,Energy and Iran
+energy_iran,mention,2026-07-09T00:00:00Z,4,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,mention,2026-07-13T00:00:00Z,19,9,6,0,9,6,8,1,Energy and Iran
+energy_iran,mention,2026-07-14T00:00:00Z,9,4,4,0,4,4,4,0,Energy and Iran
+energy_iran,mention,2026-07-15T00:00:00Z,3,2,2,0,2,2,2,0,Energy and Iran
+energy_iran,mention,2026-07-16T00:00:00Z,7,5,5,1,4,4,3,1,Energy and Iran
+energy_iran,mention,2026-07-17T00:00:00Z,4,2,2,0,2,2,2,0,Energy and Iran
+energy_iran,mention,2026-07-18T00:00:00Z,4,3,3,0,3,3,0,3,Energy and Iran
+energy_iran,mention,2026-07-20T00:00:00Z,16,10,10,0,10,10,6,4,Energy and Iran
+energy_iran,mention,2026-07-21T00:00:00Z,7,6,6,0,7,7,3,4,Energy and Iran
+energy_iran,mention,2026-07-22T00:00:00Z,5,3,3,0,3,3,2,1,Energy and Iran
+energy_iran,mention,2026-07-23T00:00:00Z,15,9,9,0,9,9,3,6,Energy and Iran
+energy_iran,mention,2026-07-24T00:00:00Z,9,6,6,1,5,5,3,2,Energy and Iran
+energy_iran,mention,2026-07-26T00:00:00Z,3,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,mention,2026-07-27T00:00:00Z,7,4,4,0,4,4,4,0,Energy and Iran
+energy_iran,mention,2026-07-28T00:00:00Z,11,6,4,0,6,4,6,0,Energy and Iran
+energy_iran,mention,2026-07-29T00:00:00Z,7,3,2,0,3,2,3,0,Energy and Iran
+energy_iran,mention,2026-07-30T00:00:00Z,13,7,7,1,6,6,5,1,Energy and Iran
+energy_iran,mention,2026-07-31T00:00:00Z,2,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,mention,2026-08-03T00:00:00Z,7,3,2,0,3,2,3,0,Energy and Iran
+energy_iran,mention,2026-08-04T00:00:00Z,6,2,2,0,2,2,2,0,Energy and Iran
+energy_iran,mention,2026-08-05T00:00:00Z,4,2,2,0,2,2,2,0,Energy and Iran
+energy_iran,mention,2026-08-06T00:00:00Z,7,4,3,0,4,3,4,0,Energy and Iran
+energy_iran,mention,2026-08-07T00:00:00Z,9,4,3,0,4,3,4,0,Energy and Iran
+energy_iran,mention,2026-08-10T00:00:00Z,7,3,2,0,3,2,3,0,Energy and Iran
+energy_iran,mention,2026-08-11T00:00:00Z,8,5,5,0,5,5,2,3,Energy and Iran
+energy_iran,mention,2026-08-12T00:00:00Z,2,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,mention,2026-08-13T00:00:00Z,7,3,3,0,3,3,3,0,Energy and Iran
+energy_iran,mention,2026-08-14T00:00:00Z,2,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,mention,2026-08-17T00:00:00Z,2,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,mention,2026-08-18T00:00:00Z,6,4,4,0,4,4,3,1,Energy and Iran
+energy_iran,mention,2026-08-19T00:00:00Z,2,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,mention,2026-08-20T00:00:00Z,4,3,2,1,2,2,2,0,Energy and Iran
+energy_iran,mention,2026-08-21T00:00:00Z,6,3,3,0,3,3,3,0,Energy and Iran
+energy_iran,mention,2026-08-24T00:00:00Z,9,4,3,0,4,3,4,0,Energy and Iran
+energy_iran,mention,2026-08-25T00:00:00Z,5,2,2,0,2,2,2,0,Energy and Iran
+energy_iran,mention,2026-08-26T00:00:00Z,4,4,4,0,4,4,2,2,Energy and Iran
+energy_iran,mention,2026-08-27T00:00:00Z,6,5,4,0,5,4,5,0,Energy and Iran
+energy_iran,mention,2026-08-28T00:00:00Z,2,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,mention,2026-08-31T00:00:00Z,3,2,2,0,2,2,1,1,Energy and Iran
+energy_iran,mention,2026-09-01T00:00:00Z,1,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,mention,2026-09-02T00:00:00Z,4,2,2,0,2,2,2,0,Energy and Iran
+energy_iran,mention,2026-09-03T00:00:00Z,6,3,2,0,3,2,3,0,Energy and Iran
+energy_iran,mention,2026-09-07T00:00:00Z,1,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,policy,2026-07-09T00:00:00Z,16,2,2,0,2,2,2,0,Energy and Iran
+energy_iran,policy,2026-07-13T00:00:00Z,5,1,1,0,1,1,0,1,Energy and Iran
+energy_iran,policy,2026-07-14T00:00:00Z,8,3,3,8,0,0,0,0,Energy and Iran
+energy_iran,policy,2026-07-17T00:00:00Z,23,3,3,0,3,3,3,0,Energy and Iran
+energy_iran,policy,2026-07-20T00:00:00Z,2,1,1,2,0,0,0,0,Energy and Iran
+energy_iran,policy,2026-07-24T00:00:00Z,25,3,3,0,3,3,3,0,Energy and Iran
+energy_iran,policy,2026-07-31T00:00:00Z,27,3,3,0,3,3,3,0,Energy and Iran
+energy_iran,policy,2026-08-03T00:00:00Z,8,1,1,0,1,1,1,0,Energy and Iran
+energy_iran,policy,2026-08-07T00:00:00Z,25,3,3,0,3,3,3,0,Energy and Iran
+energy_iran,policy,2026-08-14T00:00:00Z,24,3,3,0,3,3,3,0,Energy and Iran
+energy_iran,policy,2026-08-21T00:00:00Z,24,3,3,0,3,3,3,0,Energy and Iran
+energy_iran,policy,2026-08-24T00:00:00Z,2,1,1,2,0,0,0,0,Energy and Iran
+energy_iran,policy,2026-08-28T00:00:00Z,34,5,5,0,5,5,4,1,Energy and Iran
+energy_iran,policy,2026-09-02T00:00:00Z,5,3,3,1,2,2,0,2,Energy and Iran
+energy_iran,policy,2026-09-03T00:00:00Z,6,2,2,0,2,2,1,1,Energy and Iran
+energy_iran,policy,2026-09-04T00:00:00Z,24,3,3,0,3,3,3,0,Energy and Iran
+fed_rates,macro,2026-07-09T00:00:00Z,6,1,1,0,1,1,1,0,Fed and interest rates
+fed_rates,macro,2026-07-10T00:00:00Z,90,10,10,0,10,10,10,0,Fed and interest rates
+fed_rates,macro,2026-07-13T00:00:00Z,45,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-07-14T00:00:00Z,45,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-07-15T00:00:00Z,45,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-07-16T00:00:00Z,16,2,2,10,1,1,1,0,Fed and interest rates
+fed_rates,macro,2026-07-17T00:00:00Z,160,11,11,10,10,10,10,0,Fed and interest rates
+fed_rates,macro,2026-07-20T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-07-21T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-07-22T00:00:00Z,87,7,7,10,6,6,5,1,Fed and interest rates
+fed_rates,macro,2026-07-23T00:00:00Z,36,4,4,30,1,1,1,0,Fed and interest rates
+fed_rates,macro,2026-07-24T00:00:00Z,172,13,13,22,10,10,10,0,Fed and interest rates
+fed_rates,macro,2026-07-27T00:00:00Z,85,6,6,10,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-07-28T00:00:00Z,81,6,6,0,6,6,6,0,Fed and interest rates
+fed_rates,macro,2026-07-29T00:00:00Z,140,10,9,0,10,9,8,1,Fed and interest rates
+fed_rates,macro,2026-07-30T00:00:00Z,10,1,1,10,0,0,0,0,Fed and interest rates
+fed_rates,macro,2026-07-31T00:00:00Z,151,11,11,0,11,11,10,1,Fed and interest rates
+fed_rates,macro,2026-08-03T00:00:00Z,150,10,10,0,10,10,10,0,Fed and interest rates
+fed_rates,macro,2026-08-04T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-08-05T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-08-06T00:00:00Z,6,1,1,0,1,1,1,0,Fed and interest rates
+fed_rates,macro,2026-08-07T00:00:00Z,160,11,11,10,10,10,10,0,Fed and interest rates
+fed_rates,macro,2026-08-10T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-08-11T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-08-12T00:00:00Z,81,6,6,0,6,6,6,0,Fed and interest rates
+fed_rates,macro,2026-08-14T00:00:00Z,160,11,11,10,10,10,10,0,Fed and interest rates
+fed_rates,macro,2026-08-17T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-08-18T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-08-19T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-08-20T00:00:00Z,6,1,1,0,1,1,1,0,Fed and interest rates
+fed_rates,macro,2026-08-21T00:00:00Z,151,11,11,1,10,10,10,0,Fed and interest rates
+fed_rates,macro,2026-08-24T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-08-25T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-08-26T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-08-27T00:00:00Z,6,1,1,0,1,1,1,0,Fed and interest rates
+fed_rates,macro,2026-08-28T00:00:00Z,10,1,1,10,0,0,0,0,Fed and interest rates
+fed_rates,macro,2026-09-01T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-09-02T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-09-03T00:00:00Z,6,1,1,0,1,1,1,0,Fed and interest rates
+fed_rates,macro,2026-09-04T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,macro,2026-09-07T00:00:00Z,75,5,5,0,5,5,5,0,Fed and interest rates
+fed_rates,mention,2026-07-13T00:00:00Z,1,1,1,0,1,1,0,1,Fed and interest rates
+fed_rates,mention,2026-07-16T00:00:00Z,1,1,1,0,1,1,1,0,Fed and interest rates
+fed_rates,mention,2026-07-18T00:00:00Z,1,1,1,0,1,1,0,1,Fed and interest rates
+fed_rates,mention,2026-07-29T00:00:00Z,1,1,1,0,1,1,1,0,Fed and interest rates
+fed_rates,policy,2026-07-22T00:00:00Z,4,1,1,0,1,1,0,1,Fed and interest rates
+fed_rates,policy,2026-08-07T00:00:00Z,2,1,1,2,0,0,0,0,Fed and interest rates
+fed_rates,policy,2026-08-19T00:00:00Z,3,1,1,0,1,1,0,1,Fed and interest rates
+healthcare,mention,2026-07-10T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-07-14T00:00:00Z,2,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-07-15T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-07-16T00:00:00Z,3,2,2,0,2,2,2,0,Health care
+healthcare,mention,2026-07-17T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-07-20T00:00:00Z,3,3,3,0,3,3,3,0,Health care
+healthcare,mention,2026-07-21T00:00:00Z,2,2,2,0,2,2,1,1,Health care
+healthcare,mention,2026-07-22T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-07-23T00:00:00Z,1,1,1,0,1,1,0,1,Health care
+healthcare,mention,2026-07-29T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-07-30T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-08-03T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-08-06T00:00:00Z,2,2,2,0,2,2,2,0,Health care
+healthcare,mention,2026-08-07T00:00:00Z,2,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-08-10T00:00:00Z,1,1,1,0,1,1,0,1,Health care
+healthcare,mention,2026-08-11T00:00:00Z,2,2,2,0,2,2,2,0,Health care
+healthcare,mention,2026-08-12T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-08-13T00:00:00Z,2,2,2,0,2,2,2,0,Health care
+healthcare,mention,2026-08-17T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-08-18T00:00:00Z,4,4,4,0,4,4,4,0,Health care
+healthcare,mention,2026-08-19T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-08-20T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-08-21T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-08-25T00:00:00Z,2,2,2,0,2,2,2,0,Health care
+healthcare,mention,2026-08-26T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-08-27T00:00:00Z,4,3,3,0,4,4,4,0,Health care
+healthcare,mention,2026-08-28T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-08-31T00:00:00Z,1,1,1,0,1,1,1,0,Health care
+healthcare,mention,2026-09-02T00:00:00Z,2,2,2,0,2,2,2,0,Health care
+healthcare,policy,2026-07-13T00:00:00Z,6,1,1,0,1,1,0,1,Health care
+healthcare,policy,2026-07-22T00:00:00Z,4,2,2,0,2,2,0,2,Health care
+healthcare,policy,2026-09-04T00:00:00Z,1,1,1,0,1,1,0,1,Health care
+housing,macro,2026-07-09T00:00:00Z,8,1,1,0,1,1,1,0,Housing
+housing,macro,2026-07-15T00:00:00Z,21,2,2,0,2,2,0,2,Housing
+housing,macro,2026-07-17T00:00:00Z,10,1,1,0,1,1,1,0,Housing
+housing,macro,2026-07-22T00:00:00Z,15,1,1,0,1,1,1,0,Housing
+housing,macro,2026-07-24T00:00:00Z,20,2,2,0,2,2,2,0,Housing
+housing,macro,2026-08-11T00:00:00Z,17,2,2,0,2,2,2,0,Housing
+housing,macro,2026-08-18T00:00:00Z,6,1,1,0,1,1,0,1,Housing
+housing,macro,2026-08-19T00:00:00Z,13,3,3,0,3,3,1,2,Housing
+housing,macro,2026-08-20T00:00:00Z,4,2,2,4,0,0,0,0,Housing
+housing,macro,2026-08-24T00:00:00Z,13,1,1,0,1,1,0,1,Housing
+housing,macro,2026-08-25T00:00:00Z,20,2,2,0,2,2,2,0,Housing
+housing,macro,2026-08-27T00:00:00Z,13,1,1,0,1,1,1,0,Housing
+housing,macro,2026-09-03T00:00:00Z,13,1,1,0,1,1,1,0,Housing
+housing,mention,2026-07-13T00:00:00Z,1,1,1,0,1,1,1,0,Housing
+housing,mention,2026-07-15T00:00:00Z,1,1,1,0,1,1,1,0,Housing
+housing,mention,2026-07-24T00:00:00Z,2,2,2,0,2,2,0,2,Housing
+housing,policy,2026-07-28T00:00:00Z,6,2,2,0,2,2,0,2,Housing
+housing,policy,2026-08-07T00:00:00Z,16,2,1,0,2,1,0,1,Housing
+immigration,macro,2026-08-14T00:00:00Z,1,1,1,0,1,1,0,1,Immigration
+immigration,mention,2026-07-10T00:00:00Z,2,2,2,0,2,2,2,0,Immigration
+immigration,mention,2026-07-13T00:00:00Z,3,3,3,0,4,3,4,0,Immigration
+immigration,mention,2026-07-15T00:00:00Z,1,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-07-16T00:00:00Z,2,2,2,1,1,1,1,0,Immigration
+immigration,mention,2026-07-17T00:00:00Z,1,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-07-20T00:00:00Z,2,2,2,0,2,2,2,1,Immigration
+immigration,mention,2026-07-21T00:00:00Z,2,2,2,0,2,2,1,1,Immigration
+immigration,mention,2026-07-22T00:00:00Z,1,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-07-23T00:00:00Z,1,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-07-27T00:00:00Z,2,2,2,0,2,2,2,0,Immigration
+immigration,mention,2026-07-28T00:00:00Z,2,2,2,0,2,2,2,0,Immigration
+immigration,mention,2026-07-29T00:00:00Z,1,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-07-30T00:00:00Z,3,3,3,0,3,3,3,0,Immigration
+immigration,mention,2026-07-31T00:00:00Z,1,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-08-03T00:00:00Z,3,3,2,0,3,2,3,0,Immigration
+immigration,mention,2026-08-04T00:00:00Z,1,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-08-06T00:00:00Z,2,2,2,0,2,2,2,0,Immigration
+immigration,mention,2026-08-07T00:00:00Z,2,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-08-11T00:00:00Z,2,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-08-12T00:00:00Z,1,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-08-13T00:00:00Z,5,3,3,0,3,3,3,0,Immigration
+immigration,mention,2026-08-18T00:00:00Z,2,2,2,0,3,3,3,0,Immigration
+immigration,mention,2026-08-20T00:00:00Z,2,2,2,1,1,1,1,0,Immigration
+immigration,mention,2026-08-21T00:00:00Z,3,2,2,0,2,2,2,0,Immigration
+immigration,mention,2026-08-24T00:00:00Z,2,2,2,0,2,2,2,0,Immigration
+immigration,mention,2026-08-25T00:00:00Z,1,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-08-26T00:00:00Z,2,2,2,0,2,2,2,0,Immigration
+immigration,mention,2026-08-27T00:00:00Z,3,3,3,0,3,3,3,0,Immigration
+immigration,mention,2026-08-28T00:00:00Z,1,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-09-02T00:00:00Z,1,1,1,0,1,1,1,0,Immigration
+immigration,mention,2026-09-03T00:00:00Z,2,2,1,0,2,1,2,0,Immigration
+immigration,policy,2026-07-09T00:00:00Z,1,1,1,0,1,1,0,1,Immigration
+immigration,policy,2026-07-14T00:00:00Z,1,1,1,1,0,0,0,0,Immigration
+immigration,policy,2026-08-24T00:00:00Z,6,2,2,0,2,2,0,2,Immigration
+jobs_growth,macro,2026-07-09T00:00:00Z,28,3,3,0,3,3,1,2,Jobs and growth
+jobs_growth,macro,2026-07-13T00:00:00Z,5,1,1,5,0,0,0,0,Jobs and growth
+jobs_growth,macro,2026-07-16T00:00:00Z,12,2,2,3,1,1,1,0,Jobs and growth
+jobs_growth,macro,2026-07-20T00:00:00Z,10,1,1,0,1,1,1,0,Jobs and growth
+jobs_growth,macro,2026-07-22T00:00:00Z,2,1,1,2,0,0,0,0,Jobs and growth
+jobs_growth,macro,2026-07-23T00:00:00Z,9,1,1,0,1,1,1,0,Jobs and growth
+jobs_growth,macro,2026-07-26T00:00:00Z,11,1,1,0,1,1,0,1,Jobs and growth
+jobs_growth,macro,2026-07-28T00:00:00Z,43,6,2,5,5,2,5,0,Jobs and growth
+jobs_growth,macro,2026-07-29T00:00:00Z,25,3,3,0,3,3,2,1,Jobs and growth
+jobs_growth,macro,2026-08-06T00:00:00Z,59,5,3,0,5,3,2,1,Jobs and growth
+jobs_growth,macro,2026-08-13T00:00:00Z,11,1,1,0,1,1,1,0,Jobs and growth
+jobs_growth,macro,2026-08-17T00:00:00Z,4,1,1,0,1,1,0,1,Jobs and growth
+jobs_growth,macro,2026-08-18T00:00:00Z,7,4,4,0,4,4,0,4,Jobs and growth
+jobs_growth,macro,2026-08-19T00:00:00Z,2,2,2,0,2,2,0,2,Jobs and growth
+jobs_growth,macro,2026-08-20T00:00:00Z,16,3,3,5,1,1,1,0,Jobs and growth
+jobs_growth,macro,2026-08-24T00:00:00Z,7,1,1,0,1,1,0,1,Jobs and growth
+jobs_growth,macro,2026-08-25T00:00:00Z,11,1,1,0,1,1,0,1,Jobs and growth
+jobs_growth,macro,2026-08-27T00:00:00Z,22,2,2,0,2,2,2,0,Jobs and growth
+jobs_growth,macro,2026-08-28T00:00:00Z,2,1,1,0,1,1,0,1,Jobs and growth
+jobs_growth,macro,2026-08-30T00:00:00Z,6,1,1,6,0,0,0,0,Jobs and growth
+jobs_growth,macro,2026-09-01T00:00:00Z,7,1,1,0,1,1,1,0,Jobs and growth
+jobs_growth,macro,2026-09-03T00:00:00Z,76,6,4,0,6,4,3,1,Jobs and growth
+jobs_growth,mention,2026-07-13T00:00:00Z,4,2,2,0,2,2,1,1,Jobs and growth
+jobs_growth,mention,2026-07-21T00:00:00Z,3,3,3,0,3,3,0,3,Jobs and growth
+jobs_growth,mention,2026-07-23T00:00:00Z,1,1,1,0,1,1,0,1,Jobs and growth
+jobs_growth,mention,2026-07-30T00:00:00Z,3,1,1,0,1,1,1,0,Jobs and growth
+jobs_growth,policy,2026-08-07T00:00:00Z,7,1,1,0,1,1,0,1,Jobs and growth
+jobs_growth,policy,2026-09-07T00:00:00Z,7,1,1,0,1,1,0,1,Jobs and growth
+taxes_fiscal,macro,2026-07-27T00:00:00Z,15,2,1,0,2,1,0,1,Taxes and fiscal policy
+taxes_fiscal,macro,2026-07-29T00:00:00Z,9,1,1,0,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,macro,2026-08-26T00:00:00Z,16,2,1,0,2,1,2,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-10T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-13T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-14T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-15T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-16T00:00:00Z,2,2,2,0,2,2,1,1,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-20T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-21T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-23T00:00:00Z,2,2,2,0,2,2,0,2,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-24T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-27T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-29T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-07-30T00:00:00Z,2,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-03T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-04T00:00:00Z,2,2,2,0,2,2,1,1,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-05T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-06T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-07T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-10T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-18T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-19T00:00:00Z,1,1,1,0,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-21T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-24T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-26T00:00:00Z,1,1,1,0,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-27T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,mention,2026-08-28T00:00:00Z,1,1,1,0,1,1,1,0,Taxes and fiscal policy
+taxes_fiscal,policy,2026-07-09T00:00:00Z,7,1,1,0,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,policy,2026-07-13T00:00:00Z,3,1,1,0,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,policy,2026-07-14T00:00:00Z,2,1,1,2,0,0,0,0,Taxes and fiscal policy
+taxes_fiscal,policy,2026-07-22T00:00:00Z,9,2,2,4,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,policy,2026-07-27T00:00:00Z,8,1,1,0,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,policy,2026-07-28T00:00:00Z,8,2,2,3,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,policy,2026-08-03T00:00:00Z,7,1,1,0,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,policy,2026-08-05T00:00:00Z,1,1,1,1,0,0,0,0,Taxes and fiscal policy
+taxes_fiscal,policy,2026-08-07T00:00:00Z,16,2,1,0,2,1,0,1,Taxes and fiscal policy
+taxes_fiscal,policy,2026-08-12T00:00:00Z,3,2,2,2,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,policy,2026-08-14T00:00:00Z,1,1,1,1,0,0,0,0,Taxes and fiscal policy
+taxes_fiscal,policy,2026-08-17T00:00:00Z,5,5,2,0,5,2,0,2,Taxes and fiscal policy
+taxes_fiscal,policy,2026-08-19T00:00:00Z,7,2,2,0,2,2,0,2,Taxes and fiscal policy
+taxes_fiscal,policy,2026-08-20T00:00:00Z,3,1,1,3,0,0,0,0,Taxes and fiscal policy
+taxes_fiscal,policy,2026-08-24T00:00:00Z,9,1,1,0,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,policy,2026-09-02T00:00:00Z,1,1,1,0,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,policy,2026-09-05T00:00:00Z,2,1,1,0,1,1,0,1,Taxes and fiscal policy
+taxes_fiscal,policy,2026-09-07T00:00:00Z,7,1,1,0,1,1,0,1,Taxes and fiscal policy
+trade_tariffs,macro,2026-08-26T00:00:00Z,16,2,1,0,2,1,2,0,Trade and tariffs
+trade_tariffs,mention,2026-07-09T00:00:00Z,1,1,1,0,1,1,1,0,Trade and tariffs
+trade_tariffs,mention,2026-07-13T00:00:00Z,4,4,2,0,5,3,4,1,Trade and tariffs
+trade_tariffs,mention,2026-07-15T00:00:00Z,2,2,1,0,2,1,2,0,Trade and tariffs
+trade_tariffs,mention,2026-07-16T00:00:00Z,5,5,5,1,4,4,0,4,Trade and tariffs
+trade_tariffs,mention,2026-07-18T00:00:00Z,2,2,2,0,2,2,0,2,Trade and tariffs
+trade_tariffs,mention,2026-07-20T00:00:00Z,5,5,5,0,5,5,3,3,Trade and tariffs
+trade_tariffs,mention,2026-07-21T00:00:00Z,6,6,6,0,6,6,1,5,Trade and tariffs
+trade_tariffs,mention,2026-07-23T00:00:00Z,16,16,16,0,16,16,2,14,Trade and tariffs
+trade_tariffs,mention,2026-07-24T00:00:00Z,6,6,6,0,6,6,2,4,Trade and tariffs
+trade_tariffs,mention,2026-07-26T00:00:00Z,1,1,1,0,1,1,1,0,Trade and tariffs
+trade_tariffs,mention,2026-07-27T00:00:00Z,3,3,3,0,3,3,2,1,Trade and tariffs
+trade_tariffs,mention,2026-07-28T00:00:00Z,6,6,4,0,6,4,5,1,Trade and tariffs
+trade_tariffs,mention,2026-07-29T00:00:00Z,3,3,2,0,3,2,3,0,Trade and tariffs
+trade_tariffs,mention,2026-07-30T00:00:00Z,2,2,2,0,2,2,2,0,Trade and tariffs
+trade_tariffs,mention,2026-07-31T00:00:00Z,1,1,1,0,1,1,1,0,Trade and tariffs
+trade_tariffs,mention,2026-08-03T00:00:00Z,2,2,1,0,2,1,2,0,Trade and tariffs
+trade_tariffs,mention,2026-08-04T00:00:00Z,3,3,3,0,3,3,2,1,Trade and tariffs
+trade_tariffs,mention,2026-08-06T00:00:00Z,4,4,3,0,4,3,4,0,Trade and tariffs
+trade_tariffs,mention,2026-08-07T00:00:00Z,2,2,1,0,2,1,2,0,Trade and tariffs
+trade_tariffs,mention,2026-08-10T00:00:00Z,4,4,3,0,4,3,3,1,Trade and tariffs
+trade_tariffs,mention,2026-08-11T00:00:00Z,2,2,2,0,2,2,0,2,Trade and tariffs
+trade_tariffs,mention,2026-08-13T00:00:00Z,1,1,1,0,1,1,1,0,Trade and tariffs
+trade_tariffs,mention,2026-08-18T00:00:00Z,2,2,2,0,2,2,1,1,Trade and tariffs
+trade_tariffs,mention,2026-08-21T00:00:00Z,2,2,2,0,2,2,2,0,Trade and tariffs
+trade_tariffs,mention,2026-08-24T00:00:00Z,3,3,2,0,3,2,3,0,Trade and tariffs
+trade_tariffs,mention,2026-08-25T00:00:00Z,2,2,2,0,2,2,2,0,Trade and tariffs
+trade_tariffs,mention,2026-08-26T00:00:00Z,11,11,11,0,11,11,3,8,Trade and tariffs
+trade_tariffs,mention,2026-08-27T00:00:00Z,4,4,4,0,4,4,4,0,Trade and tariffs
+trade_tariffs,mention,2026-08-28T00:00:00Z,1,1,1,0,1,1,1,0,Trade and tariffs
+trade_tariffs,mention,2026-08-31T00:00:00Z,1,1,1,0,1,1,1,0,Trade and tariffs
+trade_tariffs,mention,2026-09-02T00:00:00Z,3,3,3,0,3,3,3,0,Trade and tariffs
+trade_tariffs,mention,2026-09-03T00:00:00Z,2,2,1,0,2,1,2,0,Trade and tariffs
+trade_tariffs,policy,2026-07-21T00:00:00Z,4,2,2,4,0,0,0,0,Trade and tariffs
+trade_tariffs,policy,2026-07-23T00:00:00Z,27,8,8,0,8,8,4,4,Trade and tariffs
+trade_tariffs,policy,2026-07-28T00:00:00Z,14,3,3,0,3,3,1,2,Trade and tariffs
+trade_tariffs,policy,2026-07-31T00:00:00Z,2,2,2,0,2,2,2,0,Trade and tariffs
+trade_tariffs,policy,2026-08-11T00:00:00Z,6,2,2,0,2,2,0,2,Trade and tariffs
+trade_tariffs,policy,2026-08-21T00:00:00Z,3,1,1,0,1,1,0,1,Trade and tariffs
+trade_tariffs,policy,2026-08-24T00:00:00Z,4,2,2,3,1,1,0,1,Trade and tariffs
+trade_tariffs,policy,2026-08-28T00:00:00Z,2,2,2,0,2,2,2,0,Trade and tariffs

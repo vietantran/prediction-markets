@@ -1,0 +1,35 @@
+// Optional render/interaction QA. Set NODE_PATH to a Playwright installation.
+const {chromium}=require('playwright');
+const path=require('path');
+const fs=require('fs');
+const {pathToFileURL}=require('url');
+(async()=>{
+ const root=path.resolve(__dirname,'..'), qa=path.join(root,'report','qa');fs.mkdirSync(qa,{recursive:true});
+ const browser=await chromium.launch({headless:true,...(process.env.BROWSER_BINARY?{executablePath:process.env.BROWSER_BINARY}:{})});
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(pathToFileURL(path.join(root,'report','index.html')).href);
+ await page.waitForFunction(()=>document.querySelectorAll('#model-table tbody tr').length===230);
+ const initial=await page.locator('#scenario-result').innerText();
+ if(!initial.includes('-9.2%'))throw new Error('VRT calculator initial return incorrect: '+initial);
+ await page.locator('#growth').fill('40');
+ const changed=await page.locator('#scenario-result').innerText();
+ if(changed===initial)throw new Error('Calculator did not update');
+ await page.locator('#growth').fill('20');
+ await page.locator('#model-filter').fill('House');
+ const filtered=await page.locator('#model-table tbody tr').count();
+ if(filtered!==23)throw new Error('Wrong filtered model count '+filtered);
+ await page.locator('#model-filter').fill('');
+ const inspect=async()=>page.evaluate(()=>({images:[...document.images].map(i=>({loaded:i.complete&&i.naturalWidth>0,alt:!!i.alt})),overflow:document.documentElement.scrollWidth>innerWidth+1,emptyLinks:[...document.querySelectorAll('a')].filter(a=>!a.getAttribute('href')).length,headings:document.querySelectorAll('h2').length,tables:document.querySelectorAll('table').length,unresolved:document.body.innerText.includes('{{')}));
+ const desktop=await inspect();
+ await page.evaluate(()=>scrollTo(0,0));
+ await page.screenshot({path:path.join(qa,'desktop_top.png')});
+ await page.getByRole('heading',{name:'What the empirical sensitivities can—and cannot—support',exact:true}).scrollIntoViewIfNeeded();
+ await page.screenshot({path:path.join(qa,'desktop_analysis.png')});
+ await page.setViewportSize({width:390,height:844});await page.evaluate(()=>scrollTo(0,0));
+ const mobile=await inspect();await page.screenshot({path:path.join(qa,'mobile_top.png')});
+ if(errors.length||desktop.overflow||mobile.overflow||desktop.emptyLinks||desktop.unresolved||desktop.images.some(i=>!i.loaded||!i.alt))throw new Error(JSON.stringify({errors,desktop,mobile}));
+ const result={status:'passed',desktop,mobile,calculator_initial:initial,calculator_changed:changed,house_filtered_models:filtered,javascript_errors:errors};
+ fs.writeFileSync(path.join(root,'report','browser_validation.json'),JSON.stringify(result,null,2));
+ console.log(JSON.stringify(result));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

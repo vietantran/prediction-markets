@@ -1,0 +1,132 @@
+[
+  {
+    "id": "house_dem",
+    "label": "Democratic House victory",
+    "ticker": "CONTROLH-2026-D",
+    "issue_id": "taxes_fiscal",
+    "authority": "House election; presidency unchanged",
+    "deadline": "2026-11-03",
+    "primary": true,
+    "interpretation": "Election-win contract; not a conditional policy probability"
+  },
+  {
+    "id": "senate_dem",
+    "label": "Democratic Senate victory",
+    "ticker": "CONTROLS-2026-D",
+    "issue_id": "taxes_fiscal",
+    "authority": "Senate election; presidency unchanged",
+    "deadline": "2026-11-03",
+    "primary": true,
+    "interpretation": "Election-win contract; senators also affect confirmations"
+  },
+  {
+    "id": "wisconsin_dem",
+    "label": "Democratic Wisconsin governor",
+    "ticker": "GOVPARTYWI-26-D",
+    "issue_id": "electricity_datacenters",
+    "authority": "State governorship; separate legislature and regulator powers",
+    "deadline": "2026-11-03",
+    "primary": true,
+    "interpretation": "August11 primary is a nomination confound, not identified issue effect"
+  },
+  {
+    "id": "georgia_dem",
+    "label": "Democratic Georgia governor",
+    "ticker": "GOVPARTYGA-26-D",
+    "issue_id": "electricity_datacenters",
+    "authority": "State governorship; not all siting or rate powers",
+    "deadline": "2026-11-03",
+    "primary": true,
+    "interpretation": "Directional party outcome, not direct data-center restriction probability"
+  },
+  {
+    "id": "datacenter_three_states",
+    "label": "At least three binding state data-center moratoriums",
+    "ticker": "KXMORATORIUMCOUNT-26DEC31-AL3",
+    "issue_id": "electricity_datacenters",
+    "authority": "Existing state lawmakers and governors",
+    "deadline": "2026-12-31",
+    "primary": true,
+    "interpretation": "Threshold count; distinguishes binding state moratoriums from local conditions"
+  },
+  {
+    "id": "federal_ai_framework",
+    "label": "Federal AI framework before 2027",
+    "ticker": "KXAIBILL-26JUN-27JAN01",
+    "issue_id": "ai_jobs_regulation",
+    "authority": "Federal executive/legislative routes under market rules",
+    "deadline": "2027-01-01",
+    "primary": true,
+    "interpretation": "Includes a voluntary framework; not necessarily private-sector mandatory regulation"
+  },
+  {
+    "id": "election_gas_four",
+    "label": "Election-day gasoline above $4",
+    "ticker": "KXAAAGASED-26NOV03-4.00",
+    "issue_id": "energy_iran",
+    "authority": "Economic outcome; not controlled by election winner",
+    "deadline": "2026-11-03",
+    "primary": true,
+    "interpretation": "AAA threshold on election date; fixed outcome horizon"
+  },
+  {
+    "id": "fed_2027_above375",
+    "label": "End-2027 Fed upper bound above 3.75%",
+    "ticker": "KXFEDFUNDSYEAR-28JAN01-T3.75",
+    "issue_id": "fed_rates",
+    "authority": "FOMC; monetary-policy independence",
+    "deadline": "2027-12-31",
+    "primary": true,
+    "interpretation": "Future policy path; not the next FOMC decision"
+  },
+  {
+    "id": "sept_fed_hike25",
+    "label": "September FOMC increase of 25 bp",
+    "ticker": "KXFEDDECISION-26SEP-H25",
+    "issue_id": "fed_rates",
+    "authority": "FOMC",
+    "deadline": "2026-09",
+    "primary": true,
+    "interpretation": "Current decision; not total probability of any tightening"
+  },
+  {
+    "id": "aca_extension",
+    "label": "Enhanced ACA credits extended before 2027",
+    "ticker": "KXACAEXT-26JAN-27",
+    "issue_id": "healthcare",
+    "authority": "Incumbent federal institutions; deadline before new Congress",
+    "deadline": "2027-01-01",
+    "primary": true,
+    "interpretation": "Precisely scoped statutory extension rather than all healthcare reform"
+  },
+  {
+    "id": "michigan_dem",
+    "label": "Democratic Michigan governor",
+    "ticker": "GOVPARTYMI-26-D",
+    "issue_id": "electricity_datacenters",
+    "authority": "State governorship",
+    "deadline": "2026-11-03",
+    "primary": false,
+    "interpretation": "Contextual election probability"
+  },
+  {
+    "id": "pennsylvania_dem",
+    "label": "Democratic Pennsylvania governor",
+    "ticker": "GOVPARTYPA-26-D",
+    "issue_id": "electricity_datacenters",
+    "authority": "State governorship",
+    "deadline": "2026-11-03",
+    "primary": false,
+    "interpretation": "Contextual election probability"
+  },
+  {
+    "id": "arizona_dem",
+    "label": "Democratic Arizona governor",
+    "ticker": "GOVPARTYAZ-26-D",
+    "issue_id": "housing",
+    "authority": "State governorship",
+    "deadline": "2026-11-03",
+    "primary": false,
+    "interpretation": "Contextual election probability"
+  }
+]

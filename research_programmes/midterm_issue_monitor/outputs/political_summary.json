@@ -1,0 +1,43 @@
+{
+  "as_of": "2026-09-08T15:07:00Z",
+  "status": "complete",
+  "eligible_primary_registry_records": 29,
+  "numeric_observations": 116,
+  "comparable_trends": 10,
+  "selected_state_cases": 5,
+  "dated_records": 27,
+  "standing_background_records": 2,
+  "excluded_registry_records": [],
+  "minimum_partisan_negative_cost_benefit_percent": {
+    "P05": 66.0,
+    "P06": 64.0
+  },
+  "joint_contracts_with_usable_quotes": 4,
+  "joint_midpoint_sum": 1.0114999999999998,
+  "joint_normalized": false,
+  "inferred_independence": false,
+  "case_moratorium_count": null,
+  "case_scope_warning": "Purposive cases are not a moratorium census. No nationwide count or geographic diffusion rate is inferred from their number.",
+  "key_findings": [
+    "Gasoline concern has the largest January-to-July increase among the comparable named household-cost series; concern is not electoral-priority causality.",
+    "Data-center cost-benefit opposition rose nationally and in Wisconsin; all three measured partisan groups exceed 50%, while agreement on the same remedy is unproven.",
+    "Wisconsin's current-issue priority and turnout-screen results caution against assigning its race repricing to data centers.",
+    "State tariff, permitting, advisory and AI-compliance responses are economically distinct; federal gridlock does not eliminate them.",
+    "Healthcare concern remains high and remedies differ; no broad accelerating electoral-salience claim follows from this packet."
+  ],
+  "fed_background": {
+    "source_url": "https://www.federalreserve.gov/faqs/about_12799.htm",
+    "date_status": "Standing institutional background, retrieved September 9, 2026; not a new campaign event",
+    "claim": "Monetary-policy decisions do not require approval by the president or Congress. Electoral outcomes can affect fiscal policy and appointments, but do not mechanically set the policy-rate path."
+  },
+  "constraints": [
+    "The joint contracts refer to organizational control in February 2027, not identical settlement rules to election-winner contracts.",
+    "Report quoted bid/ask and midpoint as observed; do not normalize the sum or multiply marginal probabilities.",
+    "The presidency is held fixed as a scenario convention, subject to constitutional succession.",
+    "A state governor's victory does not imply control of both chambers, local zoning or every regulator.",
+    "Markets resolving before January 2027 do not directly measure laws enacted by the incoming Congress.",
+    "Policy stage classifications are nominal categories, not ordinal enactment probabilities."
+  ],
+  "input_sha256": "84896e32fc2c8fb8e2bb44f15b702bc4395932c0e9ff2d84ee534cb8fa9df611",
+  "config_sha256": "c2d74df43ce627e0f955a1bc63c803f49075413ffb62d5f5b777a9236bc80f45"
+}

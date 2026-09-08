@@ -1,0 +1,14 @@
+scenario_id,ticker,tape_window,executions,active_days,top_five_print_volume_share,liquidity_validation_status,liquidity_veto_reasons
+house_dem,CONTROLH-2026-D,Latest 28 calendar days; shorter than full equity regression window,4133,28,0.264909557444741,passes_descriptive_tape_gate,
+senate_dem,CONTROLS-2026-D,Latest 28 calendar days; shorter than full equity regression window,3124,28,0.2567762185281578,passes_descriptive_tape_gate,
+wisconsin_dem,GOVPARTYWI-26-D,Latest 28 calendar days; shorter than full equity regression window,1705,28,0.2494853242937198,passes_descriptive_tape_gate,
+georgia_dem,GOVPARTYGA-26-D,Latest 28 calendar days; shorter than full equity regression window,553,28,0.3735602811368662,passes_descriptive_tape_gate,
+datacenter_three_states,KXMORATORIUMCOUNT-26DEC31-AL3,Latest 28 calendar days; shorter than full equity regression window,65,18,0.508594260185658,veto_sizing_use,fewer_than_100_executions|top_five_volume_share_above_50pct_or_unavailable
+federal_ai_framework,KXAIBILL-26JUN-27JAN01,Latest 28 calendar days; shorter than full equity regression window,9,5,0.9763809165333583,veto_sizing_use,fewer_than_100_executions|fewer_than_10_active_days|top_five_volume_share_above_50pct_or_unavailable
+election_gas_four,KXAAAGASED-26NOV03-4.00,Latest 28 calendar days; shorter than full equity regression window,367,28,0.3724167931027763,passes_descriptive_tape_gate,
+fed_2027_above375,KXFEDFUNDSYEAR-28JAN01-T3.75,Latest 28 calendar days; shorter than full equity regression window,330,28,0.2216233741626068,passes_descriptive_tape_gate,
+sept_fed_hike25,KXFEDDECISION-26SEP-H25,Latest 28 calendar days; shorter than full equity regression window,10349,28,0.0358210159637073,passes_descriptive_tape_gate,
+aca_extension,KXACAEXT-26JAN-27,Latest 28 calendar days; shorter than full equity regression window,98,17,0.6143796084599068,veto_sizing_use,fewer_than_100_executions|top_five_volume_share_above_50pct_or_unavailable
+michigan_dem,GOVPARTYMI-26-D,Latest 28 calendar days; shorter than full equity regression window,94,22,0.4279252792980233,veto_sizing_use,fewer_than_100_executions
+pennsylvania_dem,GOVPARTYPA-26-D,Latest 28 calendar days; shorter than full equity regression window,64,12,0.9441689029763108,veto_sizing_use,fewer_than_100_executions|top_five_volume_share_above_50pct_or_unavailable
+arizona_dem,GOVPARTYAZ-26-D,Latest 28 calendar days; shorter than full equity regression window,694,27,0.2233603947084648,passes_descriptive_tape_gate,

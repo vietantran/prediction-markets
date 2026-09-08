@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "test_results": {
+    "tests": 35,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": "ruff passed",
+  "full_pipeline": "Source preparation and all analytical stages rebuilt successfully",
+  "browser": "See browser_validation.json; desktop/mobile and interactive controls passed",
+  "source_preparation_manifest": "inputs/preparation_manifest.json",
+  "regression_audit": "outputs/sensitivity_numerical_audit.json",
+  "trade_reconciliation": "outputs/trade_analysis_manifest.json",
+  "unrelated_notebook_sha256_preserved": "82244FA3EB431C70FBB4C2A34A58426AAC309C2CFA6FFFF3BE7CE809434EDF52"
+}

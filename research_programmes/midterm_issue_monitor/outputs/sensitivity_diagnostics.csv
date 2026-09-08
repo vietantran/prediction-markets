@@ -1,0 +1,40 @@
+scenario_id,scenario_label,ticker,spread_gate,n_session_quotes,valid_quotes,valid_adjacent_changes,meaningful_shock_days,large_move_days,first_valid_date,last_valid_date
+house_dem,Democratic House victory,CONTROLH-2026-D,0.05,43,43,42,8,0,2026-07-08,2026-09-04
+house_dem,Democratic House victory,CONTROLH-2026-D,0.1,43,43,42,8,0,2026-07-08,2026-09-04
+house_dem,Democratic House victory,CONTROLH-2026-D,0.15,43,43,42,8,0,2026-07-08,2026-09-04
+senate_dem,Democratic Senate victory,CONTROLS-2026-D,0.05,43,43,42,19,1,2026-07-08,2026-09-04
+senate_dem,Democratic Senate victory,CONTROLS-2026-D,0.1,43,43,42,19,1,2026-07-08,2026-09-04
+senate_dem,Democratic Senate victory,CONTROLS-2026-D,0.15,43,43,42,19,1,2026-07-08,2026-09-04
+wisconsin_dem,Democratic Wisconsin governor,GOVPARTYWI-26-D,0.05,43,42,40,23,9,2026-07-08,2026-09-04
+wisconsin_dem,Democratic Wisconsin governor,GOVPARTYWI-26-D,0.1,43,42,40,23,9,2026-07-08,2026-09-04
+wisconsin_dem,Democratic Wisconsin governor,GOVPARTYWI-26-D,0.15,43,42,40,23,9,2026-07-08,2026-09-04
+georgia_dem,Democratic Georgia governor,GOVPARTYGA-26-D,0.05,43,40,36,14,5,2026-07-08,2026-09-04
+georgia_dem,Democratic Georgia governor,GOVPARTYGA-26-D,0.1,43,40,36,14,5,2026-07-08,2026-09-04
+georgia_dem,Democratic Georgia governor,GOVPARTYGA-26-D,0.15,43,40,36,14,5,2026-07-08,2026-09-04
+datacenter_three_states,At least three binding state data-center moratoriums,KXMORATORIUMCOUNT-26DEC31-AL3,0.05,43,15,9,6,3,2026-07-22,2026-09-04
+datacenter_three_states,At least three binding state data-center moratoriums,KXMORATORIUMCOUNT-26DEC31-AL3,0.1,43,27,23,14,4,2026-07-21,2026-09-04
+datacenter_three_states,At least three binding state data-center moratoriums,KXMORATORIUMCOUNT-26DEC31-AL3,0.15,43,28,25,16,5,2026-07-21,2026-09-04
+federal_ai_framework,Federal AI framework before 2027,KXAIBILL-26JUN-27JAN01,0.05,43,10,4,1,0,2026-07-10,2026-08-27
+federal_ai_framework,Federal AI framework before 2027,KXAIBILL-26JUN-27JAN01,0.1,43,34,31,7,0,2026-07-10,2026-09-04
+federal_ai_framework,Federal AI framework before 2027,KXAIBILL-26JUN-27JAN01,0.15,43,34,31,7,0,2026-07-10,2026-09-04
+election_gas_four,Election-day gasoline above $4,KXAAAGASED-26NOV03-4.00,0.05,43,25,14,10,3,2026-07-14,2026-09-04
+election_gas_four,Election-day gasoline above $4,KXAAAGASED-26NOV03-4.00,0.1,43,37,34,30,7,2026-07-14,2026-09-04
+election_gas_four,Election-day gasoline above $4,KXAAAGASED-26NOV03-4.00,0.15,43,37,34,30,7,2026-07-14,2026-09-04
+fed_2027_above375,End-2027 Fed upper bound above 3.75%,KXFEDFUNDSYEAR-28JAN01-T3.75,0.05,43,20,14,6,1,2026-07-30,2026-09-04
+fed_2027_above375,End-2027 Fed upper bound above 3.75%,KXFEDFUNDSYEAR-28JAN01-T3.75,0.1,43,23,19,11,1,2026-07-30,2026-09-04
+fed_2027_above375,End-2027 Fed upper bound above 3.75%,KXFEDFUNDSYEAR-28JAN01-T3.75,0.15,43,23,19,11,1,2026-07-30,2026-09-04
+sept_fed_hike25,September FOMC increase of 25 bp,KXFEDDECISION-26SEP-H25,0.05,43,42,40,38,22,2026-07-08,2026-09-04
+sept_fed_hike25,September FOMC increase of 25 bp,KXFEDDECISION-26SEP-H25,0.1,43,43,42,39,23,2026-07-08,2026-09-04
+sept_fed_hike25,September FOMC increase of 25 bp,KXFEDDECISION-26SEP-H25,0.15,43,43,42,39,23,2026-07-08,2026-09-04
+aca_extension,Enhanced ACA credits extended before 2027,KXACAEXT-26JAN-27,0.05,43,37,33,4,1,2026-07-08,2026-09-04
+aca_extension,Enhanced ACA credits extended before 2027,KXACAEXT-26JAN-27,0.1,43,37,33,4,1,2026-07-08,2026-09-04
+aca_extension,Enhanced ACA credits extended before 2027,KXACAEXT-26JAN-27,0.15,43,37,33,4,1,2026-07-08,2026-09-04
+michigan_dem,Democratic Michigan governor,GOVPARTYMI-26-D,0.05,43,40,36,11,0,2026-07-08,2026-09-04
+michigan_dem,Democratic Michigan governor,GOVPARTYMI-26-D,0.1,43,40,36,11,0,2026-07-08,2026-09-04
+michigan_dem,Democratic Michigan governor,GOVPARTYMI-26-D,0.15,43,40,36,11,0,2026-07-08,2026-09-04
+pennsylvania_dem,Democratic Pennsylvania governor,GOVPARTYPA-26-D,0.05,43,37,35,2,0,2026-07-15,2026-09-04
+pennsylvania_dem,Democratic Pennsylvania governor,GOVPARTYPA-26-D,0.1,43,37,35,2,0,2026-07-15,2026-09-04
+pennsylvania_dem,Democratic Pennsylvania governor,GOVPARTYPA-26-D,0.15,43,37,35,2,0,2026-07-15,2026-09-04
+arizona_dem,Democratic Arizona governor,GOVPARTYAZ-26-D,0.05,43,40,37,13,1,2026-07-09,2026-09-04
+arizona_dem,Democratic Arizona governor,GOVPARTYAZ-26-D,0.1,43,40,37,13,1,2026-07-09,2026-09-04
+arizona_dem,Democratic Arizona governor,GOVPARTYAZ-26-D,0.15,43,40,37,13,1,2026-07-09,2026-09-04

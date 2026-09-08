@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "declared_at": "2026-09-09",
+  "selection_basis": "Fixed economic-exposure groups inherited from the prior study universe and specified before fitting this programme's political return sensitivities. Prior performance was already visible: this is analyst-specified, not preregistered or historically point-in-time. Three explicit return contrasts were added after reviewing prior performance, then fitted together with the full baseline family.",
+  "weighting": "Equal-weight arithmetic constituent adjusted returns, reset each session; all constituents must be observed. Explicit relative-return contrasts use the listed positive and negative weights and are not funded portfolio total returns. No missing-stock reweighting.",
+  "benchmark": "SPY",
+  "baskets": [
+    {"id":"sector_technology","label":"Technology sector","kind":"sector","tickers":["XLK"]},
+    {"id":"sector_consumer_discretionary","label":"Consumer discretionary sector","kind":"sector","tickers":["XLY"]},
+    {"id":"sector_communications","label":"Communication services sector","kind":"sector","tickers":["XLC"]},
+    {"id":"sector_industrials","label":"Industrials sector","kind":"sector","tickers":["XLI"]},
+    {"id":"sector_utilities","label":"Utilities sector","kind":"sector","tickers":["XLU"]},
+    {"id":"sector_real_estate","label":"Real estate sector","kind":"sector","tickers":["XLRE"]},
+    {"id":"sector_energy","label":"Energy sector","kind":"sector","tickers":["XLE"]},
+    {"id":"sector_financials","label":"Financials sector","kind":"sector","tickers":["XLF"]},
+    {"id":"sector_healthcare","label":"Healthcare sector","kind":"sector","tickers":["XLV"]},
+    {"id":"sector_staples","label":"Consumer staples sector","kind":"sector","tickers":["XLP"]},
+    {"id":"cloud_platforms","label":"Cloud platforms","kind":"theme","tickers":["MSFT","AMZN","GOOGL"]},
+    {"id":"electrical_equipment","label":"Electrical equipment","kind":"theme","tickers":["ETN","VRT"]},
+    {"id":"regulated_utilities","label":"Regulated utilities","kind":"theme","tickers":["AEP","DUK"]},
+    {"id":"power_generators","label":"Power generators","kind":"theme","tickers":["CEG","VST"]},
+    {"id":"data_center_reits","label":"Data-center REITs","kind":"theme","tickers":["DLR","EQIX"]},
+    {"id":"integrated_energy","label":"Integrated energy","kind":"theme","tickers":["XOM","CVX"]},
+    {"id":"homebuilders","label":"Homebuilders","kind":"theme","tickers":["DHI","LEN"]},
+    {"id":"machinery_distribution","label":"Machinery and distribution","kind":"theme","tickers":["CAT","DE","FAST"]},
+    {"id":"managed_care","label":"Managed care (UNH only)","kind":"single_company_proxy","tickers":["UNH"]},
+    {"id":"hospitals","label":"Hospitals (HCA only)","kind":"single_company_proxy","tickers":["HCA"]},
+    {"id":"generators_minus_regulated","label":"Generators minus regulated utilities","kind":"relative_return_contrast","tickers":["CEG","VST","AEP","DUK"],"weights":[0.5,0.5,-0.5,-0.5]},
+    {"id":"equipment_minus_generators","label":"Equipment minus generators","kind":"relative_return_contrast","tickers":["ETN","VRT","CEG","VST"],"weights":[0.5,0.5,-0.5,-0.5]},
+    {"id":"hospitals_minus_managed_care","label":"Hospitals minus managed care","kind":"relative_return_contrast","tickers":["HCA","UNH"],"weights":[1,-1]}
+  ]
+}

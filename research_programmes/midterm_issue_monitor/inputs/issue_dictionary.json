@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "description": "Transparent research tags, not estimates of voter salience. Mention tagging uses the target word only; other tagging uses title and series title, never generic settlement boilerplate.",
+  "lead_hours": 24,
+  "max_quote_age_hours": 24,
+  "max_spread_probability": 0.25,
+  "min_events_per_period": 3,
+  "min_matched_cohorts": 2,
+  "issues": [
+    {"id":"affordability_inflation","label":"Affordability and inflation","patterns":["\\binflation\\b","\\bcpi\\b","\\bpce\\b","\\baffordab","\\bcost of living\\b","\\bgrocer","\\bfood prices?\\b"]},
+    {"id":"energy_iran","label":"Energy and Iran","patterns":["\\biran\\b","\\bhormuz\\b","\\bgasoline\\b","\\bgas prices?\\b","\\bcrude\\b","\\bbrent\\b","\\bwti\\b","\\boil\\b","\\bopec\\b"]},
+    {"id":"electricity_datacenters","label":"Electricity and data centers","patterns":["\\belectric","\\bpower grid\\b","\\bdata[ -]?cent(?:er|re)","\\bercot\\b","\\benergy bills?\\b","\\butility bills?\\b"]},
+    {"id":"ai_jobs_regulation","label":"AI, jobs and regulation","patterns":["\\bai\\b","\\bartificial intelligence\\b","\\bautomation\\b","\\btechlash\\b","\\bpreemption\\b","\\bopenai\\b","\\banthropic\\b"]},
+    {"id":"healthcare","label":"Health care","patterns":["\\bhealth[ -]?care\\b","\\bmedicare\\b","\\bmedicaid\\b","\\bobamacare\\b","\\baca\\b","\\bdrug pric","\\binsurance premiums?\\b"]},
+    {"id":"housing","label":"Housing","patterns":["\\bhousing\\b","\\bmortgage\\b","\\brents?\\b","\\bhome prices?\\b","\\bhome sales?\\b","\\bzoning\\b","\\bhomeless"]},
+    {"id":"immigration","label":"Immigration","patterns":["\\bimmigra","\\bdeport","\\bborder\\b","\\bmigrants?\\b","\\basylum\\b","\\bice\\b","\\bh[ -]?1b\\b"]},
+    {"id":"trade_tariffs","label":"Trade and tariffs","patterns":["\\btariff","\\btrade (?:deal|war|deficit|agreement)","\\bimports?\\b","\\bexports?\\b","\\breshor","\\bnearshor"]},
+    {"id":"taxes_fiscal","label":"Taxes and fiscal policy","patterns":["\\btax(?:es|ation|able)?\\b","\\bbudget\\b","\\bdeficit\\b","\\bfiscal\\b","\\breconciliation\\b","\\bgovernment spend","\\bshutdown\\b","\\bdebt ceiling\\b"]},
+    {"id":"jobs_growth","label":"Jobs and growth","patterns":["\\bgdp\\b","\\bgrowth\\b","\\bjobs?\\b","\\bpayroll","\\bunemployment\\b","\\brecession\\b","\\blayoffs?\\b","\\bemployment\\b","\\bproductivity\\b","\\bjobless\\b"]},
+    {"id":"fed_rates","label":"Fed and interest rates","patterns":["\\bfed\\b","\\bfederal reserve\\b","\\bfomc\\b","\\brate cuts?\\b","\\brate hikes?\\b","\\binterest rates?\\b","\\bfed funds\\b","\\btreasury (?:yield|spread)","\\b[123]0?[ -]?year.*yield\\b"]}
+  ]
+}

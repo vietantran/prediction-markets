@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-09-08T15:07:00Z",
+  "status": "complete",
+  "companies": 7,
+  "scenario_rows": 42,
+  "excluded": [],
+  "assumption_status": "Analyst-designed sensitivity cases, not management guidance, consensus estimates, historical calibration or probability-weighted forecasts.",
+  "probability_weights": "none",
+  "return_definition": "Nominal USD price return; excludes dividends, taxes, transaction costs and hedging costs.",
+  "input_sha256": {
+    "company_fundamentals.csv": "1f2eb43f025e095b8edc804939b1b1d20147df8c461c64d2bd55af05d04c4a3a",
+    "equity_prices.csv": "0bd47f025a9bcd918df47686c1362b5a9435eac8e2e703919e5e5ba7a107bdf6"
+  },
+  "config_sha256": "3a638d7e7470dc6ad7414ef2d39e6275ae2e70e62bfbeb9650f383a4486cda20",
+  "model_limit": "Starting EPS is reconstructed TTM; changing shares and one-offs require underwriting. Only the disclosed Microsoft OpenAI gain is explicitly removed. Cases are financial sensitivities, not election-conditioned earnings forecasts.",
+  "all_scenario_results_finite": true
+}

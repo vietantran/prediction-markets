@@ -1,0 +1,578 @@
+issue_id,channel,series_ticker,series_title,recent_days,recent_new_contracts,prior_new_contracts,recent_new_events,prior_new_events,contract_creation_rate_ratio,contracts_per_affected_event_recent,archive_first_family_creation,family_first_observed_within_recent_window,is_genuinely_new_issue,issue_label
+affordability_inflation,macro,KXAIRFARECPI,US airline fares CPI in [month],7,0,14,0,1,0.0,,2026-05-12T17:11:55Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXAIRFARECPI,US airline fares CPI in [month],14,0,14,0,1,0.0,,2026-05-12T17:11:55Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXCPICOMBO,CPI Combo,7,0,12,0,1,0.0,,2026-02-24T17:47:02Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXCPICOMBO,CPI Combo,14,0,12,0,1,0.0,,2026-02-24T17:47:02Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXCPICOREHEAD,Core CPI inflation above headline CPI inflation in [month]?,7,0,1,0,1,0.0,,2026-06-23T17:54:15Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXCPICOREHEAD,Core CPI inflation above headline CPI inflation in [month]?,14,0,1,0,1,0.0,,2026-06-23T17:54:15Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXCPINDEX,CPI-U index in [month],7,0,25,0,1,0.0,,2026-07-06T16:34:59Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXCPINDEX,CPI-U index in [month],14,0,25,0,1,0.0,,2026-07-06T16:34:59Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXPCEHEAD,U.S. headline PCE inflation,7,0,8,0,1,0.0,,2026-08-28T15:58:24Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXPCEHEAD,U.S. headline PCE inflation,14,8,0,1,0,,8.0,2026-08-28T15:58:24Z,True,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXSHELTERCPI,US shelter CPI in [month],7,0,14,0,1,0.0,,2026-05-12T16:06:49Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXSHELTERCPI,US shelter CPI in [month],14,0,14,0,1,0.0,,2026-05-12T16:06:49Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXUSCPIYEAR,U.S. headline inflation at year end,14,0,26,0,2,0.0,,2026-07-29T21:50:05Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXUSEDCARCPI,US used cars and trucks CPI in [month],7,0,14,0,1,0.0,,2026-05-12T17:01:34Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXUSEDCARCPI,US used cars and trucks CPI in [month],14,0,14,0,1,0.0,,2026-05-12T17:01:34Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXUSGASCPI,US gasoline CPI in [month],7,0,14,0,0,0.0,,2026-05-12T15:53:34Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXUSGASCPI,US gasoline CPI in [month],14,0,14,0,0,0.0,,2026-05-12T15:53:34Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXUSUKCOREINF,Will U.S. core inflation be above UK core inflation,7,0,1,0,1,0.0,,2026-07-27T20:54:28Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,macro,KXUSUKCOREINF,Will U.S. core inflation be above UK core inflation,14,0,1,0,1,0.0,,2026-07-27T20:54:28Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXALLINMENTION,All in with Chris Hayes,7,0,2,0,2,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXALLINMENTION,All in with Chris Hayes,14,0,2,0,2,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXEARNINGSMENTIONDELL,Dell Earnings,14,0,1,0,1,0.0,,2026-07-30T21:15:01Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXFEDMENTION,Fed mention,14,0,1,0,1,0.0,,2026-05-27T00:25:57Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXFOXNEWSMENTION,Fox News,7,0,1,0,1,0.0,,2026-06-10T16:18:38Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXFOXNEWSMENTION,Fox News,14,0,1,0,1,0.0,,2026-06-10T16:18:38Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXGOVERNORMENTION,Generic Governor,7,0,2,0,2,0.0,,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXGOVERNORMENTION,Generic Governor,14,1,1,1,1,2.0,1.0,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXHEARINGMENTION,Hearing Mention,14,0,2,0,2,0.0,,2026-06-08T19:01:27Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXLASTWORDMENTION,Last Word,7,0,7,0,6,0.0,,2026-02-12T00:12:44Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXLASTWORDMENTION,Last Word,14,3,6,3,5,1.0,1.0,2026-02-12T00:12:44Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXMADDOWMENTION,Rachel Maddow,14,0,1,0,1,0.0,,2026-06-07T18:53:38Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXMAMDANIMENTION,What will Zohran Mamdani say? ,7,6,26,3,14,0.923076923076923,2.0,2026-02-25T22:36:47Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXMAMDANIMENTION,What will Zohran Mamdani say? ,14,15,21,8,11,1.4285714285714286,1.875,2026-02-25T22:36:47Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXPSAKIMENTION,Jen Psaki Mention,7,1,6,1,6,0.6666666666666666,1.0,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXPSAKIMENTION,Jen Psaki Mention,14,4,3,4,3,2.6666666666666665,1.0,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXSECPRESSMENTION,Sec Press mentions,7,0,1,0,1,0.0,,2025-03-05T12:37:28Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXSECPRESSMENTION,Sec Press mentions,14,0,1,0,1,0.0,,2025-03-05T12:37:28Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXTHEWEEKNIGHTMENTION,Weeknight,7,0,1,0,1,0.0,,2026-06-15T20:54:19Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXTHEWEEKNIGHTMENTION,Weeknight,14,0,1,0,1,0.0,,2026-06-15T20:54:19Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXTRUMPMENTION,What will Trump say?,7,2,18,1,16,0.44444444444444436,2.0,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXTRUMPMENTION,What will Trump say?,14,5,21,4,19,0.4761904761904762,1.25,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXTRUMPMENTIONB,Trump Mention B,7,0,5,0,5,0.0,,2026-06-11T18:04:39Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXTRUMPMENTIONB,Trump Mention B,14,1,7,1,7,0.2857142857142857,1.0,2026-06-11T18:04:39Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXVANCEMENTION,Vance Says,7,2,10,1,7,0.7999999999999999,2.0,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,mention,KXVANCEMENTION,Vance Says,14,5,7,3,5,1.4285714285714286,1.6666666666666667,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,policy,KXDOJBEEFACTION,DOJ beef-retailer antitrust action,7,1,0,1,0,,1.0,2026-09-02T22:27:48Z,True,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,policy,KXDOJBEEFACTION,DOJ beef-retailer antitrust action,14,1,0,1,0,,1.0,2026-09-02T22:27:48Z,True,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,policy,KXLOCALLAW,Which of these state or local laws will pass?,7,0,1,0,1,0.0,,2026-08-17T17:55:58Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,policy,KXLOCALLAW,Which of these state or local laws will pass?,14,0,1,0,1,0.0,,2026-08-17T17:55:58Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,policy,KXNYCAFFORDABLE,How many affordable homes will NYC finance in FY2027?,14,0,5,0,1,0.0,,2026-07-28T21:30:49Z,False,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,policy,KXNYCGROCERYCASE,Court order pausing an NYC municipal grocery store,7,3,0,1,0,,3.0,2026-09-01T01:55:31Z,True,not_identifiable_from_metadata,Affordability and inflation
+affordability_inflation,policy,KXNYCGROCERYCASE,Court order pausing an NYC municipal grocery store,14,3,0,1,0,,3.0,2026-09-01T01:55:31Z,True,not_identifiable_from_metadata,Affordability and inflation
+ai_jobs_regulation,macro,KXAIGROWTHBET,MacAskill–Moll AI growth bet,7,0,2,0,1,0.0,,2026-08-28T18:00:33Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,macro,KXAIGROWTHBET,MacAskill–Moll AI growth bet,14,2,0,1,0,,2.0,2026-08-28T18:00:33Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXALLINMENTION,All in with Chris Hayes,7,0,1,0,1,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXALLINMENTION,All in with Chris Hayes,14,0,1,0,1,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXDEBATEMENTION,Debate Mentions,14,0,2,0,2,0.0,,2026-06-30T20:25:06Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONADBE,Adobe Earnings,7,0,3,0,1,0.0,,2026-06-09T19:44:41Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONADBE,Adobe Earnings,14,3,0,1,0,,3.0,2026-06-09T19:44:41Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONAVGO,Broadcom Earnings,7,0,2,0,1,0.0,,2026-08-26T16:39:00Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONAVGO,Broadcom Earnings,14,2,0,1,0,,2.0,2026-08-26T16:39:00Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCBRS,Cerebras,7,0,1,0,1,0.0,,2026-08-04T19:01:26Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCBRS,Cerebras,14,0,1,0,1,0.0,,2026-08-04T19:01:26Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCHWY,Chewy Earnings,7,0,1,0,1,0.0,,2026-06-03T02:04:42Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCHWY,Chewy Earnings,14,1,0,1,0,,1.0,2026-06-03T02:04:42Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCOST,What will Costco say on their next earnings call?,7,0,1,0,1,0.0,,2026-08-26T16:28:30Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCOST,What will Costco say on their next earnings call?,14,1,0,1,0,,1.0,2026-08-26T16:28:30Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCRM,What Will Salesforce Say During Their Earnings Call?,7,0,2,0,1,0.0,,2026-08-18T23:58:28Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCRM,What Will Salesforce Say During Their Earnings Call?,14,0,2,0,1,0.0,,2026-08-18T23:58:28Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCRWD,CrowdStrike Earnings,7,0,3,0,1,0.0,,2026-08-04T21:14:29Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCRWD,CrowdStrike Earnings,14,0,3,0,1,0.0,,2026-08-04T21:14:29Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCRWV,CoreWeave Earnings,7,0,1,0,1,0.0,,2026-08-10T16:53:38Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONCRWV,CoreWeave Earnings,14,0,1,0,1,0.0,,2026-08-10T16:53:38Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONDE,Deere,7,0,2,0,1,0.0,,2026-08-11T02:23:48Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONDE,Deere,14,0,2,0,1,0.0,,2026-08-11T02:23:48Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONDELL,Dell Earnings,14,0,2,0,1,0.0,,2026-07-30T21:15:01Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONHPE,Hewlett Packard Enterprise,7,0,2,0,1,0.0,,2026-08-26T16:58:09Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONHPE,Hewlett Packard Enterprise,14,2,0,1,0,,2.0,2026-08-26T16:58:09Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONKR,Kroger,7,0,1,0,1,0.0,,2026-06-16T01:30:00Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONKR,Kroger,14,1,0,1,0,,1.0,2026-06-16T01:30:00Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONLUNR,Intuitive Machines earnings call,7,0,1,0,1,0.0,,2026-08-11T01:29:31Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONLUNR,Intuitive Machines earnings call,14,0,1,0,1,0.0,,2026-08-11T01:29:31Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONM,Macy's Earnings Call,7,0,2,0,1,0.0,,2026-08-26T19:46:39Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONM,Macy's Earnings Call,14,2,0,1,0,,2.0,2026-08-26T19:46:39Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONORCL,What will Oracle say in their earnings call,7,0,2,0,1,0.0,,2026-06-03T16:30:34Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONORCL,What will Oracle say in their earnings call,14,2,0,1,0,,2.0,2026-06-03T16:30:34Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONPANW,Palo Alto Networks Earnings Call,7,0,1,0,1,0.0,,2026-08-26T17:32:50Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONPANW,Palo Alto Networks Earnings Call,14,1,0,1,0,,1.0,2026-08-26T17:32:50Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONPATH,UiPath Earnings Call,7,0,2,0,1,0.0,,2026-08-26T16:51:08Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONPATH,UiPath Earnings Call,14,2,0,1,0,,2.0,2026-08-26T16:51:08Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONSNOW,Snowflake Earnings,7,0,1,0,1,0.0,,2026-08-26T16:44:53Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONSNOW,Snowflake Earnings,14,1,0,1,0,,1.0,2026-08-26T16:44:53Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONYETI,Yeti earnings call,7,0,1,0,1,0.0,,2026-08-11T01:07:14Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONYETI,Yeti earnings call,14,0,1,0,1,0.0,,2026-08-11T01:07:14Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONZM,What Will Zoom Say During Their Earnings Call?,7,0,1,0,1,0.0,,2026-08-19T00:01:44Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONZM,What Will Zoom Say During Their Earnings Call?,14,0,1,0,1,0.0,,2026-08-19T00:01:44Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONZS,Zscaler Earnings Call,7,0,1,0,1,0.0,,2026-08-26T17:19:17Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXEARNINGSMENTIONZS,Zscaler Earnings Call,14,1,0,1,0,,1.0,2026-08-26T17:19:17Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXELONMENTION,Elon Mention,14,0,2,0,1,0.0,,2026-08-03T18:37:30Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXFEDMENTION,Fed mention,14,0,1,0,1,0.0,,2026-05-27T00:25:57Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXFOXNEWSMENTION,Fox News,7,0,3,0,3,0.0,,2026-06-10T16:18:38Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXFOXNEWSMENTION,Fox News,14,0,4,0,4,0.0,,2026-06-10T16:18:38Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXGOVERNORMENTION,Generic Governor,7,0,1,0,1,0.0,,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXGOVERNORMENTION,Generic Governor,14,0,1,0,1,0.0,,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXHANNITYMENTION,Hannity ,14,0,1,0,1,0.0,,2026-07-20T18:31:54Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXHEARINGMENTION,Hearing Mention,7,0,1,0,1,0.0,,2026-06-08T19:01:27Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXHEARINGMENTION,Hearing Mention,14,0,2,0,2,0.0,,2026-06-08T19:01:27Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXMAMDANIMENTION,What will Zohran Mamdani say? ,7,3,13,3,13,0.923076923076923,1.0,2026-02-25T22:36:47Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXMAMDANIMENTION,What will Zohran Mamdani say? ,14,7,11,7,11,1.2727272727272727,1.0,2026-02-25T22:36:47Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXMELANIAMENTION,Melania Mention,7,0,1,0,1,0.0,,2026-06-09T13:31:59Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXMELANIAMENTION,Melania Mention,14,0,1,0,1,0.0,,2026-06-09T13:31:59Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXNETANYAHUMENTION,Netanyahu Mention,7,1,0,1,0,,1.0,2026-07-18T13:40:58Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXNETANYAHUMENTION,Netanyahu Mention,14,1,0,1,0,,1.0,2026-07-18T13:40:58Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXPSAKIMENTION,Jen Psaki Mention,7,0,7,0,7,0.0,,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXPSAKIMENTION,Jen Psaki Mention,14,3,4,3,4,1.5,1.0,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXSECPRESSMENTION,Sec Press mentions,7,0,1,0,1,0.0,,2025-03-05T12:37:28Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXSECPRESSMENTION,Sec Press mentions,14,0,1,0,1,0.0,,2025-03-05T12:37:28Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXTHEWEEKNIGHTMENTION,Weeknight,7,0,1,0,1,0.0,,2026-06-15T20:54:19Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXTHEWEEKNIGHTMENTION,Weeknight,14,0,1,0,1,0.0,,2026-06-15T20:54:19Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXTRUMPMENTION,What will Trump say?,7,2,17,2,17,0.47058823529411764,1.0,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXTRUMPMENTION,What will Trump say?,14,6,19,5,20,0.631578947368421,1.0,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXTRUMPMENTIONB,Trump Mention B,7,0,5,0,5,0.0,,2026-06-11T18:04:39Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXTRUMPMENTIONB,Trump Mention B,14,1,8,1,8,0.25,1.0,2026-06-11T18:04:39Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXTRUMPSAYCOMPANY,Will Trump mention company,7,2,0,1,0,,2.0,2026-06-30T17:34:25Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXTRUMPSAYCOMPANY,Will Trump mention company,14,2,2,1,1,2.0,2.0,2026-06-30T17:34:25Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXVANCEMENTION,Vance Says,7,1,4,1,4,1.0,1.0,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,mention,KXVANCEMENTION,Vance Says,14,2,3,2,3,1.3333333333333333,1.0,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,policy,KXAPPLEOPENAICASE,Apple v OpenAI trade-secrets case,7,1,0,1,0,,1.0,2026-09-02T02:47:18Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,policy,KXAPPLEOPENAICASE,Apple v OpenAI trade-secrets case,14,1,0,1,0,,1.0,2026-09-02T02:47:18Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,policy,KXCHINALIST,Which companies will be added to the Pentagon’s Chinese military companies list?,14,0,1,0,1,0.0,,2026-07-28T15:18:54Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,policy,KXFTCAIBOOKS,FTC investigation into AI book destruction,7,0,1,0,1,0.0,,2026-08-24T19:27:55Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,policy,KXFTCAIBOOKS,FTC investigation into AI book destruction,14,0,1,0,1,0.0,,2026-08-24T19:27:55Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,policy,KXLOCALLAW,Which of these state or local laws will pass?,7,0,1,0,1,0.0,,2026-08-17T17:55:58Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,policy,KXLOCALLAW,Which of these state or local laws will pass?,14,0,1,0,1,0.0,,2026-08-17T17:55:58Z,False,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,policy,KXUSAIREGULATOR,US national AI regulator timing,7,3,0,1,0,,3.0,2026-09-04T15:21:27Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+ai_jobs_regulation,policy,KXUSAIREGULATOR,US national AI regulator timing,14,3,0,1,0,,3.0,2026-09-04T15:21:27Z,True,not_identifiable_from_metadata,"AI, jobs and regulation"
+electoral_context,election,HOUSEAKAL,House Alaska at-large,14,0,1,0,0,0.0,,2025-07-01T06:06:36Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,KXFOURSTATESEN,Four-state senate combo,14,0,16,0,1,0.0,,2026-08-03T18:35:05Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,KXHOUSERACE,House Race Winner?,7,1,0,0,0,,1.0,2026-01-05T22:53:21Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,KXHOUSERACE,House Race Winner?,14,1,0,0,0,,1.0,2026-01-05T22:53:21Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,KXHOUSEWINSTATE,How many seats will party win in state?,7,0,55,0,8,0.0,,2026-04-27T16:04:16Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,KXHOUSEWINSTATE,How many seats will party win in state?,14,0,55,0,8,0.0,,2026-04-27T16:04:16Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,KXMDSD2,Who will win the 2026 Maryland State Senate District 2 general election?,7,0,2,0,1,0.0,,2026-08-12T15:32:19Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,KXMDSD2,Who will win the 2026 Maryland State Senate District 2 general election?,14,0,2,0,1,0.0,,2026-08-12T15:32:19Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,KXMOSD8,Missouri State Senate District 8 winner,7,0,2,0,1,0.0,,2026-08-23T21:33:26Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,KXMOSD8,Missouri State Senate District 8 winner,14,0,2,0,1,0.0,,2026-08-23T21:33:26Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,KXPAHD12,Pennsylvania State House District 12 winner,7,0,2,0,1,0.0,,2026-08-20T17:36:44Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,KXPAHD12,Pennsylvania State House District 12 winner,14,0,2,0,1,0.0,,2026-08-20T17:36:44Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,SENATEID,Idaho Senate race,14,0,1,0,0,0.0,,2024-12-03T05:22:34Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,SENATESD,South Dakota Senate race,7,0,1,0,0,0.0,,2024-12-03T05:18:21Z,False,not_identifiable_from_metadata,Election outcomes and control
+electoral_context,election,SENATESD,South Dakota Senate race,14,0,1,0,0,0.0,,2024-12-03T05:18:21Z,False,not_identifiable_from_metadata,Election outcomes and control
+electricity_datacenters,macro,KXDATACENTCON,U.S. Data Center Construction Spending,7,7,7,1,1,4.0,7.0,2026-08-14T20:58:40Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,macro,KXDATACENTCON,U.S. Data Center Construction Spending,14,7,7,1,1,2.0,7.0,2026-08-14T20:58:40Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,macro,KXPOWERKWH,Average US electricity price this month,7,0,7,0,1,0.0,,2026-06-08T15:24:11Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,macro,KXPOWERKWH,Average US electricity price this month,14,0,7,0,1,0.0,,2026-06-08T15:24:11Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,macro,KXTXERCOTPEAK,Texas ERCOT peak electricity demand,7,0,7,0,1,0.0,,2026-08-18T00:38:51Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,macro,KXTXERCOTPEAK,Texas ERCOT peak electricity demand,14,0,7,0,1,0.0,,2026-08-18T00:38:51Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,macro,KXTXERCOTPEAKD,Texas ERCOT peak electricity demand,7,90,59,7,5,6.101694915254237,12.857142857142858,2026-08-28T01:17:22Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,macro,KXTXERCOTPEAKD,Texas ERCOT peak electricity demand,14,149,0,12,0,,12.416666666666666,2026-08-28T01:17:22Z,True,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXALLINMENTION,All in with Chris Hayes,7,0,1,0,1,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXALLINMENTION,All in with Chris Hayes,14,0,1,0,1,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXDEBATEMENTION,Debate Mentions,14,0,2,0,2,0.0,,2026-06-30T20:25:06Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXEARNINGSMENTIONCELH,Celsius Earnings,14,0,1,0,1,0.0,,2026-07-28T19:31:39Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXEARNINGSMENTIONDELL,Dell Earnings,14,0,1,0,1,0.0,,2026-07-30T21:15:01Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXGOVERNORMENTION,Generic Governor,7,0,1,0,1,0.0,,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXGOVERNORMENTION,Generic Governor,14,0,1,0,1,0.0,,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXHEARINGMENTION,Hearing Mention,14,0,2,0,2,0.0,,2026-06-08T19:01:27Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXPSAKIMENTION,Jen Psaki Mention,7,0,1,0,1,0.0,,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXPSAKIMENTION,Jen Psaki Mention,14,0,1,0,1,0.0,,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXTRUMPMENTION,What will Trump say?,7,0,2,0,1,0.0,,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXTRUMPMENTION,What will Trump say?,14,0,2,0,2,0.0,,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXVANCEMENTION,Vance Says,7,0,1,0,1,0.0,,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,mention,KXVANCEMENTION,Vance Says,14,1,0,1,0,,1.0,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,policy,KXCHINADATACENTER,FCC data center action,7,0,1,0,1,0.0,,2026-08-04T18:19:40Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,policy,KXCHINADATACENTER,FCC data center action,14,0,1,0,1,0.0,,2026-08-04T18:19:40Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,policy,KXLOCALLAW,Which of these state or local laws will pass?,7,0,4,0,4,0.0,,2026-08-17T17:55:58Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,policy,KXLOCALLAW,Which of these state or local laws will pass?,14,0,4,0,4,0.0,,2026-08-17T17:55:58Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,policy,KXVADOMNEX,Will Virginia regulators approve the Dominion-NextEra merger?,7,0,1,0,1,0.0,,2026-08-17T20:07:53Z,False,not_identifiable_from_metadata,Electricity and data centers
+electricity_datacenters,policy,KXVADOMNEX,Will Virginia regulators approve the Dominion-NextEra merger?,14,0,1,0,1,0.0,,2026-08-17T20:07:53Z,False,not_identifiable_from_metadata,Electricity and data centers
+energy_iran,macro,KXAAAGASD,US gas price up,7,119,479,7,28,0.9937369519832985,17.0,2026-06-08T13:10:25Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASD,US gas price up,14,238,479,14,28,0.9937369519832985,17.0,2026-06-08T13:10:25Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDCA,California gas price,7,139,119,7,7,4.6722689075630255,19.857142857142858,2026-08-25T10:00:32Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDCA,California gas price,14,258,0,14,0,,18.428571428571427,2026-08-25T10:00:32Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDFL,Florida gas price,7,129,136,7,7,3.7941176470588234,18.428571428571427,2026-08-25T10:00:33Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDFL,Florida gas price,14,265,0,14,0,,18.928571428571427,2026-08-25T10:00:33Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDGA,Georgia gas price,7,121,0,7,0,,17.285714285714285,2026-09-01T10:00:45Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDGA,Georgia gas price,14,121,0,7,0,,17.285714285714285,2026-09-01T10:00:45Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDIL,Illinois gas price,7,119,119,7,7,4.0,17.0,2026-08-25T10:00:36Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDIL,Illinois gas price,14,238,0,14,0,,17.0,2026-08-25T10:00:36Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDNC,North Carolina gas price,7,119,0,7,0,,17.0,2026-09-01T10:00:47Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDNC,North Carolina gas price,14,119,0,7,0,,17.0,2026-09-01T10:00:47Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDNJ,New Jersey gas prices,7,126,119,7,7,4.235294117647059,15.75,2026-08-25T10:00:36Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDNJ,New Jersey gas prices,14,245,0,14,0,,17.5,2026-08-25T10:00:36Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDNY,New York gas price,7,119,119,7,7,4.0,17.0,2026-08-25T10:00:33Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDNY,New York gas price,14,238,0,14,0,,17.0,2026-08-25T10:00:33Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDOH,Ohio gas price,7,159,0,7,0,,22.714285714285715,2026-09-01T10:00:47Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDOH,Ohio gas price,14,159,0,7,0,,22.714285714285715,2026-09-01T10:00:47Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDPA,Pennsylvania gas price,7,129,0,7,0,,18.428571428571427,2026-09-01T10:00:46Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDPA,Pennsylvania gas price,14,129,0,7,0,,18.428571428571427,2026-09-01T10:00:46Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDTX,TX gas price,7,119,153,7,9,3.111111111111111,17.0,2026-08-23T10:00:59Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDTX,TX gas price,14,238,34,14,2,14.000000000000002,17.0,2026-08-23T10:00:59Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDWA,Washington gas price,7,123,0,7,0,,17.571428571428573,2026-09-01T10:00:45Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASDWA,Washington gas price,14,123,0,7,0,,17.571428571428573,2026-09-01T10:00:45Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASM,US gas price,7,0,37,0,0,0.0,,2025-10-07T14:53:21Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASM,US gas price,14,28,12,0,0,4.666666666666667,14.0,2025-10-07T14:53:21Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASMAXM,US highest gas price monthly,7,0,9,0,1,0.0,,2026-08-26T21:36:49Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASMAXM,US highest gas price monthly,14,9,0,1,0,,9.0,2026-08-26T21:36:49Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASMINM,US lowest gas price monthly,7,0,9,0,1,0.0,,2026-08-26T23:04:18Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASMINM,US lowest gas price monthly,14,9,0,1,0,,9.0,2026-08-26T23:04:18Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASW,US gas price up,7,35,118,1,4,1.1864406779661016,17.5,2026-03-09T16:13:13Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASW,US gas price up,14,65,118,2,4,1.1016949152542372,21.666666666666668,2026-03-09T16:13:13Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASWNJ,New Jersey gas price this week,7,32,42,1,2,3.0476190476190474,16.0,2026-08-24T15:55:47Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXAAAGASWNJ,New Jersey gas price this week,14,53,21,2,1,5.0476190476190474,26.5,2026-08-24T15:55:47Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXBRENTD,Brent Oil Daily,7,80,370,3,16,0.8648648648648649,26.666666666666668,2026-06-05T08:50:36Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXBRENTD,Brent Oil Daily,14,190,380,8,15,1.0,23.75,2026-06-05T08:50:36Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXBRENTMON,Brent Monthly,7,30,0,1,0,,30.0,2026-06-01T17:37:14Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXBRENTMON,Brent Monthly,14,30,20,1,1,3.0,30.0,2026-06-01T17:37:14Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXBRENTW,Brent Oil,7,0,80,0,4,0.0,,2026-06-05T00:00:55Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXBRENTW,Brent Oil,14,20,90,1,4,0.4444444444444444,20.0,2026-06-05T00:00:55Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXDOESPRTENDER,DOE Strategic Petroleum Reserve tenders,7,0,3,0,1,0.0,,2026-08-24T19:27:11Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXDOESPRTENDER,DOE Strategic Petroleum Reserve tenders,14,0,3,0,1,0.0,,2026-08-24T19:27:11Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXEIACRUDEW,U.S. crude oil inventories,7,13,13,1,1,4.0,13.0,2026-08-25T14:59:47Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXEIACRUDEW,U.S. crude oil inventories,14,26,0,2,0,,13.0,2026-08-25T14:59:47Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXNATGAS15M,Natural Gas 15-minute,7,496,246,496,246,8.065040650406504,1.0,2026-08-27T20:15:48Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXNATGAS15M,Natural Gas 15-minute,14,742,0,742,0,,1.0,2026-08-27T20:15:48Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXTXOIL,Texas crude oil production,7,0,4,0,1,0.0,,2026-08-18T02:22:45Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXTXOIL,Texas crude oil production,14,0,4,0,1,0.0,,2026-08-18T02:22:45Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXUSGASCPI,US gasoline CPI in [month],7,0,14,0,0,0.0,,2026-05-12T15:53:34Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXUSGASCPI,US gasoline CPI in [month],14,0,14,0,0,0.0,,2026-05-12T15:53:34Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTI,WTI oil on day,7,130,620,4,20,0.838709677419355,26.0,2024-10-22T04:45:44Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTI,WTI oil on day,14,280,640,9,20,0.875,28.0,2024-10-22T04:45:44Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTI15M,WTI 15-minute,7,496,1975,496,1975,1.0045569620253165,1.0,2026-07-31T17:49:29Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTI15M,WTI 15-minute,14,992,1615,992,1615,1.228482972136223,1.0,2026-07-31T17:49:29Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTIH,WTI Hourly,7,3968,18689,99,466,0.8492696238429024,40.08080808080808,2026-07-07T13:12:49Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTIH,WTI Hourly,14,8657,18618,216,463,0.9299602535181007,40.0787037037037,2026-07-07T13:12:49Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTIMAX,WTI oil high,7,20,20,1,1,4.0,20.0,2026-03-03T22:50:56Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTIMAX,WTI oil high,14,20,20,1,1,2.0,20.0,2026-03-03T22:50:56Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTIMIN,WTI oil low,7,20,20,1,1,4.0,20.0,2026-04-08T01:55:41Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTIMIN,WTI oil low,14,20,20,1,1,2.0,20.0,2026-04-08T01:55:41Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTIW,WTI oil weekly range,7,27,108,1,4,1.0,27.0,2024-12-06T10:05:12Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,macro,KXWTIW,WTI oil weekly range,14,54,108,2,4,1.0,27.0,2024-12-06T10:05:12Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXALLINMENTION,All in with Chris Hayes,7,0,4,0,2,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXALLINMENTION,All in with Chris Hayes,14,0,4,0,2,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONAMZN,Amazon earnings mention,14,0,1,0,0,0.0,,2026-07-21T15:24:38Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONAS,Amer Sports Earnings Call,7,0,2,0,1,0.0,,2026-08-11T19:35:09Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONAS,Amer Sports Earnings Call,14,0,2,0,1,0.0,,2026-08-11T19:35:09Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONBJ,BJ's Wholesale Club Earnings Call,7,0,1,0,1,0.0,,2026-08-18T22:10:31Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONBJ,BJ's Wholesale Club Earnings Call,14,0,1,0,1,0.0,,2026-08-18T22:10:31Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONCOST,What will Costco say on their next earnings call?,7,0,1,0,1,0.0,,2026-08-26T16:28:30Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONCOST,What will Costco say on their next earnings call?,14,1,0,1,0,,1.0,2026-08-26T16:28:30Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONDE,Deere,7,0,2,0,1,0.0,,2026-08-11T02:23:48Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONDE,Deere,14,0,2,0,1,0.0,,2026-08-11T02:23:48Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONKR,Kroger,7,0,1,0,1,0.0,,2026-06-16T01:30:00Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONKR,Kroger,14,1,0,1,0,,1.0,2026-06-16T01:30:00Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONLULU,Lululemon Earnings Call,7,0,1,0,1,0.0,,2026-08-26T16:59:42Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONLULU,Lululemon Earnings Call,14,1,0,1,0,,1.0,2026-08-26T16:59:42Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONUBER,uber earnings mention,14,0,2,0,1,0.0,,2026-07-30T01:26:27Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONYETI,Yeti earnings call,7,0,1,0,1,0.0,,2026-08-11T01:07:14Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXEARNINGSMENTIONYETI,Yeti earnings call,14,0,1,0,1,0.0,,2026-08-11T01:07:14Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXFEDMENTION,Fed mention,14,0,3,0,1,0.0,,2026-05-27T00:25:57Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXFOXNEWSMENTION,Fox News,7,0,6,0,3,0.0,,2026-06-10T16:18:38Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXFOXNEWSMENTION,Fox News,14,0,8,0,4,0.0,,2026-06-10T16:18:38Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXGOVERNORMENTION,Generic Governor,7,0,3,0,2,0.0,,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXGOVERNORMENTION,Generic Governor,14,1,2,1,1,1.0,1.0,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXHANNITYMENTION,Hannity ,14,0,2,0,1,0.0,,2026-07-20T18:31:54Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXHEARINGMENTION,Hearing Mention,7,0,1,0,1,0.0,,2026-06-08T19:01:27Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXHEARINGMENTION,Hearing Mention,14,0,1,0,1,0.0,,2026-06-08T19:01:27Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXLASTWORDMENTION,Last Word,7,0,3,0,2,0.0,,2026-02-12T00:12:44Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXLASTWORDMENTION,Last Word,14,0,7,0,4,0.0,,2026-02-12T00:12:44Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXMADDOWMENTION,Rachel Maddow,14,0,2,0,1,0.0,,2026-06-07T18:53:38Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXNETANYAHUMENTION,Netanyahu Mention,7,2,0,1,0,,2.0,2026-07-18T13:40:58Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXNETANYAHUMENTION,Netanyahu Mention,14,2,1,1,1,4.0,2.0,2026-07-18T13:40:58Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXPSAKIMENTION,Jen Psaki Mention,7,0,8,0,5,0.0,,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXPSAKIMENTION,Jen Psaki Mention,14,4,4,3,2,2.0,1.3333333333333333,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXSECPRESSMENTION,Sec Press mentions,7,0,2,0,1,0.0,,2025-03-05T12:37:28Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXSECPRESSMENTION,Sec Press mentions,14,0,2,0,1,0.0,,2025-03-05T12:37:28Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXTHEWEEKNIGHTMENTION,Weeknight,7,0,1,0,1,0.0,,2026-06-15T20:54:19Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXTHEWEEKNIGHTMENTION,Weeknight,14,0,1,0,1,0.0,,2026-06-15T20:54:19Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXTRUMPMENTION,What will Trump say?,7,6,35,3,17,0.6857142857142857,2.0,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXTRUMPMENTION,What will Trump say?,14,11,43,6,20,0.5116279069767441,1.8333333333333333,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXTRUMPMENTIONB,Trump Mention B,7,0,13,0,5,0.0,,2026-06-11T18:04:39Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXTRUMPMENTIONB,Trump Mention B,14,3,19,1,8,0.3157894736842105,3.0,2026-06-11T18:04:39Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXTRUMPSAY,What will trump say,7,1,1,1,1,4.0,1.0,2026-08-31T12:05:22Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXTRUMPSAY,What will trump say,14,2,0,2,0,,1.0,2026-08-31T12:05:22Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXTRUMPSAYMONTH,Trump Monthly,7,1,0,1,0,,1.0,2026-06-01T11:55:43Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXTRUMPSAYMONTH,Trump Monthly,14,1,1,1,1,2.0,1.0,2026-06-01T11:55:43Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXVANCEMENTION,Vance Says,7,2,15,1,7,0.5333333333333333,2.0,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,mention,KXVANCEMENTION,Vance Says,14,5,12,3,5,0.8333333333333334,1.6666666666666667,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZAVG,How high will average weekly Hormuz transits get in 2026?,7,1,0,0,0,,1.0,2026-07-08T23:16:28Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZAVG,How high will average weekly Hormuz transits get in 2026?,14,1,0,0,0,,1.0,2026-07-08T23:16:28Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZMAX,Maximum traffic through the Strait of Hormuz?,7,7,28,1,4,1.0,7.0,2026-07-06T17:12:59Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZMAX,Maximum traffic through the Strait of Hormuz?,14,14,28,2,4,1.0,7.0,2026-07-06T17:12:59Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZNORM,When will traffic at the Strait of Hormuz return to normal?,7,0,2,0,0,0.0,,2026-03-16T15:57:10Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZNORM,When will traffic at the Strait of Hormuz return to normal?,14,0,2,0,0,0.0,,2026-03-16T15:57:10Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZPEAK,Peak traffic through the Strait of Hormuz?,7,6,24,1,4,1.0,6.0,2026-07-13T16:17:44Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZPEAK,Peak traffic through the Strait of Hormuz?,14,12,24,2,4,1.0,6.0,2026-07-13T16:17:44Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZRENAME,Will Trump rename the Strait of Hormuz?,7,2,0,1,0,,2.0,2026-09-02T15:59:39Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZRENAME,Will Trump rename the Strait of Hormuz?,14,2,0,1,0,,2.0,2026-09-02T15:59:39Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZWEEKLY,Traffic through the Strait of Hormuz,7,11,45,1,4,0.9777777777777777,11.0,2026-06-08T16:49:01Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXHORMUZWEEKLY,Traffic through the Strait of Hormuz,14,22,48,2,4,0.9166666666666667,11.0,2026-06-08T16:49:01Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXLEAVEOPEC,Will another country leave OPEC?,7,3,0,1,0,,3.0,2026-04-28T14:21:04Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXLEAVEOPEC,Will another country leave OPEC?,14,3,0,1,0,,3.0,2026-04-28T14:21:04Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXMAXSHIPSHORMUZ,Maximum daily count of ships through the Strait of Hormuz?,7,0,8,0,1,0.0,,2026-06-15T16:28:20Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXMAXSHIPSHORMUZ,Maximum daily count of ships through the Strait of Hormuz?,14,8,8,1,1,2.0,8.0,2026-06-15T16:28:20Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXTRUMPSTRAIT,Will Trump rename the Strait of Hormuz after himself?,7,2,0,1,0,,2.0,2026-09-02T15:59:44Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXTRUMPSTRAIT,Will Trump rename the Strait of Hormuz after himself?,14,2,0,1,0,,2.0,2026-09-02T15:59:44Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXUSVENEZOIL,US Venezuelan oil field deal,7,0,2,0,1,0.0,,2026-08-28T17:47:12Z,False,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXUSVENEZOIL,US Venezuelan oil field deal,14,2,0,1,0,,2.0,2026-08-28T17:47:12Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXVENEZOILCOS,Oil companies starting Venezuelan production,7,3,0,1,0,,3.0,2026-09-03T23:26:57Z,True,not_identifiable_from_metadata,Energy and Iran
+energy_iran,policy,KXVENEZOILCOS,Oil companies starting Venezuelan production,14,3,0,1,0,,3.0,2026-09-03T23:26:57Z,True,not_identifiable_from_metadata,Energy and Iran
+fed_rates,macro,KXFEDCOMBO,Fed Combo,14,0,6,0,1,0.0,,2026-04-28T20:19:49Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXFEDDISSENT,Fed Dissent,14,0,12,0,1,0.0,,2026-04-28T19:29:48Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXFEDFREQ,Will Fed policy meetings be reduced?,14,0,1,0,1,0.0,,2026-07-31T20:48:05Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXFEDFUNDSYEAR,Fed funds rate at year end,14,0,42,0,2,0.0,,2026-07-29T16:59:29Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXFEDTWEETS,Fed tweets,7,6,24,1,4,1.0,6.0,2026-06-18T15:31:05Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXFEDTWEETS,Fed tweets,14,12,24,2,4,1.0,6.0,2026-06-18T15:31:05Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXFOMCDISSENTCOUNT,FOMC dissent count,7,0,1,0,0,0.0,,2026-04-28T19:07:46Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXFOMCDISSENTCOUNT,FOMC dissent count,14,0,6,0,1,0.0,,2026-04-28T19:07:46Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST10A,UST 10 Year Weekly,7,15,45,1,3,1.3333333333333333,15.0,2026-07-01T09:01:00Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST10A,UST 10 Year Weekly,14,15,60,1,4,0.5,15.0,2026-07-01T09:01:00Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST10AD,UST 10 Year Daily,7,30,210,2,14,0.5714285714285714,15.0,2026-07-07T17:12:50Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST10AD,UST 10 Year Daily,14,60,240,4,16,0.5,15.0,2026-07-07T17:12:50Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST10AM,UST 10 Year Monthly,7,15,10,1,0,6.0,15.0,2026-07-07T17:12:52Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST10AM,UST 10 Year Monthly,14,15,25,1,1,1.2,15.0,2026-07-07T17:12:52Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST2A,UST 2 Year Daily,7,15,55,1,3,1.0909090909090908,15.0,2026-07-01T09:00:59Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST2A,UST 2 Year Daily,14,25,60,1,4,0.8333333333333334,12.5,2026-07-01T09:00:59Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST2AD,UST 2 Year Daily,7,30,210,2,14,0.5714285714285714,15.0,2026-07-07T17:12:44Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST2AD,UST 2 Year Daily,14,60,240,4,16,0.5,15.0,2026-07-07T17:12:44Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST2AM,UST 2 Year Monthly,7,15,10,1,0,6.0,15.0,2026-07-07T17:12:45Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST2AM,UST 2 Year Monthly,14,15,25,1,1,1.2,15.0,2026-07-07T17:12:45Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST30A,UST 30 Year Daily,7,15,45,1,3,1.3333333333333333,15.0,2026-07-01T09:01:00Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST30A,UST 30 Year Daily,14,15,60,1,4,0.5,15.0,2026-07-01T09:01:00Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST30AD,UST 30 Year Daily,7,30,210,2,14,0.5714285714285714,15.0,2026-07-07T17:12:52Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST30AD,UST 30 Year Daily,14,60,250,4,16,0.48,15.0,2026-07-07T17:12:52Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST30AM,UST 30 Year Daily,7,15,0,1,0,,15.0,2026-07-07T17:12:53Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST30AM,UST 30 Year Daily,14,15,15,1,1,2.0,15.0,2026-07-07T17:12:53Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST5A,UST 5 Year Daily,7,15,45,1,3,1.3333333333333333,15.0,2026-07-07T17:12:47Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST5A,UST 5 Year Daily,14,15,60,1,4,0.5,15.0,2026-07-07T17:12:47Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST5AD,UST 5 Year Daily,7,30,210,2,14,0.5714285714285714,15.0,2026-07-07T17:12:46Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST5AD,UST 5 Year Daily,14,60,240,4,16,0.5,15.0,2026-07-07T17:12:46Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST5AM,UST 5 Year Monthly,7,15,0,1,0,,15.0,2026-07-07T17:12:48Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST5AM,UST 5 Year Monthly,14,15,15,1,1,2.0,15.0,2026-07-07T17:12:48Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST7A,UST 7 Year Daily,7,15,45,1,3,1.3333333333333333,15.0,2026-07-07T17:12:49Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST7A,UST 7 Year Daily,14,15,60,1,4,0.5,15.0,2026-07-07T17:12:49Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST7AD,UST 7 Year Daily,7,30,210,2,14,0.5714285714285714,15.0,2026-07-07T17:12:48Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST7AD,UST 7 Year Daily,14,60,240,4,16,0.5,15.0,2026-07-07T17:12:48Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST7AM,UST 7 Year Monthly,7,15,0,1,0,,15.0,2026-07-07T17:12:50Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,macro,KXUST7AM,UST 7 Year Monthly,14,15,15,1,1,2.0,15.0,2026-07-07T17:12:50Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,mention,KXTRUMPMENTIONB,Trump Mention B,14,0,1,0,1,0.0,,2026-06-11T18:04:39Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,policy,KXSTUDENTLOANCAP,House passes a cap on federal student loan interest rates,7,0,3,0,1,0.0,,2026-08-19T06:13:44Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,policy,KXSTUDENTLOANCAP,House passes a cap on federal student loan interest rates,14,0,3,0,1,0.0,,2026-08-19T06:13:44Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,policy,KXTRYFIRECOOK,Will Trump try to fire Lisa Cook?,7,0,2,0,0,0.0,,2026-07-07T22:41:38Z,False,not_identifiable_from_metadata,Fed and interest rates
+fed_rates,policy,KXTRYFIRECOOK,Will Trump try to fire Lisa Cook?,14,0,2,0,0,0.0,,2026-07-07T22:41:38Z,False,not_identifiable_from_metadata,Fed and interest rates
+healthcare,mention,KXALLINMENTION,All in with Chris Hayes,7,0,1,0,1,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXALLINMENTION,All in with Chris Hayes,14,0,1,0,1,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXDEBATEMENTION,Debate Mentions,14,0,1,0,1,0.0,,2026-06-30T20:25:06Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXEARNINGSMENTIONCRWV,CoreWeave Earnings,7,0,1,0,1,0.0,,2026-08-10T16:53:38Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXEARNINGSMENTIONCRWV,CoreWeave Earnings,14,0,1,0,1,0.0,,2026-08-10T16:53:38Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXGOVERNORMENTION,Generic Governor,7,0,3,0,2,0.0,,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXGOVERNORMENTION,Generic Governor,14,2,1,1,1,4.0,2.0,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXLASTWORDMENTION,Last Word,7,0,6,0,6,0.0,,2026-02-12T00:12:44Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXLASTWORDMENTION,Last Word,14,3,4,3,4,1.5,1.0,2026-02-12T00:12:44Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXMADDOWMENTION,Rachel Maddow,14,0,1,0,1,0.0,,2026-06-07T18:53:38Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXPSAKIMENTION,Jen Psaki Mention,7,1,5,1,5,0.7999999999999999,1.0,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXPSAKIMENTION,Jen Psaki Mention,14,3,3,3,3,2.0,1.0,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXTHEWEEKNIGHTMENTION,Weeknight,7,0,1,0,1,0.0,,2026-06-15T20:54:19Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXTHEWEEKNIGHTMENTION,Weeknight,14,0,1,0,1,0.0,,2026-06-15T20:54:19Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXTRUMPMENTION,What will Trump say?,7,0,5,0,6,0.0,,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXTRUMPMENTION,What will Trump say?,14,1,4,2,4,0.5,1.0,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXVANCEMENTION,Vance Says,7,1,5,1,4,0.7999999999999999,1.0,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Health care
+healthcare,mention,KXVANCEMENTION,Vance Says,14,2,4,2,3,1.0,1.0,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Health care
+healthcare,policy,KXHHSYOUTHCARE,HHS youth gender-care Medicaid rule,7,1,0,1,0,,1.0,2026-09-04T15:20:54Z,True,not_identifiable_from_metadata,Health care
+healthcare,policy,KXHHSYOUTHCARE,HHS youth gender-care Medicaid rule,14,1,0,1,0,,1.0,2026-09-04T15:20:54Z,True,not_identifiable_from_metadata,Health care
+housing,macro,KX30YMORTW,30-year mortgage rate this week,7,13,26,1,2,2.0,13.0,2026-08-24T21:54:10Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KX30YMORTW,30-year mortgage rate this week,14,26,13,2,1,4.0,13.0,2026-08-24T21:54:10Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXCABUILDPERMITS,California permitted housing units,7,0,6,0,1,0.0,,2026-08-19T02:49:04Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXCABUILDPERMITS,California permitted housing units,14,0,6,0,1,0.0,,2026-08-19T02:49:04Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXCAHPIYOY,California home prices,7,0,1,0,1,0.0,,2026-08-19T02:48:33Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXCAHPIYOY,California home prices,14,0,1,0,1,0.0,,2026-08-19T02:48:33Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXEHSALES,Existing home sales in time period,7,0,8,0,1,0.0,,2026-05-11T14:12:18Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXEHSALES,Existing home sales in time period,14,0,8,0,1,0.0,,2026-05-11T14:12:18Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXEXUSHOME,Median Existing US Home Price,7,0,9,0,1,0.0,,2026-07-15T01:54:27Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXEXUSHOME,Median Existing US Home Price,14,0,9,0,1,0.0,,2026-07-15T01:54:27Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXHOUSINGSTART,Monthly housing starts,7,0,8,0,1,0.0,,2026-05-21T18:05:05Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXHOUSINGSTART,Monthly housing starts,14,0,8,0,1,0.0,,2026-05-21T18:05:05Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXNHSALES,New home sales in time period,7,0,8,0,1,0.0,,2026-05-28T14:31:11Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXNHSALES,New home sales in time period,14,8,0,1,0,,8.0,2026-05-28T14:31:11Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXNYCASKRENT,NYC median asking rent,7,0,8,0,1,0.0,,2026-08-18T14:52:42Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXNYCASKRENT,NYC median asking rent,14,0,8,0,1,0.0,,2026-08-18T14:52:42Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXUSHOME,Median US New Home Price,7,0,12,0,1,0.0,,2026-07-15T01:45:21Z,False,not_identifiable_from_metadata,Housing
+housing,macro,KXUSHOME,Median US New Home Price,14,12,0,1,0,,12.0,2026-07-15T01:45:21Z,False,not_identifiable_from_metadata,Housing
+housing,policy,KXNYCAFFORDABLE,How many affordable homes will NYC finance in FY2027?,14,0,5,0,1,0.0,,2026-07-28T21:30:49Z,False,not_identifiable_from_metadata,Housing
+housing,policy,KXNYCSTAT,NYC statistics,7,0,16,0,2,0.0,,2026-08-07T16:25:49Z,False,not_identifiable_from_metadata,Housing
+housing,policy,KXNYCSTAT,NYC statistics,14,0,16,0,2,0.0,,2026-08-07T16:25:49Z,False,not_identifiable_from_metadata,Housing
+housing,policy,KXRENTFREEZEEFFECT,"Will Mamdani’s rent freeze take effect on October 1, 2026?",14,0,1,0,1,0.0,,2026-07-28T21:18:34Z,False,not_identifiable_from_metadata,Housing
+immigration,macro,KXCCAPRICEICE,CCA Auction Price versus ICE CCA Futures,7,0,1,0,1,0.0,,2026-08-14T18:55:29Z,False,not_identifiable_from_metadata,Immigration
+immigration,macro,KXCCAPRICEICE,CCA Auction Price versus ICE CCA Futures,14,0,1,0,1,0.0,,2026-08-14T18:55:29Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXALLINMENTION,All in with Chris Hayes,7,0,1,0,1,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXALLINMENTION,All in with Chris Hayes,14,0,1,0,1,0.0,,2026-06-18T15:12:13Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXDEBATEMENTION,Debate Mentions,14,0,2,0,2,0.0,,2026-06-30T20:25:06Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXFOXNEWSMENTION,Fox News,7,0,4,0,2,0.0,,2026-06-10T16:18:38Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXFOXNEWSMENTION,Fox News,14,0,4,0,2,0.0,,2026-06-10T16:18:38Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXGOVERNORMENTION,Generic Governor,7,0,2,0,2,0.0,,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXGOVERNORMENTION,Generic Governor,14,1,1,1,1,2.0,1.0,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXHANNITYMENTION,Hannity ,14,0,1,0,1,0.0,,2026-07-20T18:31:54Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXLASTWORDMENTION,Last Word,7,0,3,0,3,0.0,,2026-02-12T00:12:44Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXLASTWORDMENTION,Last Word,14,3,2,3,2,3.0,1.0,2026-02-12T00:12:44Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXMADDOWMENTION,Rachel Maddow,14,0,1,0,1,0.0,,2026-06-07T18:53:38Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXMAMDANIMENTION,What will Zohran Mamdani say? ,7,0,3,0,2,0.0,,2026-02-25T22:36:47Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXMAMDANIMENTION,What will Zohran Mamdani say? ,14,0,3,0,2,0.0,,2026-02-25T22:36:47Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXPSAKIMENTION,Jen Psaki Mention,7,1,2,1,2,2.0,1.0,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXPSAKIMENTION,Jen Psaki Mention,14,2,1,2,1,4.0,1.0,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXSECPRESSMENTION,Sec Press mentions,7,0,1,0,1,0.0,,2025-03-05T12:37:28Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXSECPRESSMENTION,Sec Press mentions,14,0,1,0,1,0.0,,2025-03-05T12:37:28Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXTHEWEEKNIGHTMENTION,Weeknight,7,0,2,0,1,0.0,,2026-06-15T20:54:19Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXTHEWEEKNIGHTMENTION,Weeknight,14,0,2,0,1,0.0,,2026-06-15T20:54:19Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXTRUMPMENTION,What will Trump say?,7,2,5,2,4,1.5999999999999999,1.0,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXTRUMPMENTION,What will Trump say?,14,3,8,3,7,0.75,1.0,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXTRUMPMENTIONB,Trump Mention B,7,0,2,0,2,0.0,,2026-06-11T18:04:39Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXTRUMPMENTIONB,Trump Mention B,14,0,2,0,2,0.0,,2026-06-11T18:04:39Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXVANCEMENTION,Vance Says,7,0,4,0,4,0.0,,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Immigration
+immigration,mention,KXVANCEMENTION,Vance Says,14,1,3,1,3,0.6666666666666666,1.0,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Immigration
+immigration,policy,KXBIGBENDRESUME,When will Big Bend border construction resume?,7,0,5,0,1,0.0,,2026-08-24T05:46:09Z,False,not_identifiable_from_metadata,Immigration
+immigration,policy,KXBIGBENDRESUME,When will Big Bend border construction resume?,14,0,5,0,1,0.0,,2026-08-24T05:46:09Z,False,not_identifiable_from_metadata,Immigration
+immigration,policy,KXBLOCK75VISA,75-country visa suspension in the courts,7,0,1,0,1,0.0,,2026-08-24T19:21:36Z,False,not_identifiable_from_metadata,Immigration
+immigration,policy,KXBLOCK75VISA,75-country visa suspension in the courts,14,0,1,0,1,0.0,,2026-08-24T19:21:36Z,False,not_identifiable_from_metadata,Immigration
+jobs_growth,macro,KXAHEG,U.S. average hourly earnings growth,7,0,1,0,1,0.0,,2026-08-19T20:44:59Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXAHEG,U.S. average hourly earnings growth,14,0,1,0,1,0.0,,2026-08-19T20:44:59Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXAIGROWTHBET,MacAskill–Moll AI growth bet,7,0,2,0,1,0.0,,2026-08-28T18:00:33Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXAIGROWTHBET,MacAskill–Moll AI growth bet,14,2,0,1,0,,2.0,2026-08-28T18:00:33Z,True,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXAZSEMIJOBS,Arizona semiconductor and electronic-component manufacturing employment,7,0,1,0,1,0.0,,2026-08-19T02:49:17Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXAZSEMIJOBS,Arizona semiconductor and electronic-component manufacturing employment,14,0,1,0,1,0.0,,2026-08-19T02:49:17Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXCHCUTS,US Challenger job cuts,7,9,9,1,1,4.0,9.0,2026-06-04T14:05:36Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXCHCUTS,US Challenger job cuts,14,9,9,1,1,2.0,9.0,2026-06-04T14:05:36Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXCONTCLAIMS,U.S. continuing jobless claims,7,11,22,1,2,2.0,11.0,2026-08-25T18:36:27Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXCONTCLAIMS,U.S. continuing jobless claims,14,33,0,3,0,,11.0,2026-08-25T18:36:27Z,True,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXGDP,US GDP growth,14,0,34,0,4,0.0,,2025-10-07T14:45:44Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXJOBLESSCLAIMS,Weekly initial jobless claims,7,11,44,1,4,1.0,11.0,2026-06-04T15:19:57Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXJOBLESSCLAIMS,Weekly initial jobless claims,14,22,42,2,4,1.0476190476190477,11.0,2026-06-04T15:19:57Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXJOLTSOPEN,U.S. job openings in [month],7,7,7,1,1,4.0,7.0,2026-08-24T17:40:48Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXJOLTSOPEN,U.S. job openings in [month],14,7,7,1,1,2.0,7.0,2026-08-24T17:40:48Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXMIAUTOEMP,Michigan motor-vehicle and parts manufacturing employment,7,0,1,0,1,0.0,,2026-08-18T18:40:44Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXMIAUTOEMP,Michigan motor-vehicle and parts manufacturing employment,14,0,1,0,1,0.0,,2026-08-18T18:40:44Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXNOMGDPGROWTH,Nominal GDP growth in [year],7,0,39,0,3,0.0,,2026-08-06T18:57:08Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXNOMGDPGROWTH,Nominal GDP growth in [year],14,0,39,0,3,0.0,,2026-08-06T18:57:08Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXNYSECEEMP,New York securities-industry employment,7,0,1,0,1,0.0,,2026-08-18T14:51:21Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXNYSECEEMP,New York securities-industry employment,14,0,1,0,1,0.0,,2026-08-18T14:51:21Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXOHMFGEMP,Ohio manufacturing employment,7,0,1,0,1,0.0,,2026-08-18T13:39:47Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXOHMFGEMP,Ohio manufacturing employment,14,0,1,0,1,0.0,,2026-08-18T13:39:47Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXPAMFGEMP,Pennsylvania manufacturing employment,7,0,6,0,1,0.0,,2026-08-18T13:50:17Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXPAMFGEMP,Pennsylvania manufacturing employment,14,0,6,0,1,0.0,,2026-08-18T13:50:17Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXPAYROLLS,Jobs numbers,7,0,6,0,0,0.0,,2025-10-09T15:57:40Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXPAYROLLS,Jobs numbers,14,6,0,0,0,,6.0,2025-10-09T15:57:40Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXU3EOY,U.S. unemployment rate at year-end,7,45,0,3,0,,15.0,2026-09-03T00:16:39Z,True,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXU3EOY,U.S. unemployment rate at year-end,14,45,0,3,0,,15.0,2026-09-03T00:16:39Z,True,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXWEN,Wendy's KPI,14,0,7,0,1,0.0,,2026-05-28T15:08:08Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXWIMFGEMP,Wisconsin manufacturing employment,7,0,7,0,1,0.0,,2026-08-17T19:09:28Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXWIMFGEMP,Wisconsin manufacturing employment,14,0,7,0,1,0.0,,2026-08-17T19:09:28Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXWMT,Walmart KPI,14,0,9,0,1,0.0,,2026-05-28T15:06:45Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,macro,KXWMTA,Walmart Annual KPI,14,0,9,0,1,0.0,,2026-07-29T13:35:32Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,mention,KXFEDMENTION,Fed mention,14,0,3,0,1,0.0,,2026-05-27T00:25:57Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,policy,KXGOVBAL,What will [Country]’s government budget balance be in [Year]?,7,7,0,1,0,,7.0,2026-09-07T16:17:04Z,True,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,policy,KXGOVBAL,What will [Country]’s government budget balance be in [Year]?,14,7,0,1,0,,7.0,2026-09-07T16:17:04Z,True,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,policy,KXNYCSTAT,NYC statistics,7,0,7,0,1,0.0,,2026-08-07T16:25:49Z,False,not_identifiable_from_metadata,Jobs and growth
+jobs_growth,policy,KXNYCSTAT,NYC statistics,14,0,7,0,1,0.0,,2026-08-07T16:25:49Z,False,not_identifiable_from_metadata,Jobs and growth
+taxes_fiscal,macro,KXTRADEDEFICIT,US annual trade deficit,7,0,16,0,2,0.0,,2026-02-24T01:25:02Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,macro,KXTRADEDEFICIT,US annual trade deficit,14,16,0,2,0,,8.0,2026-02-24T01:25:02Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,macro,KXWMTA,Walmart Annual KPI,14,0,9,0,1,0.0,,2026-07-29T13:35:32Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXEARNINGSMENTIONAZO,Auto Zone,7,0,1,0,1,0.0,,2026-08-26T19:56:58Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXEARNINGSMENTIONAZO,Auto Zone,14,1,0,1,0,,1.0,2026-08-26T19:56:58Z,True,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXEARNINGSMENTIONINTU,What Will Intuit Say During Their Earnings Call?,7,0,1,0,1,0.0,,2026-08-19T00:00:09Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXEARNINGSMENTIONINTU,What Will Intuit Say During Their Earnings Call?,14,0,1,0,1,0.0,,2026-08-19T00:00:09Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXEARNINGSMENTIONVST,Vistra,7,0,1,0,1,0.0,,2026-08-04T17:09:02Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXEARNINGSMENTIONVST,Vistra,14,0,1,0,1,0.0,,2026-08-04T17:09:02Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXFEDMENTION,Fed mention,14,0,2,0,1,0.0,,2026-05-27T00:25:57Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXMAMDANIMENTION,What will Zohran Mamdani say? ,7,0,5,0,5,0.0,,2026-02-25T22:36:47Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXMAMDANIMENTION,What will Zohran Mamdani say? ,14,0,7,0,7,0.0,,2026-02-25T22:36:47Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXTRUMPMENTION,What will Trump say?,7,0,1,0,1,0.0,,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXTRUMPMENTION,What will Trump say?,14,0,1,0,1,0.0,,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXVANCEMENTION,Vance Says,7,0,4,0,4,0.0,,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,mention,KXVANCEMENTION,Vance Says,14,2,2,2,2,2.0,1.0,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXCAPGAINDOWN,When will federal capital gains taxes be cut?,7,0,1,0,1,0.0,,2026-08-12T00:39:30Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXCAPGAINDOWN,When will federal capital gains taxes be cut?,14,0,1,0,1,0.0,,2026-08-12T00:39:30Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXEUMFFDEAL,EU long-term budget deal,7,2,0,1,0,,2.0,2026-09-05T02:06:13Z,True,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXEUMFFDEAL,EU long-term budget deal,14,2,0,1,0,,2.0,2026-09-05T02:06:13Z,True,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXFILMTAXCREDIT,Federal film and television production tax credit,7,1,0,1,0,,1.0,2026-09-02T22:28:00Z,True,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXFILMTAXCREDIT,Federal film and television production tax credit,14,1,0,1,0,,1.0,2026-09-02T22:28:00Z,True,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXGAMBLINGREPEAL,Gambling Repeal,7,0,3,0,0,0.0,,2025-11-25T00:43:50Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXGAMBLINGREPEAL,Gambling Repeal,14,0,3,0,0,0.0,,2025-11-25T00:43:50Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXGOVBAL,What will [Country]’s government budget balance be in [Year]?,7,7,0,1,0,,7.0,2026-09-07T16:17:04Z,True,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXGOVBAL,What will [Country]’s government budget balance be in [Year]?,14,7,0,1,0,,7.0,2026-09-07T16:17:04Z,True,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXGOVTCUTS,Government budget cuts,7,0,1,0,0,0.0,,2024-11-13T02:57:09Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXGOVTCUTS,Government budget cuts,14,0,1,0,0,0.0,,2024-11-13T02:57:09Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXGOVTFULLFUND,When the a bill that fully funds the government become law?,7,0,2,0,0,0.0,,2026-08-03T23:47:51Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXGOVTFULLFUND,When the a bill that fully funds the government become law?,14,0,9,0,1,0.0,,2026-08-03T23:47:51Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXHARVARDFEDREV,Harvard federal sponsored revenue,7,0,9,0,1,0.0,,2026-08-24T05:03:02Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXHARVARDFEDREV,Harvard federal sponsored revenue,14,0,9,0,1,0.0,,2026-08-24T05:03:02Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXLOCALLAW,Which of these state or local laws will pass?,7,0,4,0,4,0.0,,2026-08-17T17:55:58Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXLOCALLAW,Which of these state or local laws will pass?,14,0,4,0,4,0.0,,2026-08-17T17:55:58Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXMTSB542,Will Montana's SB 542 be struck down?,7,0,1,0,1,0.0,,2026-08-17T19:00:26Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXMTSB542,Will Montana's SB 542 be struck down?,14,0,1,0,1,0.0,,2026-08-17T19:00:26Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXNUMCR,Number of FY2027 continuing resolutions,7,0,6,0,1,0.0,,2026-08-19T18:38:14Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXNUMCR,Number of FY2027 continuing resolutions,14,0,6,0,1,0.0,,2026-08-19T18:38:14Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXNYCAFFORDABLE,How many affordable homes will NYC finance in FY2027?,14,0,5,0,1,0.0,,2026-07-28T21:30:49Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXNYCCORPORATETAX,Will Mamdani raise corporate taxes before 2027?,14,0,3,0,0,0.0,,2025-11-05T18:08:47Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXNYCSTAT,NYC statistics,7,0,16,0,2,0.0,,2026-08-07T16:25:49Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXNYCSTAT,NYC statistics,14,0,16,0,2,0.0,,2026-08-07T16:25:49Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXPIEDATERRECASE,Court rules against NYC in pied-à-terre tax case,7,0,1,0,1,0.0,,2026-08-19T00:48:34Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXPIEDATERRECASE,Court rules against NYC in pied-à-terre tax case,14,0,1,0,1,0.0,,2026-08-19T00:48:34Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXSBUDGETRES,Senate budget resolution,7,0,1,0,0,0.0,,2026-06-10T23:56:48Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+taxes_fiscal,policy,KXSBUDGETRES,Senate budget resolution,14,0,1,0,0,0.0,,2026-06-10T23:56:48Z,False,not_identifiable_from_metadata,Taxes and fiscal policy
+trade_tariffs,macro,KXTRADEDEFICIT,US annual trade deficit,7,0,16,0,2,0.0,,2026-02-24T01:25:02Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,macro,KXTRADEDEFICIT,US annual trade deficit,14,16,0,2,0,,8.0,2026-02-24T01:25:02Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONAAOI,Applied Optoelectronics Inc,7,0,1,0,1,0.0,,2026-08-04T16:09:51Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONAAOI,Applied Optoelectronics Inc,14,0,1,0,1,0.0,,2026-08-04T16:09:51Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONAAP,Advance Auto Parts Earnings Call,7,0,1,0,1,0.0,,2026-08-18T22:09:54Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONAAP,Advance Auto Parts Earnings Call,14,0,1,0,1,0.0,,2026-08-18T22:09:54Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONAS,Amer Sports Earnings Call,7,0,1,0,1,0.0,,2026-08-11T19:35:09Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONAS,Amer Sports Earnings Call,14,0,1,0,1,0.0,,2026-08-11T19:35:09Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONAZO,Auto Zone,7,0,1,0,1,0.0,,2026-08-26T19:56:58Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONAZO,Auto Zone,14,1,0,1,0,,1.0,2026-08-26T19:56:58Z,True,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONCELH,Celsius Earnings,14,0,1,0,1,0.0,,2026-07-28T19:31:39Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONCIEN,Ciena Earnings Call,7,0,1,0,1,0.0,,2026-08-26T19:33:05Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONCIEN,Ciena Earnings Call,14,1,0,1,0,,1.0,2026-08-26T19:33:05Z,True,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONCOST,What will Costco say on their next earnings call?,7,0,1,0,1,0.0,,2026-08-26T16:28:30Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONCOST,What will Costco say on their next earnings call?,14,1,0,1,0,,1.0,2026-08-26T16:28:30Z,True,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONCRWV,CoreWeave Earnings,7,0,1,0,1,0.0,,2026-08-10T16:53:38Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONCRWV,CoreWeave Earnings,14,0,1,0,1,0.0,,2026-08-10T16:53:38Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONDE,Deere,7,0,1,0,1,0.0,,2026-08-11T02:23:48Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONDE,Deere,14,0,1,0,1,0.0,,2026-08-11T02:23:48Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONHPE,Hewlett Packard Enterprise,7,0,1,0,1,0.0,,2026-08-26T16:58:09Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONHPE,Hewlett Packard Enterprise,14,1,0,1,0,,1.0,2026-08-26T16:58:09Z,True,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONKR,Kroger,7,0,1,0,1,0.0,,2026-06-16T01:30:00Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONKR,Kroger,14,1,0,1,0,,1.0,2026-06-16T01:30:00Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONLULU,Lululemon Earnings Call,7,0,1,0,1,0.0,,2026-08-26T16:59:42Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONLULU,Lululemon Earnings Call,14,1,0,1,0,,1.0,2026-08-26T16:59:42Z,True,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONMDT,Medtronic Earnings Call,7,0,1,0,1,0.0,,2026-08-26T17:30:55Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONMDT,Medtronic Earnings Call,14,1,0,1,0,,1.0,2026-08-26T17:30:55Z,True,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONNKE,What Will Nike Say During Their Earnings Call?,7,0,1,0,1,0.0,,2026-06-25T16:11:50Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONNKE,What Will Nike Say During Their Earnings Call?,14,1,0,1,0,,1.0,2026-06-25T16:11:50Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONPANW,Palo Alto Networks Earnings Call,7,0,1,0,1,0.0,,2026-08-26T17:32:50Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONPANW,Palo Alto Networks Earnings Call,14,1,0,1,0,,1.0,2026-08-26T17:32:50Z,True,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONPATH,UiPath Earnings Call,7,0,1,0,1,0.0,,2026-08-26T16:51:08Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXEARNINGSMENTIONPATH,UiPath Earnings Call,14,1,0,1,0,,1.0,2026-08-26T16:51:08Z,True,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXFOXNEWSMENTION,Fox News,7,0,1,0,1,0.0,,2026-06-10T16:18:38Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXFOXNEWSMENTION,Fox News,14,0,2,0,2,0.0,,2026-06-10T16:18:38Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXGOVERNORMENTION,Generic Governor,7,0,1,0,1,0.0,,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXGOVERNORMENTION,Generic Governor,14,1,0,1,0,,1.0,2026-06-15T19:27:07Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXHANNITYMENTION,Hannity ,14,0,1,0,1,0.0,,2026-07-20T18:31:54Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXHEARINGMENTION,Hearing Mention,14,0,1,0,1,0.0,,2026-06-08T19:01:27Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXLASTWORDMENTION,Last Word,7,0,1,0,1,0.0,,2026-02-12T00:12:44Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXLASTWORDMENTION,Last Word,14,1,0,1,0,,1.0,2026-02-12T00:12:44Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXPSAKIMENTION,Jen Psaki Mention,7,1,3,1,3,1.3333333333333333,1.0,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXPSAKIMENTION,Jen Psaki Mention,14,4,0,4,0,,1.0,2026-01-14T20:08:55Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXSECPRESSMENTION,Sec Press mentions,7,0,1,0,1,0.0,,2025-03-05T12:37:28Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXSECPRESSMENTION,Sec Press mentions,14,0,1,0,1,0.0,,2025-03-05T12:37:28Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXTRUMPMENTION,What will Trump say?,7,3,11,3,11,1.0909090909090908,1.0,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXTRUMPMENTION,What will Trump say?,14,4,16,4,16,0.5,1.0,2025-05-05T02:38:31Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXTRUMPMENTIONB,Trump Mention B,7,0,5,0,5,0.0,,2026-06-11T18:04:39Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXTRUMPMENTIONB,Trump Mention B,14,1,8,1,8,0.25,1.0,2026-06-11T18:04:39Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXVANCEMENTION,Vance Says,7,1,4,1,4,1.0,1.0,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,mention,KXVANCEMENTION,Vance Says,14,3,2,3,2,3.0,1.0,2026-06-08T17:11:45Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXCANAUTOSTEEL50,50% tariffs on Canadian autos and steel,7,0,1,0,1,0.0,,2026-08-24T19:21:22Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXCANAUTOSTEEL50,50% tariffs on Canadian autos and steel,14,0,1,0,1,0.0,,2026-08-24T19:21:22Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXCANUSDEAL,Canada accepts a US trade deal,7,0,6,0,1,0.0,,2026-08-21T16:33:53Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXCANUSDEAL,Canada accepts a US trade deal,14,0,6,0,1,0.0,,2026-08-21T16:33:53Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXCIT301,Will the CIT strike down Trump's Section 301 tariffs?,7,0,1,0,1,0.0,,2026-08-11T00:43:59Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXCIT301,Will the CIT strike down Trump's Section 301 tariffs?,14,0,1,0,1,0.0,,2026-08-11T00:43:59Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXCOPPERCABLE,When will insulated copper cable face Section 232 restrictions?,14,0,2,0,1,0.0,,2026-07-28T15:29:26Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXEFFTARIFF,What will the US effective tariff rate be?,14,0,11,0,1,0.0,,2026-05-04T16:03:25Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXGENERICTARIFF,Will Trump impose tariffs on generic drugs before the midterms?,14,0,1,0,1,0.0,,2026-07-28T15:01:19Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXNEWDEAL,New trade deal announced,7,0,1,0,1,0.0,,2026-01-15T19:07:03Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXNEWDEAL,New trade deal announced,14,1,1,1,1,2.0,1.0,2026-01-15T19:07:03Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXNEWTARIFFS,New tariffs this month?,7,0,1,0,1,0.0,,2026-06-30T14:46:20Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXNEWTARIFFS,New tariffs this month?,14,1,1,1,1,2.0,1.0,2026-06-30T14:46:20Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXTARIFFAGREE,US-China tariff deal,7,0,5,0,1,0.0,,2026-08-11T00:42:15Z,False,not_identifiable_from_metadata,Trade and tariffs
+trade_tariffs,policy,KXTARIFFAGREE,US-China tariff deal,14,0,5,0,1,0.0,,2026-08-11T00:42:15Z,False,not_identifiable_from_metadata,Trade and tariffs

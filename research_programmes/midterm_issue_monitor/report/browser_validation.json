@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "desktop": {
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "overflow": false,
+    "emptyLinks": 0,
+    "headings": 12,
+    "tables": 14,
+    "unresolved": false
+  },
+  "mobile": {
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      },
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "overflow": false,
+    "emptyLinks": 0,
+    "headings": 12,
+    "tables": 14,
+    "unresolved": false
+  },
+  "calculator_initial": "VRT: -9.2% designed price return\nStarting EPS $4.42 · Observed close $280.53 · Terminal price $254.59 · Entry for 10% annual price hurdle $210.41",
+  "calculator_changed": "VRT: 23.5% designed price return\nStarting EPS $4.42 · Observed close $280.53 · Terminal price $346.53 · Entry for 10% annual price hurdle $286.39",
+  "house_filtered_models": 23,
+  "javascript_errors": []
+}

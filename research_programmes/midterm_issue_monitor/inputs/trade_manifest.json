@@ -1,0 +1,111 @@
+{
+  "status": "complete",
+  "window_start_inclusive": "2026-08-11T00:00:00Z",
+  "window_end_exclusive": "2026-09-08T00:00:00Z",
+  "contracts": 13,
+  "unique_trades": 21585,
+  "pages": 31,
+  "partitions": [
+    [
+      "/markets/trades",
+      1786406400,
+      1788825600
+    ]
+  ],
+  "cutoff_response": {
+    "market_positions_last_updated_ts": "2026-07-10T00:00:00Z",
+    "market_settled_ts": "2026-07-10T00:00:00Z",
+    "orders_updated_ts": "2026-07-10T00:00:00Z",
+    "trades_created_ts": "2026-07-10T00:00:00Z"
+  },
+  "coverage": [
+    {
+      "ticker": "CONTROLH-2026-D",
+      "pages": 5,
+      "trades": 4133,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "CONTROLS-2026-D",
+      "pages": 4,
+      "trades": 3124,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "GOVPARTYWI-26-D",
+      "pages": 2,
+      "trades": 1705,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "GOVPARTYGA-26-D",
+      "pages": 1,
+      "trades": 553,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "KXMORATORIUMCOUNT-26DEC31-AL3",
+      "pages": 1,
+      "trades": 65,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "KXAIBILL-26JUN-27JAN01",
+      "pages": 1,
+      "trades": 9,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "KXAAAGASED-26NOV03-4.00",
+      "pages": 1,
+      "trades": 367,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "KXFEDFUNDSYEAR-28JAN01-T3.75",
+      "pages": 1,
+      "trades": 330,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "KXFEDDECISION-26SEP-H25",
+      "pages": 11,
+      "trades": 10349,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "KXACAEXT-26JAN-27",
+      "pages": 1,
+      "trades": 98,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "GOVPARTYMI-26-D",
+      "pages": 1,
+      "trades": 94,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "GOVPARTYPA-26-D",
+      "pages": 1,
+      "trades": 64,
+      "cursor_exhausted": true
+    },
+    {
+      "ticker": "GOVPARTYAZ-26-D",
+      "pages": 1,
+      "trades": 694,
+      "cursor_exhausted": true
+    }
+  ],
+  "files": {
+    "public_trades.csv.gz": "a33654bbafa36386054ea2c702c1e9ebebea99b2d3efa34fd55b10e79dca1f0d",
+    "trade_source_pages.csv": "d95a19e8b962f928eda4df71bb3184808d1f1335c21421b565cdab0b7ffc1782"
+  },
+  "limitations": [
+    "Only specified 13-contract 28-day tape, not exchange-wide executions",
+    "No trader identity or individual positions; large prints can be split/aggregated",
+    "Taker direction describes execution initiation, not net market positioning",
+    "Source revisable after frozen event time; retrieved timestamp retained per page"
+  ]
+}

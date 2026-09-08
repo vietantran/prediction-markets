@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "scenario_count": 13,
+  "basket_count": 23,
+  "equity_session_count": 43,
+  "first_equity_date": "2026-07-08",
+  "last_equity_date": "2026-09-04",
+  "matrix_rows": 1794,
+  "primary_tests_specified": 230,
+  "primary_tests_estimated": 184,
+  "primary_bh_q_below_005": 14,
+  "primary_bh_q_below_010": 22,
+  "primary_conservative_q_below_010": 3,
+  "primary_passing_pilot_robustness_screen": 0,
+  "status_counts": {
+    "estimated": 184,
+    "insufficient_observations": 23,
+    "insufficient_probability_variation": 23
+  },
+  "holdout_rows": 2576,
+  "event_move_rows": 65,
+  "maximum_quote_age_hours": 3.0,
+  "baseline_maximum_spread": 0.1,
+  "robustness_spread_gates": [
+    0.05,
+    0.1,
+    0.15
+  ],
+  "minimum_observations": 20,
+  "minimum_meaningful_shock_days": 5,
+  "meaningful_shock_definition": "Absolute probability change >=1 percentage point; not a count of independent political events",
+  "large_move_definition": "Absolute probability change >= max(3 percentage points, sum of two endpoint bid-ask spreads)",
+  "beta_unit": "Decimal equity return per +10 percentage-point probability change",
+  "uncertainty": "HC3 and HAC with three actual equity-session lags; 95% Student-t HAC intervals. Baseline also uses 500 five-session moving-block pairs-bootstrap draws with missingness retained.",
+  "multiple_testing": "Benjamini-Hochberg across all estimable market-conditioned baseline tests. Descriptive dependent-family adjustment, not a guarantee of discovery control under arbitrary dependence.",
+  "bootstrap_seed": 20260909,
+  "bootstrap_draws": 500,
+  "post_estimation_robustness_screen": "Separate from unchanged HAC/BH family: max(HC3,HAC) p-value BH q<10%; block interval excludes zero; tight-spread fit available with same sign; loose-spread sign stable; leave-largest sign stable; >=10 meaningful days and >=3 quote-noise-exceeding moves; latest28d tape >=100 executions, >=10 active days, top5prints <=50% volume. Analyst-specified diagnostic, not a validated trading rule.",
+  "numerical_audit": {
+    "status": "pass",
+    "estimated_rows_independently_checked": 1242,
+    "method": "Frisch-Waugh-Lovell residualization and centered covariance, independently comparing exported coefficients; source alignment shared",
+    "maximum_absolute_coefficient_difference": 5.551115123125783e-17
+  },
+  "limitations": [
+    "All estimated sensitivities remain pilot observational associations; no causal identification.",
+    "Forty-three equity dates supply at most 42 adjacent returns, not millions of independent observations.",
+    "Contemporaneous market conditioning removes broad-market co-movement and may remove a policy transmission channel.",
+    "Probability endpoints and equities have different liquidity; quote quality gates cannot eliminate all measurement error.",
+    "No dollar-yield, oil-price, or company-news controls in these deliberately small baseline models.",
+    "Event-move table is selected on probability movements and is not an independently identified political-event study.",
+    "Holdout residuals are exploratory model discrepancies, not established alpha or mispricing.",
+    "A +10pp coefficient is a scale unit; inspect the observed probability range before applying a scenario.",
+    "Basket definitions are analyst-specified with knowledge of prior performance, not preregistered; historical membership is not point-in-time.",
+    "Three paired-return contrasts were added after reviewing prior performance and are included in the full primary multiple-testing family.",
+    "One-stock proxies are explicitly labelled. Contrast returns are arithmetic differences, not funded portfolio total returns."
+  ],
+  "input_sha256": {
+    "equity_prices.csv": "0bd47f025a9bcd918df47686c1362b5a9435eac8e2e703919e5e5ba7a107bdf6",
+    "market_session_quotes.csv": "6eaaa2a8c4eabdbdc7a29156452faaa54ca74753708865e141c004795fa3360f",
+    "scenarios.json": "b4951a9a759a2f428b5affa3c1ec373c605025b291382e002d5508f42fcdac66",
+    "event_calendar.csv": "f188ac9b684e1b708cf4a648aff46cf1a40543f8195008fb869e21ee4cb80db8"
+  },
+  "basket_config_sha256": "69e3583cc61c1ef0f0720a8fd69b48970e5b56fa2759a5bc35199311ef2eba84",
+  "optional_tape_analysis_sha256": {
+    "trade_summary.csv": "31cc4715a5ac65a1a9a768fae69b48c7aec0c40ad867f586072479e7b5b580cc",
+    "trade_daily.csv": "76b6389539984999bd5877773d9dedc8c8c3912a8b00a6ac25bb3138c1c8a9bb"
+  }
+}

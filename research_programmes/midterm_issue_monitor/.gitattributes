@@ -1,0 +1,5 @@
+inputs/** -text whitespace=cr-at-eol,-blank-at-eol
+config/** -text whitespace=cr-at-eol
+report/** -text whitespace=cr-at-eol,-blank-at-eol
+*.png binary
+*.xlsx binary

@@ -1,0 +1,6 @@
+{
+  "status": "pass",
+  "estimated_rows_independently_checked": 1242,
+  "method": "Frisch-Waugh-Lovell residualization and centered covariance, independently comparing exported coefficients; source alignment shared",
+  "maximum_absolute_coefficient_difference": 5.551115123125783e-17
+}

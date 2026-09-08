@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "contracts": 13,
+  "trades": 21585,
+  "comparable_days": 122,
+  "volume_mismatch_days": 0,
+  "max_volume_difference": 5.820766091346741e-11,
+  "block_flag_counts": {
+    "nonblock": 21585
+  },
+  "direction_field_counts": {
+    "canonical": 21585
+  },
+  "interpretation": "Observed execution flow; no investor identity, net positions, or inferred smart money"
+}

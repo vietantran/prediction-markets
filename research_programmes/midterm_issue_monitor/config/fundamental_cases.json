@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-08T15:07:00Z",
+  "assumption_status": "Analyst-designed sensitivity cases, not management guidance, consensus estimates, historical calibration or probability-weighted forecasts.",
+  "horizons_years": [1, 2],
+  "annual_price_return_hurdle": 0.10,
+  "dividends_included": false,
+  "valuation_basis": "Latest completed raw close divided by eligible reconstructed TTM diluted EPS. Microsoft EPS removes the disclosed annual OpenAI investment gain. Future EPS growth includes all revenue, margin, financing and share-count effects; these components are not separately estimated.",
+  "companies": [
+    {
+      "ticker": "MSFT",
+      "issue": "electricity_datacenters",
+      "eps_adjustment_usd": -0.67,
+      "eps_adjustment_reason": "Remove FY2026 EPS contribution from OpenAI investment gains; this is one disclosed adjustment, not a comprehensive normalized earnings estimate.",
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+      "business_evidence": "FY2026 revenue $331.8bn, operating income $155.2bn and diluted EPS $17.95 including $0.67 OpenAI gains. Source dated July 29, 2026.",
+      "political_bridge": "Data-center conditions can increase delivered-power and construction costs or delay revenue conversion; useful contracted capacity can retain scarcity value. AI regulation affects particular deployments, not automatically all cloud sales.",
+      "assumption_rationale": "8/14/20% EPS growth spans slower monetization, continuing demand conversion and stronger utilization. 22/26/30x tests valuation discipline around the observed normalized trailing multiple; no historical-percentile claim is made.",
+      "decision_gate": "Underwrite monetization, depreciation and power commitments together; require the central case to meet the return hurdle before adding.",
+      "invalidation": "Demand conversion, lease-adjusted investment or depreciation diverges materially from the underwriting case.",
+      "cases": [{"case": "lower", "eps_cagr": 0.08, "exit_pe": 22}, {"case": "central", "eps_cagr": 0.14, "exit_pe": 26}, {"case": "upper", "eps_cagr": 0.20, "exit_pe": 30}]
+    },
+    {
+      "ticker": "VRT",
+      "issue": "electricity_datacenters",
+      "eps_adjustment_usd": 0,
+      "eps_adjustment_reason": "Reconstructed GAAP TTM EPS; not management's adjusted EPS.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm",
+      "business_evidence": "July 29 Q2 release reports 24% sales growth, 18% organic growth and 22.6% adjusted operating margin. These quarterly adjusted measures are not substituted for the TTM GAAP input.",
+      "political_bridge": "Permitting restrictions affect backlog conversion, installation timing, utilization and working capital. They do not establish cancellation of every equipment order or a national construction ban.",
+      "assumption_rationale": "8/20/30% EPS growth tests delayed deployment, sustained expansion and strong execution. 30/40/50x imposes differing degrees of compression from the observed trailing multiple; these are explicit stress choices.",
+      "decision_gate": "A falling stock is not enough: test the growth needed to offset compression, and compare with project delivery and order conversion.",
+      "invalidation": "Backlog converts faster than assumed, or mix and margins support sustained earnings growth outside the scenario range.",
+      "cases": [{"case": "lower", "eps_cagr": 0.08, "exit_pe": 30}, {"case": "central", "eps_cagr": 0.20, "exit_pe": 40}, {"case": "upper", "eps_cagr": 0.30, "exit_pe": 50}]
+    },
+    {
+      "ticker": "WMT",
+      "issue": "affordability_inflation",
+      "eps_adjustment_usd": 0,
+      "eps_adjustment_reason": "Reconstructed GAAP TTM EPS; no hypothetical tariff refunds or complete one-off normalization.",
+      "source_url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm",
+      "business_evidence": "August 20 release reports 5.9% quarterly revenue growth and 2.6% US comparable sales growth. EPS growth assumptions also require margin, mix and share-count judgments.",
+      "political_bridge": "Affordability pressure can support traffic and trade-down while squeezing merchandise margins through wages, imports and cost pass-through. Defensive demand need not imply defensive share returns.",
+      "assumption_rationale": "3/8/12% EPS growth spans cost pressure, steady mix improvement and stronger operating leverage. 24/30/36x tests valuation support independently of sales resilience.",
+      "decision_gate": "Require the earnings and multiple combination to justify the entry price; monitor merchandise margin and higher-margin ancillary businesses separately.",
+      "invalidation": "Mix, advertising or membership earnings sustainably expand profitability faster than assumed.",
+      "cases": [{"case": "lower", "eps_cagr": 0.03, "exit_pe": 24}, {"case": "central", "eps_cagr": 0.08, "exit_pe": 30}, {"case": "upper", "eps_cagr": 0.12, "exit_pe": 36}]
+    },
+    {
+      "ticker": "XOM",
+      "issue": "energy_iran",
+      "eps_adjustment_usd": 0,
+      "eps_adjustment_reason": "June-ended TTM EPS across the documented one-for-one holding-company reorganization; not midcycle earnings.",
+      "source_url": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0002115436-26-000006/livef8k2q26991.htm",
+      "business_evidence": "July 31 release reports Q2 earnings $14.5bn and operating cash flow $23.6bn. This elevated quarter is not extrapolated mechanically.",
+      "political_bridge": "Gasoline and supply disruption can support upstream realizations but change refining margins, throughput, taxes and working capital. A political affordability response may reduce consumer prices through several routes.",
+      "assumption_rationale": "-15/0/12% EPS growth and 13/16/19x exit multiples test normalization, sustained cash generation and persistent scarcity. Downside deliberately combines lower earnings with compression, a stress rather than a fitted relationship.",
+      "decision_gate": "Assess normalization downside before increasing an energy hedge after sector outperformance; dividends would improve total return but are excluded here.",
+      "invalidation": "Supply, production mix or structural costs change enough to move sustainable earnings outside the cases.",
+      "cases": [{"case": "lower", "eps_cagr": -0.15, "exit_pe": 13}, {"case": "central", "eps_cagr": 0.0, "exit_pe": 16}, {"case": "upper", "eps_cagr": 0.12, "exit_pe": 19}]
+    },
+    {
+      "ticker": "DHI",
+      "issue": "housing",
+      "eps_adjustment_usd": 0,
+      "eps_adjustment_reason": "Reconstructed TTM EPS; land and working-capital effects make cash FCF a separate diagnostic.",
+      "source_url": "https://investor.drhorton.com/news-and-events/press-releases/2026/07-21-2026-113055285",
+      "business_evidence": "July 21 results report a 20% cancellation rate versus 17% a year earlier and expectations of elevated incentives.",
+      "political_bridge": "Affordability depends on mortgage payments, incomes, supply and incentives. A change in Congress or lower Fed policy rate does not itself deliver lower mortgage rates or stronger buyer demand.",
+      "assumption_rationale": "-10/5/15% EPS growth spans persistent incentives, stabilization and stronger order/margin recovery. 10/12/14x captures valuation risk around the observed cyclical earnings base.",
+      "decision_gate": "Add only when order quality, cancellations and incentive expense support the earnings recovery required by the price.",
+      "invalidation": "Employment weakens, mortgage spreads widen or land/incentive costs overwhelm demand improvement.",
+      "cases": [{"case": "lower", "eps_cagr": -0.10, "exit_pe": 10}, {"case": "central", "eps_cagr": 0.05, "exit_pe": 12}, {"case": "upper", "eps_cagr": 0.15, "exit_pe": 14}]
+    },
+    {
+      "ticker": "UNH",
+      "issue": "healthcare",
+      "eps_adjustment_usd": 0,
+      "eps_adjustment_reason": "Reconstructed GAAP TTM EPS; not full-year adjusted management guidance.",
+      "source_url": "https://www.unitedhealthgroup.com/newsroom/2026/2026-07-16-uhg-reports-second-quarter-2026-results.html",
+      "business_evidence": "July 16 release reports Q2 revenue $112bn and operating earnings $8bn. Reported full-year adjusted guidance is not the GAAP starting EPS used here.",
+      "political_bridge": "Reimbursement, utilization, enrollment and government-program implementation alter the payer/provider allocation. Group EBIT margin is not the medical cost ratio.",
+      "assumption_rationale": "-5/12/20% EPS growth and 16/20/24x test persistent pressure, partial recovery and strong execution. Cases depend on underwriting and cost normalization, not a direct translation of election odds.",
+      "decision_gate": "Demand evidence of sustainable cost and reimbursement alignment before treating sector-relative underperformance as political mispricing.",
+      "invalidation": "Medical utilization, reimbursement or business mix differs materially from the assumed recovery.",
+      "cases": [{"case": "lower", "eps_cagr": -0.05, "exit_pe": 16}, {"case": "central", "eps_cagr": 0.12, "exit_pe": 20}, {"case": "upper", "eps_cagr": 0.20, "exit_pe": 24}]
+    },
+    {
+      "ticker": "JPM",
+      "issue": "fed_rates",
+      "eps_adjustment_usd": 0,
+      "eps_adjustment_reason": "Reconstructed TTM EPS. No industrial EBIT-margin or cash-FCF measure is calculated for this bank.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/a2q26erfexhibit991narrative.htm",
+      "business_evidence": "July 14 Q2 release discusses net interest income through balances and rates; loan demand, deposit pricing and credit costs remain distinct drivers.",
+      "political_bridge": "A lower policy-rate path can reduce funding expense while also changing asset yields, loan demand and credit losses. Congressional control is not a direct monetary-policy instruction.",
+      "assumption_rationale": "-5/5/10% EPS growth and 11/13/15x stress credit normalization, balanced growth and stronger execution. No bank FCF or zero-debt assumption is used.",
+      "decision_gate": "Test deposit pricing, loan growth and credit losses together; compare banks with distinct funding structures before using financials as a simple rate hedge.",
+      "invalidation": "Credit or deposit competition materially changes the earnings trajectory.",
+      "cases": [{"case": "lower", "eps_cagr": -0.05, "exit_pe": 11}, {"case": "central", "eps_cagr": 0.05, "exit_pe": 13}, {"case": "upper", "eps_cagr": 0.10, "exit_pe": 15}]
+    }
+  ]
+}
