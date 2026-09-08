@@ -1,0 +1,226 @@
+{
+  "audit_created_utc": "2026-09-08T18:30:25.928021+00:00",
+  "status": "READY",
+  "scope": "Independent common-candle temporal/coverage and report Kalshi numerical audit. Does not revalidate survey sources, legal claims or equity returns.",
+  "frozen_asof_utc": "2026-09-08T15:07:00Z",
+  "frozen_common_start_utc": "2026-07-08T15:07:00Z",
+  "source_roots": [
+    "data/kalshi_full_20260908",
+    "data/midterm_research_20260908/kalshi_supplement"
+  ],
+  "candle_dataset": "common_only",
+  "primary_artifacts": {
+    "base": 3292,
+    "supplement": 2740,
+    "total": 6032
+  },
+  "source_artifact_validation": {
+    "errors": [],
+    "error_count": 0,
+    "checks": [
+      "Every common artifact exists, is complete, and has the exact frozen asof and requested common-window bounds.",
+      "Both hourly and daily windows match inception-adjusted starts and settlement-adjusted ends.",
+      "Every row is within permitted query/overlap bounds, never after frozen asof; period, overlap and partial-boundary annotations match timestamps.",
+      "No duplicated or unsorted candle endpoints; recorded row counts and first/last endpoints match raw arrays.",
+      "Independent common-only per-market retained row counts exactly match the regenerated analysis coverage."
+    ]
+  },
+  "final_common_coverage": {
+    "markets": 6032,
+    "artifacts": 6032,
+    "with_hourly": 4856,
+    "empty": 1176,
+    "empty_settled_before_window": 1108,
+    "empty_other": 68,
+    "retained_hourly_rows": 1276909,
+    "pre_common_retained_rows": 0,
+    "channel_counts": {
+      "election": {
+        "contracts": 1228,
+        "with_hourly": 1208,
+        "hourly_rows": 443376,
+        "empty": 20
+      },
+      "macro": {
+        "contracts": 2249,
+        "with_hourly": 1867,
+        "hourly_rows": 558592,
+        "empty": 382
+      },
+      "policy": {
+        "contracts": 918,
+        "with_hourly": 742,
+        "hourly_rows": 186462,
+        "empty": 176
+      },
+      "mention": {
+        "contracts": 1637,
+        "with_hourly": 1039,
+        "hourly_rows": 88479,
+        "empty": 598
+      }
+    },
+    "per_market_coverage_mismatches": []
+  },
+  "numerical_checks": {
+    "count": 494,
+    "failure_count": 0,
+    "failures": [],
+    "scope": "Raw-candle midpoints/bids/asks/OI/time stamps and 7/28-day changes versus report tables; headline Fed/gas/joint control numbers; raw mention event counts/means; literal report table values."
+  },
+  "mention_robustness": {
+    "usable_counts": {
+      "0.25": 486,
+      "0.1": 469,
+      "0.05": 410
+    },
+    "status_counts": {
+      "0.25": {
+        "lead_unavailable_listed_too_late": 791,
+        "missing_usable_quote": 290,
+        "usable": 486,
+        "lead_target_not_yet_observed": 69,
+        "stale_observation": 1
+      },
+      "0.1": {
+        "lead_unavailable_listed_too_late": 791,
+        "missing_usable_quote": 308,
+        "usable": 469,
+        "lead_target_not_yet_observed": 69
+      },
+      "0.05": {
+        "lead_unavailable_listed_too_late": 791,
+        "missing_usable_quote": 358,
+        "usable": 410,
+        "lead_target_not_yet_observed": 69,
+        "stale_observation": 9
+      }
+    },
+    "supported_cohorts": {
+      "0.25": [
+        {
+          "issue_id": "energy_iran",
+          "series_ticker": "KXTRUMPMENTION",
+          "subject": "donald trump",
+          "word_normalized": "oil / gas / gasoline",
+          "latest14d_events": 3,
+          "prior28d_events": 7,
+          "latest_mean": 0.675,
+          "prior_mean": 0.6842857142857143,
+          "change_pp": -0.928571428571423
+        }
+      ],
+      "0.1": [
+        {
+          "issue_id": "energy_iran",
+          "series_ticker": "KXTRUMPMENTION",
+          "subject": "donald trump",
+          "word_normalized": "oil / gas / gasoline",
+          "latest14d_events": 3,
+          "prior28d_events": 7,
+          "latest_mean": 0.675,
+          "prior_mean": 0.6842857142857143,
+          "change_pp": -0.928571428571423
+        }
+      ],
+      "0.05": [
+        {
+          "issue_id": "energy_iran",
+          "series_ticker": "KXTRUMPMENTION",
+          "subject": "donald trump",
+          "word_normalized": "oil / gas / gasoline",
+          "latest14d_events": 3,
+          "prior28d_events": 6,
+          "latest_mean": 0.675,
+          "prior_mean": 0.6883333333333334,
+          "change_pp": -1.3333333333333308
+        }
+      ]
+    },
+    "issue_wide_supported_trends": 0
+  },
+  "empty_other_diagnostics": {
+    "channel_counts": {
+      "macro": 7,
+      "mention": 38,
+      "policy": 21,
+      "election": 2
+    },
+    "with_nonempty_daily_api_history": 0,
+    "statement": "All 68 have complete API collection windows with zero returned hourly rows, no artifact/window errors. The API response does not identify the reason for missing hourly observations; do not infer no trading or no open interest.",
+    "close_time_before_common_window": 61,
+    "missing_settlement_timestamp": 67
+  },
+  "resolved_defects": [
+    {
+      "defect": "Core loader previously merged three separate presettlement files, adding 877 old observations to coverage.",
+      "fix": "Default common-only loader, explicit extension opt-in, final analysis rerun. Older raw data remains separate.",
+      "excluded_extension_tickers": [
+        "HOUSECA40-26-R",
+        "HOUSECA40-26-D",
+        "KXCPI-26MAY-T0.9"
+      ]
+    },
+    {
+      "defect": "Daily aggregation shortened the configured calendar window to a fixed 60 days.",
+      "fix": "Exact 2026-07-08T15:07Z start restored."
+    },
+    {
+      "defect": "The first dynamic coverage report used numeric conversion on ISO8601 settlement timestamps, reporting zero earlier settlements.",
+      "fix": "Mixed-format UTC datetime parsing; regenerated report independently confirms 1,108 earlier settlements and 68 other empty histories."
+    }
+  ],
+  "tests": {
+    "issue_analysis_tests_passed": 12,
+    "ruff": "passed"
+  },
+  "definitions": [
+    "Hourly rows are actual retained API observations, not a complete grid or count of statistically independent observations.",
+    "Rows ending at/after settlement are excluded from analytical observations. API bars straddling a boundary remain in the raw dataset with flags.",
+    "First interval volume remains whole-interval volume and is never prorated.",
+    "Daily API sessions use their original boundaries; analysis daily aggregates group hourly endtimestamp minus one second in UTC.",
+    "Open interest is a stock, never summed through time.",
+    "Raw mentions measure expected literal language at a retrospective fixed lead, not voter salience or trader positions.",
+    "Common-window coverage excludes separately stored presettlement histories."
+  ],
+  "hashes": {
+    "cohort_sha256": "11ed1e6b8798c59bedd2607b6e83633cd7c9dd02d292e60d2b4fe3f025854d27",
+    "selection_config_sha256": "67d3eec337d6bb499440a465ea1cf6eaf1351aa0887f5ba3cbf47e22d62d4ff2",
+    "source_discovery_manifest_sha256": "e19cf9c837a3e59b4f54b522a123cc62aa9f461840c1de8e3c755e896fbe8c9d",
+    "analysis_outputs_sha256": {
+      "election_snapshot.csv": "00af127739c98117eced893c61e07b603c5dbbedda1e37be32eaba69084758d6",
+      "election_changes.csv": "85eb7ac022c30c55c0d6cdc685e78b31377c4790ec41e5752b78d82720dddd5c",
+      "policy_snapshot.csv": "39c6610d3d1ebcb0da393db4b4e49854a2d808452775d7778a92e2fceb033585",
+      "policy_changes.csv": "88e2f240b82b2899aa4dd82b3f596b445c8f9b2fffba9b2d9c9b3f14039585c3",
+      "macro_snapshot.csv": "f3242a15b6ba24eaaf9d24324a4edcedc20426cb644f447429aa078a00151508",
+      "macro_changes.csv": "4f81196dc8f90d678910d35211db1e1246750f141426066f0b2f3c34f27ed4b1",
+      "mention_observations.csv": "66c7e032ef254c670f54ebd52208233605214237038bad1bced20fbea256ead2",
+      "mention_cohorts.csv": "b97856e222f9dee2be967c5904d619278c65aa08f7df7e8f0b45718874e9454d",
+      "mention_robustness.csv": "44a071ca313945055110f01509c63660ea3f0315a8a11cce14ad6e2671b6e484",
+      "issue_summary.csv": "84cfcc11fc9d84561482ff503a7a01f065b76b9ec34766a89e54e829b5dfc165",
+      "daily_issue_series.csv": "be8cf2217d5a64d778ac75ea0613de7b86299f70bb00ac890c7ccd3f0968daf7",
+      "weekly_issue_series.csv": "86b23b4dbe173339685de17c49074d640c7e39b9d54c795c704aac9d03e2febd",
+      "coverage.csv": "92b55d9a6b898a2b1c2c87bfdc6baf8d61bbfa961cefd75fbfba139af3953364"
+    },
+    "report_at_initial_numerical_audit_sha256": "6ff7a97a9780651ca59ef69da7482a5ee4c4843a3674325bec3b3a532293dfc6",
+    "final_report_sha256": "ac5839c5c7d36b4757e2ce26fc173bc9a59ab9f961f27a050cc5fffd65b3ac54",
+    "final_coverage_table_sha256": "21aaa2ca465841ca88657bbddf40a20542574fea8ca5e35b8ae00d788daea7c5",
+    "final_validation_sha256": "70da5a6ff7a2f058144f10a0d6006a3982256f2429bfcb1caaee9ecceebfc946",
+    "analysis_code_sha256": {
+      "pmresearch\\issue_research.py": "f12baf8aa55c151aa37af3e0296f92be67d45ca2106b62ef13200044e5eb6939",
+      "tests\\test_issue_research.py": "a9554c02f0ea1d98b51a1227b8cf81cd3e505927572ccc44b5332448696bfc30"
+    }
+  },
+  "final_report_coverage_check": {
+    "status": "READY",
+    "checked_utc": "2026-09-08T18:32:35.426071+00:00",
+    "check_count": 32,
+    "failure_count": 0,
+    "failures": [],
+    "report_sha256": "ac5839c5c7d36b4757e2ce26fc173bc9a59ab9f961f27a050cc5fffd65b3ac54",
+    "coverage_table_sha256": "21aaa2ca465841ca88657bbddf40a20542574fea8ca5e35b8ae00d788daea7c5",
+    "validation_sha256": "70da5a6ff7a2f058144f10a0d6006a3982256f2429bfcb1caaee9ecceebfc946",
+    "scope": "Final Markdown coverage statement/table and validation reconciled after common-only analysis and mixed-ISO datetime report parser fixes. PDF layout rebuild may follow without data changes."
+  },
+  "completed_utc": "2026-09-08T18:32:35.426071+00:00"
+}

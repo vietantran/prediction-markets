@@ -1,0 +1,10 @@
+# Preserve frozen research bytes so artifact SHA256 values survive checkout.
+config/midterm_*.json -text whitespace=cr-at-eol
+research/midterms_2026_09_08/** -text whitespace=cr-at-eol
+# ReportLab PDFs can contain only printable bytes and need explicit binary mode.
+*.pdf binary
+*.xlsx binary
+# Market rules contain source whitespace inside quoted CSV fields.
+research/midterms_2026_09_08/inputs/kalshi/analysis_market_index.csv whitespace=cr-at-eol,-blank-at-eol
+# Matplotlib emits trailing spaces in generated SVG path coordinates.
+research/midterms_2026_09_08/charts/*.svg whitespace=cr-at-eol,-blank-at-eol

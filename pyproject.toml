@@ -12,6 +12,7 @@ dependencies = ["httpx>=0.28,<1", "cryptography>=44", "websockets>=15,<17", "PyY
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.11"]
 graphql = ["graphql-core>=3.2,<4"]
+research = ["requests>=2.32,<3", "pandas>=2.2,<4", "numpy>=2,<3", "matplotlib>=3.9,<4", "openpyxl>=3.1,<4", "XlsxWriter>=3.2,<4", "reportlab>=4,<5", "markdown>=3.7,<4", "beautifulsoup4>=4.12,<5", "pypdf>=5,<7", "PyMuPDF>=1.25,<2"]
 
 [project.scripts]
 pmresearch = "pmresearch.cli:main"

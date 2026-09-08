@@ -1,0 +1,8 @@
+﻿ticker,trailing_pe_proxy,cash_fcf_yield_proxy,operating_margin_ttm,ebit_change_for_100bp_margin,illustrative_exit_pe,two_year_eps_cagr_for_flat_price,scenario_basis
+MSFT,27.838440791478064,0.018053142297397,0.4678081840892722,0.021376282716105054,25,0.05524292542481546,"Analyst stress assumption, not fair value, forecast, consensus, or calibrated probability"
+VRT,63.468325515678025,0.027127593987893,0.1894316875152444,0.05278947852478618,40,0.25964603674681186,"Analyst stress assumption, not fair value, forecast, consensus, or calibrated probability"
+XOM,20.523809680914173,0.046593116092552,,,18,0.06780693430023965,"Analyst stress assumption, not fair value, forecast, consensus, or calibrated probability"
+DHI,13.608198284080077,0.0802006526775085,,,12,0.06490211929235068,"Analyst stress assumption, not fair value, forecast, consensus, or calibrated probability"
+JPM,15.36589608605131,,,,13,0.08719455785031016,"Analyst stress assumption, not fair value, forecast, consensus, or calibrated probability"
+UNH,25.52313718820292,0.0662522651700695,0.0481550844313519,0.20766239158516334,20,0.12967112887341958,"Analyst stress assumption, not fair value, forecast, consensus, or calibrated probability"
+WMT,38.81884035856828,0.0158925379282183,0.0443122946026307,0.2256710037174723,30,0.13752421745016452,"Analyst stress assumption, not fair value, forecast, consensus, or calibrated probability"

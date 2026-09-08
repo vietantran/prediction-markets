@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "markets": 6032,
+  "hourly_rows": 1276909,
+  "daily_rows": 129025,
+  "hourly_workbooks": 6,
+  "daily_workbooks": 1,
+  "metadata_rows": 6032,
+  "no_history_markets": 1176,
+  "frozen_report_coverage_reconciled": true,
+  "files": [
+    {
+      "file": "HOURLY_001.xlsx",
+      "rows": 250000,
+      "sha256_verified": true,
+      "zip_crc_verified": true,
+      "datetime_numeric_cells_verified": true
+    },
+    {
+      "file": "HOURLY_002.xlsx",
+      "rows": 250000,
+      "sha256_verified": true,
+      "zip_crc_verified": true,
+      "datetime_numeric_cells_verified": true
+    },
+    {
+      "file": "HOURLY_003.xlsx",
+      "rows": 250000,
+      "sha256_verified": true,
+      "zip_crc_verified": true,
+      "datetime_numeric_cells_verified": true
+    },
+    {
+      "file": "HOURLY_004.xlsx",
+      "rows": 250000,
+      "sha256_verified": true,
+      "zip_crc_verified": true,
+      "datetime_numeric_cells_verified": true
+    },
+    {
+      "file": "HOURLY_005.xlsx",
+      "rows": 250000,
+      "sha256_verified": true,
+      "zip_crc_verified": true,
+      "datetime_numeric_cells_verified": true
+    },
+    {
+      "file": "HOURLY_006.xlsx",
+      "rows": 26909,
+      "sha256_verified": true,
+      "zip_crc_verified": true,
+      "datetime_numeric_cells_verified": true
+    },
+    {
+      "file": "DAILY_001.xlsx",
+      "rows": 129025,
+      "sha256_verified": true,
+      "zip_crc_verified": true,
+      "datetime_numeric_cells_verified": true
+    }
+  ],
+  "total_current_xlsx_bytes": 106210782
+}

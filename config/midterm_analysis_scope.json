@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "selection_basis": "Ex ante topic/horizon relevance, independent of prices, returns or significance. All classified US election, policy and political/earnings mention records; a named macro family panel for inflation, jobs, growth, energy, housing and the Fed. The full classified inventory remains available separately.",
+  "include_channels": ["mention", "election", "policy"],
+  "macro_series": [
+    "KXFED", "KXFEDDECISION", "KXFEDFUNDSYEAR", "KXRATECUT", "KXRATECUTCOUNT", "KXFEDHIKE", "KXFEDCOMBO", "KXFOMCDISSENTCOUNT",
+    "KXCPI", "KXCPIYOY", "KXCPICORE", "KXCPICOREYOY", "KXPCECORE", "KXPCEHEAD", "KXUSCPIYEAR", "KXUSGASCPI", "KXSHELTERCPI", "KXCPISHELTER",
+    "KXGDP", "KXGDPYEAR", "KXNOMGDPGROWTH", "KXNGDPQ", "KXRECSSNBER", "KXNBERRECESSQ", "KXU3", "KXU3EOY", "KXECONSTATU3", "KXPAYROLLS", "KXJOBLESSCLAIMS", "KXJOLTSOPEN",
+    "KXAAAGASED", "KXAAAGASM", "KXBRENTMON", "KXWTIMAX", "KXWTIMIN", "KXWTIMAXM", "KXWTIMINM", "KXPOWERKWH",
+    "KXUSDCCAPACITY", "KXDATACENTCON", "KXTXERCOTPEAK", "KXNFPROD", "KX30YMORTW", "KXMORTGAGERATE", "KXEXUSHOME", "KXNHSALES", "KXEHSALES",
+    "KXTNOTEW", "KXNOTE10", "KX10Y2Y", "KX10Y2YDATE", "KXDEFGDP", "KXTRADEDEFICIT"
+  ],
+  "not_in_core": "Recurring 15-minute/hourly oil direction ladders and other trading-clock contracts remain in the full extraction. Their listing and turnover frequency is not evidence of growing electoral salience.",
+  "interpretation": "A completely processed research cohort, not a claim of complete historical extraction of every website category. Sparse or absent quotes remain explicit. No selection on realized equity returns."
+}

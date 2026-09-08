@@ -1,0 +1,21 @@
+{
+  "asof_utc": "2026-09-08T15:07:00Z",
+  "cohort_markets": 6032,
+  "coverage_rows": 6032,
+  "duplicate_index_tickers": 0,
+  "duplicate_coverage_tickers": 0,
+  "missing_cohort_artifacts": 0,
+  "read_error_markets": 0,
+  "artifact_error_count": 0,
+  "hourly_rows": 1276909,
+  "candle_dataset": "common_only",
+  "price_rows": 1548,
+  "last_equity_date": "2026-09-04",
+  "equity_duplicates": 0,
+  "future_equity_rows": 0,
+  "supported_mention_cohorts": 1,
+  "public_source_records": 29,
+  "chart_count": 9,
+  "tables": 15,
+  "classification": "Ready to share with documented limitations; descriptive research, not causal or out-of-sample alpha evidence."
+}

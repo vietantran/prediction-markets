@@ -6,6 +6,8 @@ The package is designed for **data collection and research triage**. It preserve
 
 ## Start here
 
+For the implemented investment study, open the [September 2026 midterms research report](research/midterms_2026_09_08/Midterms_Issue_Momentum_Research.md), its [PDF](research/midterms_2026_09_08/Midterms_Issue_Momentum_Research.pdf), or the [Excel research tables](research/midterms_2026_09_08/Midterms_Research_Data.xlsx). It analyzes a 6,032-contract Kalshi cohort, 25 stocks and 11 ETFs, with nine original charts, dated primary evidence and explicit coverage limits. The [research runbook](docs/midterm-issue-research.md) explains collection and offline reproduction with `python scripts/run_midterm_study.py --offline` after installing `.[research,dev]`.
+
 For a self-contained introduction, open [the standalone API tutorial notebook](polymarket_kalshi_api_tutorial.ipynb). It uses ordinary Python HTTP requests to explore Polymarket Gamma, CLOB, Data and streaming APIs, plus Kalshi discovery, books, trades, candles and historical data. Public examples need no credentials or installation of this package.
 
 Requires Python 3.11+. From this directory:

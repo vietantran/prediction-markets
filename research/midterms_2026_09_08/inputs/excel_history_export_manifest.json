@@ -1,0 +1,69 @@
+{
+  "status": "complete",
+  "asof_utc": "2026-09-08T15:07:00Z",
+  "input_hashes": {
+    "analysis_market_index.csv": "992b67d938de04b123d8050347ffb3e6112c8782b7ba1fa7662d1ee2c8e299b6",
+    "coverage.csv": "92b55d9a6b898a2b1c2c87bfdc6baf8d61bbfa961cefd75fbfba139af3953364",
+    "analysis_manifest.json": "5332892598c768eafe63b748c1829750779f1daa127bf1c54bcd07271a0cbfa6",
+    "midterm_issues.json": "efd8b3ef765cef9f10e839e18c0dfd9cd95921e061a2ac50b2d859f4a6b18864",
+    "run_config.json": "eb04b03bdfd0ca6fad31d2b560421078b1df0ead34ab6806a3de1ebca6dad8cb"
+  },
+  "markets": 6032,
+  "max_rows_per_shard": 250000,
+  "files": [
+    {
+      "file": "HOURLY_001.xlsx",
+      "rows": 250000,
+      "bytes": 17871491,
+      "sha256": "f2540ffa363457d02c675bdf96fd5847560a5c5334a1c319c52b8a1c3c3dc02f"
+    },
+    {
+      "file": "HOURLY_002.xlsx",
+      "rows": 250000,
+      "bytes": 18275610,
+      "sha256": "0d0692ac07e21815616fac69384830c83f7fb73161cd86f70085ad231e2415a9"
+    },
+    {
+      "file": "HOURLY_003.xlsx",
+      "rows": 250000,
+      "bytes": 18107231,
+      "sha256": "fcb9b53e2f6f0dd9fa1ac84c3803ebae708b3d360f78d41481ba4ad4309ef8f7"
+    },
+    {
+      "file": "HOURLY_004.xlsx",
+      "rows": 250000,
+      "bytes": 17703706,
+      "sha256": "33299306054fd3180c4dfc820f0518d4eecc68d5d69a980227f982897a57dd0b"
+    },
+    {
+      "file": "HOURLY_005.xlsx",
+      "rows": 250000,
+      "bytes": 18524515,
+      "sha256": "b84eadff9874336edd0fdfb58b9987ff09d6883bea95c4944fcdf287b6252dd9"
+    },
+    {
+      "file": "HOURLY_006.xlsx",
+      "rows": 26909,
+      "bytes": 1891813,
+      "sha256": "461b2ddcbc9a362d5850b089763ad049fc29df256207b0aee211f26efdb7aa6e"
+    },
+    {
+      "file": "DAILY_001.xlsx",
+      "rows": 129025,
+      "bytes": 12053448,
+      "sha256": "6e3113d0b317a6da5db94f9263fefb8846cb5bfdafb2eb6da51ef5306d5f0f55"
+    }
+  ],
+  "hourly_rows": 1276909,
+  "daily_rows": 129025,
+  "markets_with_history": 4856,
+  "no_history_reasons": {
+    "settled_before_common_window": 1108,
+    "no_retained_hourly_rows_see_frozen_coverage": 68
+  },
+  "source_artifacts": 6032,
+  "elapsed_seconds": 252.31299999984913,
+  "index_sha256": "5cef6fa7f08e59124296c4d45fd9f9f53ac03c74ba640a951eb51090e09863b2",
+  "local_only_workbooks": "data/midterm_research_20260908/excel_history/INDEX.xlsx; shard filenames listed below",
+  "scope": "Completed common-only research cohort; full-category and pre-settlement extraction remain separate."
+}

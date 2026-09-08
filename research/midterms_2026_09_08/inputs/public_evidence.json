@@ -1,0 +1,2423 @@
+{
+  "schema_version": "1.0",
+  "title": "Public election, salience and policy evidence for the midterm issue report",
+  "as_of": "2026-09-08T15:07:00Z",
+  "compiled_at": "2026-09-08T18:04:09Z",
+  "topic_ids": [
+    "affordability_inflation",
+    "energy_iran",
+    "electricity_datacenters",
+    "ai_jobs_regulation",
+    "healthcare",
+    "housing",
+    "immigration",
+    "trade_tariffs",
+    "taxes_fiscal",
+    "jobs_growth",
+    "fed_rates"
+  ],
+  "scope": {
+    "public_only": true,
+    "record_count": 29,
+    "dated_record_count": 27,
+    "primary_poll_release_count": 8,
+    "purpose": "Triangulate opinion, election relevance, policy authority and macro context; not a complete census of all public documents.",
+    "date_rule": "Include source publications, or explicitly dated source sections, no later than the freeze. No September 8 date-only news item is used. Standing undated rules are separate background.",
+    "retrieval_rule": "Manual extraction from opened primary-source pages/PDFs using web tools. Sources were read after the freeze but pre-freeze publication/data vintages were selected. This is not a historical page-archive capture.",
+    "quote_policy": "No long direct quotations; survey questions are paraphrased. Follow source links for exact questionnaires and methods."
+  },
+  "schema_notes": {
+    "date": "ISO date of release, official action or explicitly dated document section; null for standing undated background. Consult publication_precision/date_basis.",
+    "published_at": "Exact ISO timestamp only if verified; null does not mean midnight.",
+    "topic": "Primary shared topic ID.",
+    "topics": "All relevant shared topic IDs.",
+    "claim": "Concise sourced fact or explicitly attributed forecast; not an estimated investment return.",
+    "observations": "Metric/value/unit/date/population objects; repeated waves have distinct dates/populations.",
+    "sample": "Latest-wave sample/method information; do not assign it to earlier waves.",
+    "question": "Paraphrase, not verbatim questionnaire wording.",
+    "trend_status": "Comparability applies to the indicated question and population, not automatically every observation in a mixed record.",
+    "uncertainty": "Interpretation, time-vintage and scope restrictions needed for downstream reporting."
+  },
+  "analysis_rules": [
+    "Keep topic attention, prompted concern, open-ended priority, policy preference, voting intention, market-implied prices and enacted policy as separate dimensions.",
+    "Only compare the same pollster, question, response options and target population over time; report changes in percentage points and do not infer significance without earlier-wave n/design information.",
+    "Registered voters, likely voters, all adults and partisan subgroups must not be pooled as equivalent populations.",
+    "Do not extrapolate one state poll to all states, or convert a national generic ballot into a seat-count prediction.",
+    "Policy stages are not ordinal enactment probabilities: proposal, passed bill, veto, executive order, rule and implementation can follow different legal paths.",
+    "Use these dated primary documents to inspect Kalshi changes; Kalshi mentions/volume measure contract attention or trading, not public salience or directional positioning.",
+    "Absence of an issue in this selected evidence packet is missing evidence, not proof the issue lacks importance.",
+    "Investment implications in the companion memo are reasoned hypotheses to test against valuation and company exposure, not realized-return findings."
+  ],
+  "trend_comparisons": [
+    {
+      "id": "T01",
+      "record_id": "P02",
+      "metric": "gasoline_cost",
+      "baseline": 34,
+      "latest": 56,
+      "delta_pp": 22,
+      "baseline_date": "2026-01",
+      "latest_date": "2026-07",
+      "population": "adults receiving separate gasoline question",
+      "signal": "economic_concern",
+      "verdict": "large nominal increase; not an election-priority measure"
+    },
+    {
+      "id": "T02",
+      "record_id": "P02",
+      "metric": "electricity_cost",
+      "baseline": 51,
+      "latest": 54,
+      "delta_pp": 3,
+      "baseline_date": "2026-01",
+      "latest_date": "2026-07",
+      "population": "adults receiving separate electricity question",
+      "signal": "economic_concern",
+      "verdict": "high concern; small movement does not establish acceleration"
+    },
+    {
+      "id": "T03",
+      "record_id": "P02",
+      "metric": "housing_cost",
+      "baseline": 62,
+      "latest": 64,
+      "delta_pp": 2,
+      "baseline_date": "2026-01",
+      "latest_date": "2026-07",
+      "population": "adults",
+      "signal": "economic_concern",
+      "verdict": "high level rather than demonstrated surge"
+    },
+    {
+      "id": "T04",
+      "record_id": "P02",
+      "metric": "healthcare_cost",
+      "baseline": 71,
+      "latest": 69,
+      "delta_pp": -2,
+      "baseline_date": "2026-01",
+      "latest_date": "2026-07",
+      "population": "adults",
+      "signal": "economic_concern",
+      "verdict": "persistently highest listed cost concern, not rising"
+    },
+    {
+      "id": "T05",
+      "record_id": "P05",
+      "metric": "data_centers_costs_outweigh_benefits",
+      "baseline": 62,
+      "latest": 73,
+      "delta_pp": 11,
+      "baseline_date": "2026-01-21/2026-01-28",
+      "latest_date": "2026-07-22/2026-07-29",
+      "population": "adults",
+      "signal": "opposition",
+      "verdict": "rising opposition on stable question; not directly measured electoral salience"
+    },
+    {
+      "id": "T06",
+      "record_id": "P06",
+      "metric": "data_centers_costs_outweigh_benefits",
+      "baseline": 70,
+      "latest": 78,
+      "delta_pp": 8,
+      "baseline_date": "2026-02-11/2026-02-19",
+      "latest_date": "2026-08-12/2026-08-20",
+      "population": "Wisconsin registered voters",
+      "signal": "opposition",
+      "verdict": "rising opposition from comparable February baseline; only +2 points July to August"
+    },
+    {
+      "id": "T07",
+      "record_id": "P07",
+      "metric": "more_concerned_than_excited",
+      "baseline": 47,
+      "latest": 55,
+      "delta_pp": 8,
+      "baseline_date": "2025",
+      "latest_date": "2026-06",
+      "population": "adults aged 18–29",
+      "signal": "AI_attitude",
+      "verdict": "youth-specific increase; does not establish youth turnout or vote effects"
+    },
+    {
+      "id": "T08",
+      "record_id": "P03",
+      "metric": "inflation_most_important_problem",
+      "baseline": 15,
+      "latest": 11,
+      "delta_pp": -4,
+      "baseline_date": "2026-05",
+      "latest_date": "2026-07",
+      "population": "adults",
+      "signal": "open_ended_national_priority",
+      "verdict": "counterevidence to indiscriminate claims all affordability salience is rising"
+    },
+    {
+      "id": "T09",
+      "record_id": "P06",
+      "metric": "Iran_war_not_worth_cost",
+      "baseline": 71,
+      "latest": 70,
+      "delta_pp": -1,
+      "baseline_date": "2026-07",
+      "latest_date": "2026-08",
+      "population": "Wisconsin registered voters",
+      "signal": "war_attitude",
+      "verdict": "high opposition; essentially stable nominal reading"
+    },
+    {
+      "id": "T10",
+      "record_id": "P06",
+      "metric": "ICE_enforcement_disapprove",
+      "baseline": 56,
+      "latest": 57,
+      "delta_pp": 1,
+      "baseline_date": "2026-02",
+      "latest_date": "2026-08",
+      "population": "Wisconsin registered voters",
+      "signal": "enforcement_attitude",
+      "verdict": "no evidence of a substantial increase in this series"
+    }
+  ],
+  "excluded_or_limited_evidence": [
+    {
+      "item": "Marquette national Iran top-issue April-to-July comparison",
+      "reason": "Supplied response options changed, including addition of housing and SAVE Act; use latest cross-section only."
+    },
+    {
+      "item": "Marquette Wisconsin October 2025 data-center baseline",
+      "reason": "October wording included Microsoft cancellation; clean comparison begins February 2026."
+    },
+    {
+      "item": "January-to-July Pew AI concern trend",
+      "reason": "AI concern item was not asked in January."
+    },
+    {
+      "item": "H.R.6644 final legislative status",
+      "reason": "Search results and a stale Congress.gov snapshot disagreed; no final-status assertion included."
+    },
+    {
+      "item": "Post-freeze September releases or election results",
+      "reason": "Excluded; includes September energy forecast and results from primaries not completed by the cutoff."
+    },
+    {
+      "item": "Claims of voter salience derived from Kalshi mentions or volume",
+      "reason": "Contract listing and trading activity do not identify public opinion or investor net direction."
+    }
+  ],
+  "records": [
+    {
+      "id": "P01",
+      "topic": "affordability_inflation",
+      "topics": [
+        "affordability_inflation",
+        "healthcare",
+        "housing",
+        "immigration",
+        "taxes_fiscal",
+        "ai_jobs_regulation"
+      ],
+      "date": "2026-07-23",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.pewresearch.org/politics/2026/07/23/as-the-2026-midterms-approach-economy-is-front-and-center/",
+      "source_title": "As the 2026 midterms approach, economy is front and center",
+      "source_type": "poll",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "published_poll",
+      "claim": "Economy leads the open-ended congressional campaign agenda; many adults agree with neither party on AI.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": {
+        "adults": 3554,
+        "registered_voters": 2779,
+        "design": "American Trends Panel probability-based national survey"
+      },
+      "fieldwork": {
+        "start": "2026-07-06",
+        "end": "2026-07-12"
+      },
+      "question": "Registered voters named the one issue they most wanted congressional candidates in their district to discuss; separate adult questions asked party agreement.",
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "economy_net",
+          "value": 29,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "cost_of_living_affordability",
+          "value": 15,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "economy_general",
+          "value": 7,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "taxes",
+          "value": 4,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "immigration",
+          "value": 7,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "healthcare",
+          "value": 5,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "congressional_preference_D",
+          "value": 43,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "congressional_preference_R",
+          "value": 37,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "AI_agree_neither_party",
+          "value": 51,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults"
+        },
+        {
+          "metric": "AI_agree_D",
+          "value": 22,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults"
+        },
+        {
+          "metric": "AI_agree_R",
+          "value": 23,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults"
+        }
+      ],
+      "evidence_level": "primary_survey",
+      "salience_signal_type": "open_ended_electoral_priority",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Cross-section; does not establish an increase in electoral salience.",
+        "Open-ended responses are coded categories; cost-of-living is part of economy NET, not additive.",
+        "Adult party-agreement and registered-voter election-priority denominators differ.",
+        "National vote preference is not a House seat forecast."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "P02",
+      "topic": "affordability_inflation",
+      "topics": [
+        "affordability_inflation",
+        "energy_iran",
+        "electricity_datacenters",
+        "healthcare",
+        "housing",
+        "ai_jobs_regulation",
+        "jobs_growth"
+      ],
+      "date": "2026-07-23",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.pewresearch.org/politics/2026/07/23/americans-evaluations-of-the-economy-remain-negative/",
+      "source_title": "Americans' evaluations of the economy remain negative",
+      "source_type": "poll",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "published_poll",
+      "claim": "Gasoline concern rose much more than other household-cost concerns between January and July; AI was not asked in January.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": {
+        "adults": 3554,
+        "design": "American Trends Panel; gasoline and electricity asked to a randomized half-sample; exact item n not transcribed"
+      },
+      "fieldwork": {
+        "start": "2026-07-06",
+        "end": "2026-07-12",
+        "baseline": "January 2026"
+      },
+      "question": "Degree of concern about named economic issues; numbers record the very-concerned response.",
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "healthcare_cost",
+          "value": 71,
+          "unit": "percent",
+          "date": "2026-01",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "healthcare_cost",
+          "value": 69,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "food_consumer_goods",
+          "value": 66,
+          "unit": "percent",
+          "date": "2026-01",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "food_consumer_goods",
+          "value": 66,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "housing_cost",
+          "value": 62,
+          "unit": "percent",
+          "date": "2026-01",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "housing_cost",
+          "value": 64,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "gasoline_cost",
+          "value": 34,
+          "unit": "percent",
+          "date": "2026-01",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "gasoline_cost",
+          "value": 56,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "electricity_cost",
+          "value": 51,
+          "unit": "percent",
+          "date": "2026-01",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "electricity_cost",
+          "value": 54,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "job_availability",
+          "value": 45,
+          "unit": "percent",
+          "date": "2026-01",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "job_availability",
+          "value": 44,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "stock_market",
+          "value": 20,
+          "unit": "percent",
+          "date": "2026-01",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "stock_market",
+          "value": 18,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults",
+          "response": "very_concerned"
+        },
+        {
+          "metric": "AI_role_in_economy",
+          "value": 49,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults",
+          "response": "very_concerned",
+          "baseline_available": false
+        }
+      ],
+      "evidence_level": "primary_survey",
+      "salience_signal_type": "economic_concern_not_electoral_priority",
+      "trend_status": "comparable_questions_populations_nominal_changes",
+      "uncertainty": [
+        "Since January, half the sample receives a combined gasoline/energy item and half receives separate gasoline/electricity items; use only the matching separate-item series.",
+        "Reported differences are percentage points, not statistical significance tests.",
+        "This is concern, not demonstrated voting priority or causal vote switching.",
+        "AI has no January baseline in this series."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "P03",
+      "topic": "affordability_inflation",
+      "topics": [
+        "affordability_inflation",
+        "jobs_growth",
+        "immigration"
+      ],
+      "date": "2026-07-27",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://news.gallup.com/poll/713018/economic-confidence-improves-july.aspx",
+      "source_title": "U.S. Economic Confidence Improves in July",
+      "source_type": "poll",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "published_poll",
+      "claim": "Economic confidence recovered from May's trough; inflation as the nation's most important problem declined from May to July while immigration rebounded from June.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": {
+        "adults": 1200,
+        "margin_of_error_pp": 4,
+        "confidence_level": 0.95,
+        "design": "Random-digit-dial telephone survey; cell and landline"
+      },
+      "fieldwork": {
+        "start": "2026-07-01",
+        "end": "2026-07-19"
+      },
+      "question": "Open-ended most important problem facing the country; separate current-conditions and economic-outlook items form the Economic Confidence Index.",
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "inflation_most_important_problem",
+          "value": 15,
+          "unit": "percent",
+          "date": "2026-05",
+          "population": "adults"
+        },
+        {
+          "metric": "inflation_most_important_problem",
+          "value": 14,
+          "unit": "percent",
+          "date": "2026-06",
+          "population": "adults"
+        },
+        {
+          "metric": "inflation_most_important_problem",
+          "value": 11,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults"
+        },
+        {
+          "metric": "immigration_most_important_problem",
+          "value": 20,
+          "unit": "percent",
+          "date": "2026-02",
+          "population": "adults"
+        },
+        {
+          "metric": "immigration_most_important_problem",
+          "value": 12,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults"
+        },
+        {
+          "metric": "economic_confidence_index",
+          "value": -45,
+          "unit": "index_points",
+          "date": "2026-05",
+          "population": "adults"
+        },
+        {
+          "metric": "economic_confidence_index",
+          "value": -38,
+          "unit": "index_points",
+          "date": "2026-06",
+          "population": "adults"
+        },
+        {
+          "metric": "economic_confidence_index",
+          "value": -31,
+          "unit": "index_points",
+          "date": "2026-07",
+          "population": "adults"
+        }
+      ],
+      "evidence_level": "primary_survey",
+      "salience_signal_type": "open_ended_national_problem_and_confidence",
+      "trend_status": "comparable_questions_populations_nominal_changes",
+      "uncertainty": [
+        "National problem priority is different from personal financial strain and election-specific issue priority.",
+        "July fieldwork ends July 19; later escalation is outside this survey.",
+        "Source provides earlier-wave values; current n and margin of error must not be assigned to every prior wave.",
+        "No causal attribution of confidence changes to the Iran conflict."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "supporting_urls": [
+        "https://news.gallup.com/file/poll/713027/2026_07_23_ECI%20and%20MIP%20Topline%20and%20Tabs.pdf"
+      ]
+    },
+    {
+      "id": "P04",
+      "topic": "affordability_inflation",
+      "topics": [
+        "affordability_inflation",
+        "energy_iran",
+        "housing",
+        "healthcare"
+      ],
+      "date": "2026-04-28",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://news.gallup.com/poll/708905/affordability-dominates-americans-financial-worries.aspx",
+      "source_title": "Affordability Dominates Americans' Financial Worries",
+      "source_type": "poll",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "published_poll",
+      "claim": "Energy costs became a more frequently named family financial problem than in April 2025; broad inflation remained the largest category.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": {
+        "adults": 1001,
+        "margin_of_error_pp": 4,
+        "design": "Random-digit-dial telephone survey"
+      },
+      "fieldwork": {
+        "start": "2026-04-01",
+        "end": "2026-04-15",
+        "baseline_start": "2025-04-01",
+        "baseline_end": "2025-04-14"
+      },
+      "question": "Open-ended most important financial problem facing the respondent's family.",
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "energy_costs",
+          "value": 3,
+          "unit": "percent",
+          "date": "2025-04",
+          "population": "adults"
+        },
+        {
+          "metric": "energy_costs",
+          "value": 13,
+          "unit": "percent",
+          "date": "2026-04",
+          "population": "adults"
+        },
+        {
+          "metric": "inflation_high_costs",
+          "value": 31,
+          "unit": "percent",
+          "date": "2026-04",
+          "population": "adults"
+        },
+        {
+          "metric": "housing_costs",
+          "value": 13,
+          "unit": "percent",
+          "date": "2026-04",
+          "population": "adults"
+        },
+        {
+          "metric": "healthcare_costs",
+          "value": 8,
+          "unit": "percent",
+          "date": "2026-04",
+          "population": "adults"
+        }
+      ],
+      "evidence_level": "primary_survey",
+      "salience_signal_type": "personal_financial_problem",
+      "trend_status": "comparable_questions_populations_nominal_changes",
+      "uncertainty": [
+        "Annual April-to-April comparison, not evidence about August momentum.",
+        "Family financial concern is not equivalent to voting intention.",
+        "Earlier-wave n must be obtained before a formal two-sample significance calculation."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "supporting_urls": [
+        "https://news.gallup.com/file/poll/708947/20260428PersonalFinancesInflation.pdf"
+      ]
+    },
+    {
+      "id": "P05",
+      "topic": "electricity_datacenters",
+      "topics": [
+        "electricity_datacenters",
+        "ai_jobs_regulation",
+        "affordability_inflation",
+        "energy_iran",
+        "housing",
+        "immigration"
+      ],
+      "date": "2026-08-05",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://law.marquette.edu/poll/2026/08/05/new-marquette-law-school-poll-national-survey-finds-inflation-and-cost-of-living-the-most-important-issue-economy-next-most-important/",
+      "source_title": "New Marquette Law School Poll national survey finds inflation and cost of living the most important issue; economy next most important",
+      "source_type": "poll",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "published_poll",
+      "claim": "Opposition to the cost-benefit balance of data centers increased on a stable question; the current-issue list changed across waves and cannot support a clean salience trend.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": {
+        "adults": 1076,
+        "registered_voters": 886,
+        "likely_voters": 572,
+        "adults_margin_of_error_pp": 3.2,
+        "design": "SSRS Opinion Panel probability-based national sample"
+      },
+      "fieldwork": {
+        "start": "2026-07-22",
+        "end": "2026-07-29"
+      },
+      "question": "After a common description of investment in data centers for AI and other applications, choose whether benefits or costs outweigh the other; separately choose the issue that matters most right now from a supplied list.",
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 62,
+          "unit": "percent",
+          "date": "2026-01-21/2026-01-28",
+          "population": "adults"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 69,
+          "unit": "percent",
+          "date": "2026-04-08/2026-04-16",
+          "population": "adults"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 71,
+          "unit": "percent",
+          "date": "2026-05-20/2026-05-26",
+          "population": "adults"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 73,
+          "unit": "percent",
+          "date": "2026-07-22/2026-07-29",
+          "population": "adults"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 66,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "Republican_adults"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 72,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "independent_adults"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 80,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "Democratic_adults"
+        },
+        {
+          "metric": "most_important_issue_inflation",
+          "value": 35,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults"
+        },
+        {
+          "metric": "most_important_issue_economy",
+          "value": 15,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults"
+        },
+        {
+          "metric": "most_important_issue_Iran",
+          "value": 10,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults"
+        },
+        {
+          "metric": "AI_bad_for_society",
+          "value": 70,
+          "unit": "percent",
+          "date": "2026-04",
+          "population": "adults"
+        },
+        {
+          "metric": "AI_bad_for_society",
+          "value": 65,
+          "unit": "percent",
+          "date": "2026-05",
+          "population": "adults"
+        },
+        {
+          "metric": "AI_bad_for_society",
+          "value": 70,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "adults"
+        }
+      ],
+      "evidence_level": "primary_survey",
+      "salience_signal_type": "opposition_and_prompted_current_issue_priority",
+      "trend_status": "data_center_question_comparable_issue_list_not_comparable",
+      "uncertainty": [
+        "Data-center attitude is not a measured share voting on data centers.",
+        "Current-issue choices added housing and the SAVE Act and removed the deficit in July; no clean trend from April Iran 24% to July 10%. The question asks current importance, not whether the issue determines the respondent's vote.",
+        "Party subgroups have larger uncertainty; no inferred individual cross-party coalition behavior.",
+        "AI bad-for-society July level equals April rather than showing a monotonic increase."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "P06",
+      "topic": "electricity_datacenters",
+      "topics": [
+        "electricity_datacenters",
+        "affordability_inflation",
+        "housing",
+        "healthcare",
+        "immigration",
+        "jobs_growth",
+        "energy_iran"
+      ],
+      "date": "2026-08-26",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://law.marquette.edu/poll/2026/08/26/marquette-law-poll-finds-crowley-leading-tiffany-among-likely-voters-tied-among-all-registered-voters/",
+      "source_title": "Marquette Law Poll finds Crowley leading Tiffany among likely voters, tied among all registered voters",
+      "source_type": "poll",
+      "jurisdiction": "Wisconsin",
+      "party": null,
+      "stage": "published_poll",
+      "claim": "Data-center opposition is broad, but inflation dominates stated current-issue priorities. The gubernatorial result depends materially on the turnout screen.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": {
+        "registered_voters": 891,
+        "likely_voters": 738,
+        "rv_margin_of_error_pp": 4,
+        "lv_margin_of_error_pp": 4.5,
+        "likely_voter_definition": "registered voters certain to vote"
+      },
+      "fieldwork": {
+        "start": "2026-08-12",
+        "end": "2026-08-20"
+      },
+      "question": "Data-center costs versus benefits; issue that matters most right now from supplied list; governor preference with distinct RV and LV populations.",
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 70,
+          "unit": "percent",
+          "date": "2026-02-11/2026-02-19",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 69,
+          "unit": "percent",
+          "date": "2026-03-11/2026-03-18",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 76,
+          "unit": "percent",
+          "date": "2026-07-08/2026-07-16",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 78,
+          "unit": "percent",
+          "date": "2026-08-12/2026-08-20",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 64,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "Republican_registered_voters"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 80,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "independent_registered_voters"
+        },
+        {
+          "metric": "data_centers_costs_outweigh_benefits",
+          "value": 94,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "Democratic_registered_voters"
+        },
+        {
+          "metric": "favor_data_center_ban_at_least_one_year",
+          "value": 67,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "most_important_issue_inflation",
+          "value": 43,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "most_important_issue_immigration",
+          "value": 12,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "most_important_issue_health_insurance",
+          "value": 10,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "most_important_issue_jobs",
+          "value": 7,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "most_important_issue_property_taxes",
+          "value": 6,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "most_important_issue_housing",
+          "value": 6,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "most_important_issue_data_centers",
+          "value": 5,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "governor_Crowley_D",
+          "value": 49,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "likely_voters"
+        },
+        {
+          "metric": "governor_Tiffany_R",
+          "value": 44,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "likely_voters"
+        },
+        {
+          "metric": "governor_Crowley_D",
+          "value": 44,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "governor_Tiffany_R",
+          "value": 44,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "Iran_war_not_worth_cost",
+          "value": 71,
+          "unit": "percent",
+          "date": "2026-07",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "Iran_war_not_worth_cost",
+          "value": 70,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "ICE_enforcement_disapprove",
+          "value": 56,
+          "unit": "percent",
+          "date": "2026-02",
+          "population": "registered_voters"
+        },
+        {
+          "metric": "ICE_enforcement_disapprove",
+          "value": 57,
+          "unit": "percent",
+          "date": "2026-08",
+          "population": "registered_voters"
+        }
+      ],
+      "evidence_level": "primary_survey",
+      "salience_signal_type": "state_current_issue_priority_opposition_turnout_sensitivity",
+      "trend_status": "data_center_question_comparable_February_onward",
+      "uncertainty": [
+        "October 2025 data-center wording mentioned a Microsoft cancellation; exclude it from the comparable baseline.",
+        "No conclusion that data-center opposition caused the governor preference gap.",
+        "Registered-voter and likely-voter results cannot be merged.",
+        "July-to-August changes of 1–2 points are not evidence of a statistically established change.",
+        "One state does not establish a national electoral trend. The issue-priority question asks current importance, not whether it determines the respondent's vote."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "P07",
+      "topic": "ai_jobs_regulation",
+      "topics": [
+        "ai_jobs_regulation",
+        "jobs_growth"
+      ],
+      "date": "2026-08-18",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/",
+      "source_title": "Young adults in the U.S. are increasingly wary of AI, concerned it will take jobs",
+      "source_type": "poll",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "published_poll",
+      "claim": "AI anxiety has risen more sharply among young adults than across adults overall; the concern concerns future employment, not observed job destruction.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": {
+        "adults": 3488,
+        "design": "American Trends Panel probability-based national sample"
+      },
+      "fieldwork": {
+        "start": "2026-06-22",
+        "end": "2026-06-28",
+        "baseline": "2025 for general concern; 2024 for future jobs"
+      },
+      "question": "More concerned or excited about increased AI use in daily life; expected effect of AI on U.S. jobs over the next twenty years.",
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "more_concerned_than_excited",
+          "value": 47,
+          "unit": "percent",
+          "date": "2025",
+          "population": "adults_18_29"
+        },
+        {
+          "metric": "more_concerned_than_excited",
+          "value": 55,
+          "unit": "percent",
+          "date": "2026",
+          "population": "adults_18_29"
+        },
+        {
+          "metric": "more_concerned_than_excited",
+          "value": 50,
+          "unit": "percent",
+          "date": "2025",
+          "population": "all_adults"
+        },
+        {
+          "metric": "more_concerned_than_excited",
+          "value": 52,
+          "unit": "percent",
+          "date": "2026",
+          "population": "all_adults"
+        },
+        {
+          "metric": "AI_fewer_jobs_next_20_years",
+          "value": 64,
+          "unit": "percent",
+          "date": "2024",
+          "population": "all_adults"
+        },
+        {
+          "metric": "AI_fewer_jobs_next_20_years",
+          "value": 71,
+          "unit": "percent",
+          "date": "2026",
+          "population": "all_adults"
+        },
+        {
+          "metric": "AI_fewer_jobs_next_20_years",
+          "value": 61,
+          "unit": "percent",
+          "date": "2024",
+          "population": "adults_18_29"
+        },
+        {
+          "metric": "AI_fewer_jobs_next_20_years",
+          "value": 73,
+          "unit": "percent",
+          "date": "2026",
+          "population": "adults_18_29"
+        }
+      ],
+      "evidence_level": "primary_survey",
+      "salience_signal_type": "AI_attitude_and_expected_jobs",
+      "trend_status": "comparable_questions_populations_nominal_changes",
+      "uncertainty": [
+        "June fieldwork was published in August; do not timestamp the opinion change as an August shock.",
+        "Youth opinion is not youth turnout or vote conversion.",
+        "Subgroup sample sizes and earlier fieldwork dates need retrieval before formal change tests.",
+        "A twenty-year expectation is not a forecast of 2027–2028 layoffs."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "P08",
+      "topic": "healthcare",
+      "topics": [
+        "healthcare",
+        "affordability_inflation",
+        "taxes_fiscal"
+      ],
+      "date": "2026-07-16",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.kff.org/public-opinion/poll-costs-are-the-top-health-care-issue-for-voters-in-the-midterms-but-fraud-tops-republicans-list-as-trump-administration-pushes-crackdown/",
+      "source_title": "Poll: Costs Are the Top Health Care Issue for Voters in the Midterms, But Fraud Tops Republicans' List As Trump Administration Pushes Crackdown",
+      "source_type": "poll",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "published_poll",
+      "claim": "Health-cost priority and anti-fraud priority differ by party; concern about costs does not imply agreement on the financing response.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": {
+        "adults": 1321,
+        "voters": 1055,
+        "adults_margin_of_error_pp": 3,
+        "voters_margin_of_error_pp": 4,
+        "design": "Nationally representative online and telephone interviews in English and Spanish"
+      },
+      "fieldwork": {
+        "start": "2026-06-25",
+        "end": "2026-06-30"
+      },
+      "question": "Importance for midterm candidates to discuss specified health-policy issues; numbers record the extremely-important response.",
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "healthcare_costs_extremely_important",
+          "value": 51,
+          "unit": "percent",
+          "date": "2026-06",
+          "population": "voters"
+        },
+        {
+          "metric": "healthcare_costs_extremely_important",
+          "value": 60,
+          "unit": "percent",
+          "date": "2026-06",
+          "population": "Democratic_voters"
+        },
+        {
+          "metric": "healthcare_costs_extremely_important",
+          "value": 55,
+          "unit": "percent",
+          "date": "2026-06",
+          "population": "independent_voters"
+        },
+        {
+          "metric": "government_health_program_fraud_extremely_important",
+          "value": 55,
+          "unit": "percent",
+          "date": "2026-06",
+          "population": "Republican_voters"
+        }
+      ],
+      "evidence_level": "primary_survey",
+      "salience_signal_type": "prompted_health_electoral_priority",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Within-health-policy priority differs from an all-issues most-important question.",
+        "Single comparable wave in this evidence packet; no claim of increasing salience.",
+        "Publication July 16; do not misdate to July 23."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "S01",
+      "topic": "electricity_datacenters",
+      "topics": [
+        "electricity_datacenters",
+        "affordability_inflation"
+      ],
+      "date": "2025-07-09",
+      "published_at": "2025-07-09T18:45:00Z",
+      "publication_precision": "minute",
+      "source_url": "https://content.govdelivery.com/accounts/OHPUC/bulletins/3e8bb79",
+      "source_title": "PUCO orders AEP Ohio to create data center specific tariff",
+      "source_type": "policy",
+      "jurisdiction": "Ohio",
+      "party": null,
+      "stage": "regulatory_order",
+      "claim": "PUCO ordered AEP Ohio to establish a separate data-center tariff intended to protect other customers from costs associated with data-center expansion.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Historical regulatory baseline, not evidence of a new 2026 policy or of voter salience.",
+        "An order to file a tariff is distinct from realized ratepayer savings.",
+        "This notice does not support assuming every Ohio utility uses identical terms."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "decision_maker": "Public Utilities Commission of Ohio"
+    },
+    {
+      "id": "S02",
+      "topic": "electricity_datacenters",
+      "topics": [
+        "electricity_datacenters",
+        "jobs_growth"
+      ],
+      "date": "2026-04-29",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.maine.gov/governor/mills/news/governor-mills-signs-executive-order-establish-maine-data-center-advisory-council-2026-04-29",
+      "source_title": "Governor Mills Signs Executive Order to Establish Maine Data Center Advisory Council",
+      "source_type": "policy",
+      "jurisdiction": "Maine",
+      "party": null,
+      "stage": "executive_order_and_sustained_veto",
+      "claim": "After a data-center moratorium bill was vetoed and the veto sustained, the governor created an advisory council with recommendations due January 29, 2027.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "The advisory council is not a moratorium in force.",
+        "Governor supported a moratorium with a specified project exemption; do not code this as unconditional pro- or anti-data-center positioning.",
+        "Publication is evidence of an institutional response, not the cause of the response."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "decision_maker": "Governor Janet Mills; Maine Legislature",
+      "policy_id": "LD 307 (vetoed); data-center advisory council executive order",
+      "implementation_date": "2027-01-29"
+    },
+    {
+      "id": "S03",
+      "topic": "electricity_datacenters",
+      "topics": [
+        "electricity_datacenters",
+        "affordability_inflation",
+        "jobs_growth"
+      ],
+      "date": "2026-08-18",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/eo2026_05_protecting%20pennsylvania%20consumers%20from%20data%20center%20impacts_final_executed.pdf",
+      "source_title": "Executive Order 2026-05 – Protecting Pennsylvania Consumers from Data Center Impacts",
+      "supporting_urls": ["https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-signs-executive-order-on-data-center-developmen"],
+      "source_type": "policy",
+      "jurisdiction": "Pennsylvania",
+      "party": null,
+      "stage": "executive_order",
+      "claim": "Executive Order 2026-05 differentiates new permit applications for data centers above 25 MW by GRID consent-agreement participation, removes data centers from Fast Track and directs advocacy for protective utility tariffs.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Sections 1(b)-(c) apply to new applications for projects above 25 MW. GRID participants receive rolling review but issuance waits for local approvals; nonparticipants face additional sequencing restrictions. This is not a moratorium or universal construction ban.",
+        "Section 3 directs counsel to advocate for PUC rules and tariffs concerning interconnection and reliability-backstop costs; the executive order does not itself establish those tariffs. Cost recovery remains subject to the appropriate regulatory process.",
+        "State action does not establish the policy of every state or federal preemption."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "decision_maker": "Governor Josh Shapiro; Pennsylvania DEP and other agencies",
+      "policy_id": "Executive Order 2026-05",
+      "implementation_date": "2026-08-18"
+    },
+    {
+      "id": "S04",
+      "topic": "ai_jobs_regulation",
+      "topics": [
+        "ai_jobs_regulation",
+        "housing",
+        "healthcare",
+        "jobs_growth"
+      ],
+      "date": "2026-05-14",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://leg.colorado.gov/bills/sb26-189",
+      "source_title": "SB26-189 Automated Decision-Making Technology",
+      "source_type": "policy",
+      "jurisdiction": "Colorado",
+      "party": null,
+      "stage": "enacted",
+      "claim": "SB26-189 replaces the prior automated-decision framework; key duties cover consequential decisions, with major obligations beginning January 2027 and attorney-general enforcement.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "Senate_repass_ayes",
+          "value": 34,
+          "unit": "votes",
+          "date": "2026-05-12"
+        },
+        {
+          "metric": "Senate_repass_noes",
+          "value": 1,
+          "unit": "votes",
+          "date": "2026-05-12"
+        },
+        {
+          "metric": "House_final_ayes",
+          "value": 57,
+          "unit": "votes",
+          "date": "2026-05-09"
+        },
+        {
+          "metric": "House_final_noes",
+          "value": 6,
+          "unit": "votes",
+          "date": "2026-05-09"
+        }
+      ],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Act effective May 14 is distinct from January 2027 obligations.",
+        "Do not apply unrevised SB24-205 assumptions.",
+        "Large roll-call majorities are recorded; party labels are not inferred from vote size.",
+        "Attorney-general rulemaking and specific company use cases affect compliance exposure."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "decision_maker": "Colorado legislature, governor and attorney general",
+      "policy_id": "SB26-189; 2026 Session Laws Chapter 131",
+      "implementation_date": "2027-01-01"
+    },
+    {
+      "id": "S05",
+      "topic": "ai_jobs_regulation",
+      "topics": [
+        "ai_jobs_regulation",
+        "electricity_datacenters",
+        "jobs_growth"
+      ],
+      "date": "2026-03-20",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+      "source_title": "President Donald J. Trump Unveils National AI Legislative Framework",
+      "source_type": "policy",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "legislative_proposal",
+      "claim": "The administration proposes a uniform national AI framework, ratepayer protection, workforce measures and easier on-site-power permitting; the release explicitly seeks congressional legislation.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "A requested national framework is not proof Congress enacted federal preemption.",
+        "Executive and legislative authorities must be analyzed separately.",
+        "Administration claims about benefits are policy intentions, not measured outcomes."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "decision_maker": "President and Congress"
+    },
+    {
+      "id": "S06",
+      "topic": "healthcare",
+      "topics": [
+        "healthcare",
+        "affordability_inflation",
+        "taxes_fiscal"
+      ],
+      "date": "2026-06-03",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.federalregister.gov/documents/2026/06/03/2026-11094/medicaid-program-community-engagement-requirement-for-certain-individuals",
+      "source_title": "Medicaid Program; Community Engagement Requirement for Certain Individuals",
+      "source_type": "policy",
+      "jurisdiction": "United States and implementing states",
+      "party": null,
+      "stage": "interim_final_rule",
+      "claim": "CMS implements a statutory community-engagement condition for applicable Medicaid beneficiaries from January 2027, subject to exceptions and possible good-faith state delays; outreach can precede the election.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "initial_outreach_window_for_January_2027_implementation",
+          "value": "July–September 2026",
+          "unit": "calendar_window"
+        },
+        {
+          "metric": "state_good_faith_exemption_latest_end",
+          "value": "2028-12-31",
+          "unit": "date"
+        }
+      ],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Requirements apply to specified populations, not all Medicaid recipients.",
+        "Outreach date depends on state-selected review months.",
+        "Existing beneficiaries are assessed at the first renewal initiated after implementation; no assumption of immediate mass termination on January 1.",
+        "Governor or chamber turnover alone does not repeal the federal statute."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "decision_maker": "CMS and state Medicaid agencies",
+      "policy_id": "2026-11094; 42 CFR 435.550–435.563",
+      "implementation_date": "2027-01-01"
+    },
+    {
+      "id": "S07",
+      "topic": "housing",
+      "topics": [
+        "housing",
+        "affordability_inflation"
+      ],
+      "date": "2026-03-13",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-removes-regulatory-barriers-to-affordable-home-construction/",
+      "source_title": "Fact Sheet: President Donald J. Trump Removes Regulatory Barriers to Affordable Home Construction",
+      "source_type": "policy",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "executive_order",
+      "claim": "A federal executive order directs agencies to review housing-related regulatory barriers, including water permitting and federal approvals.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Directions to review or revise rules are not delivered housing units.",
+        "Local land-use authority, implementation and financing conditions remain separate constraints.",
+        "This record makes no claim about the final status of H.R.6644 because search snapshots of that bill were inconsistent."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "decision_maker": "Federal agencies acting under executive order and existing law"
+    },
+    {
+      "id": "S08",
+      "topic": "trade_tariffs",
+      "topics": [
+        "trade_tariffs",
+        "affordability_inflation",
+        "taxes_fiscal",
+        "jobs_growth"
+      ],
+      "date": "2026-07-23",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations",
+      "source_title": "USTR Takes Action in Forced Labor Section 301 Investigations",
+      "source_type": "policy",
+      "jurisdiction": "United States and 60 trading economies",
+      "party": null,
+      "stage": "announced_final_action",
+      "claim": "USTR announced final Section 301 tariffs of 10% or 12.5% on investigated economies, with differentiated treatment and product exemptions.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "investigated_economies",
+          "value": 60,
+          "unit": "economies"
+        },
+        {
+          "metric": "headline_tariff_rates",
+          "value": [
+            10,
+            12.5
+          ],
+          "unit": "percent"
+        }
+      ],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Headline tariff rates are not firm-level effective tariff rates; exemptions and MFN treatment matter.",
+        "Final action can still face litigation or amendment.",
+        "A changed Congress does not automatically reverse executive tariff administration."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "decision_maker": "U.S. Trade Representative acting at the President's direction",
+      "policy_id": "Section 301 forced-labor investigations"
+    },
+    {
+      "id": "S09",
+      "topic": "taxes_fiscal",
+      "topics": [
+        "taxes_fiscal",
+        "fed_rates",
+        "housing"
+      ],
+      "date": "2026-08-19",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.irs.gov/pub/irs-drop/fs-2026-14.pdf",
+      "source_title": "Questions and Answers about the limitation on the deduction for business interest expense",
+      "source_type": "policy",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "official_tax_guidance",
+      "claim": "IRS's updated Section 163(j) guidance adds depreciation, amortization and depletion back to adjusted taxable income for tax years beginning after December 2024.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "This is the applicable baseline, not a new prospective 2027 campaign promise.",
+        "Deduction limits, exceptions, elections and company taxable income determine cash benefits.",
+        "FAQs carry stated reliance limitations; this is investment-policy context, not personalized tax advice."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "decision_maker": "IRS; statutory tax baseline",
+      "policy_id": "FS-2026-14",
+      "supporting_urls": [
+        "https://www.irs.gov/newsroom/irs-updates-faqs-about-the-limitation-on-the-deduction-for-business-interest-expense"
+      ]
+    },
+    {
+      "id": "M01",
+      "topic": "fed_rates",
+      "topics": [
+        "fed_rates",
+        "affordability_inflation",
+        "energy_iran",
+        "jobs_growth"
+      ],
+      "date": "2026-07-29",
+      "published_at": "2026-07-29T18:00:00Z",
+      "publication_precision": "minute",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "source_title": "Federal Reserve issues FOMC statement",
+      "source_type": "macro",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "published_policy_decision",
+      "claim": "FOMC held its target range at 3.50–3.75%; three dissenters preferred a quarter-point increase, while the statement described elevated inflation and energy supply shocks.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "federal_funds_target_lower",
+          "value": 3.5,
+          "unit": "percent",
+          "date": "2026-07-29"
+        },
+        {
+          "metric": "federal_funds_target_upper",
+          "value": 3.75,
+          "unit": "percent",
+          "date": "2026-07-29"
+        },
+        {
+          "metric": "hold_votes",
+          "value": 9,
+          "unit": "votes",
+          "date": "2026-07-29"
+        },
+        {
+          "metric": "hike_dissents",
+          "value": 3,
+          "unit": "votes",
+          "date": "2026-07-29"
+        }
+      ],
+      "evidence_level": "primary_official_data_or_forecast",
+      "salience_signal_type": "monetary_policy_not_public_salience",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "This is the July decision, not a prediction of September's decision.",
+        "An electoral affordability mandate does not directly set the federal funds rate."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "M02",
+      "topic": "jobs_growth",
+      "topics": [
+        "jobs_growth",
+        "fed_rates"
+      ],
+      "date": "2026-09-04",
+      "published_at": "2026-09-04T12:30:00Z",
+      "publication_precision": "minute",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm",
+      "source_title": "Employment Situation News Release - August 2026",
+      "source_type": "macro",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "official_release",
+      "claim": "August payroll employment rose 162,000 and unemployment held at 4.1% in the September 4 vintage.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "payroll_monthly_change",
+          "value": 162000,
+          "unit": "jobs",
+          "date": "2026-08"
+        },
+        {
+          "metric": "unemployment_rate",
+          "value": 4.1,
+          "unit": "percent",
+          "date": "2026-08"
+        }
+      ],
+      "evidence_level": "primary_official_data_or_forecast",
+      "salience_signal_type": "realized_macro_release",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Payroll figures are preliminary and subject to revision; preserve this release vintage.",
+        "Payroll and unemployment estimates come from different surveys.",
+        "No paid consensus forecast or surprise statistic is imputed."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "M03",
+      "topic": "immigration",
+      "topics": [
+        "immigration",
+        "jobs_growth",
+        "housing"
+      ],
+      "date": "2026-05-19",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.bls.gov/news.release/archives/forbrn_05192026.htm",
+      "source_title": "Labor Force Characteristics of Foreign-born Workers - 2025",
+      "source_type": "macro",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "official_release",
+      "claim": "Foreign-born workers represented 19.1% of the civilian labor force in 2025 and were disproportionately employed in several service, construction and production occupations.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "foreign_born_share_civilian_labor_force",
+          "value": 19.1,
+          "unit": "percent",
+          "date": "2025"
+        },
+        {
+          "metric": "foreign_born_share_West_labor_force",
+          "value": 24.5,
+          "unit": "percent",
+          "date": "2025"
+        },
+        {
+          "metric": "foreign_born_share_Midwest_labor_force",
+          "value": 10.8,
+          "unit": "percent",
+          "date": "2025"
+        }
+      ],
+      "evidence_level": "primary_official_data_or_forecast",
+      "salience_signal_type": "structural_exposure_not_public_salience",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Foreign-born is not synonymous with unauthorized or deportable.",
+        "2025 annual estimates use eleven months because October CPS collection was interrupted; not a simple twelve-month average.",
+        "Regional occupational exposure is not an estimated causal effect of enforcement or immigration on election results."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "M04",
+      "topic": "taxes_fiscal",
+      "topics": [
+        "taxes_fiscal",
+        "jobs_growth",
+        "fed_rates",
+        "trade_tariffs",
+        "immigration"
+      ],
+      "date": "2026-02-11",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.cbo.gov/publication/61882",
+      "source_title": "The Budget and Economic Outlook: 2026 to 2036",
+      "source_type": "macro",
+      "jurisdiction": "United States",
+      "party": null,
+      "stage": "conditional_baseline_forecast",
+      "claim": "CBO's February baseline links fiscal support, tariff and immigration effects, and interest costs; it is a dated conditional baseline, not a September nowcast.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "projected_FY2026_deficit",
+          "value": 1.9,
+          "unit": "trillion_USD",
+          "date": "2026"
+        },
+        {
+          "metric": "projected_debt_GDP",
+          "value": 120,
+          "unit": "percent",
+          "date": "2036"
+        }
+      ],
+      "evidence_level": "primary_official_data_or_forecast",
+      "salience_signal_type": "conditional_macro_fiscal_baseline",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Does not incorporate later 2026 trade decisions or Iran developments.",
+        "Projected values are not realized facts.",
+        "Do not infer the post-midterm fiscal impulse from the total deficit; compare policy changes against an updated baseline."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "source_vintage": {
+        "trade_policy_cutoff": "2025-11-20",
+        "economic_law_cutoff": "2025-12-03",
+        "budget_law_cutoff": "2026-01-14",
+        "report_corrections": "2026-03-24"
+      }
+    },
+    {
+      "id": "M05",
+      "topic": "energy_iran",
+      "topics": [
+        "energy_iran",
+        "affordability_inflation",
+        "fed_rates"
+      ],
+      "date": "2026-08-11",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.eia.gov/outlooks/steo/archives/aug26.pdf",
+      "source_title": "Short-Term Energy Outlook - August 2026",
+      "source_type": "macro",
+      "jurisdiction": "Global and United States",
+      "party": null,
+      "stage": "conditional_energy_forecast",
+      "claim": "EIA's August outlook assumed severe Hormuz constraints through August with recovery beginning in September; its projected return toward pre-conflict production extended into early 2027.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "estimated_Middle_East_production_shut_in",
+          "value": 5.5,
+          "unit": "million_barrels_per_day",
+          "date": "2026-07"
+        },
+        {
+          "metric": "forecast_Brent_Q3_2026",
+          "value": 85,
+          "unit": "USD_per_barrel",
+          "date": "2026-Q3"
+        },
+        {
+          "metric": "change_from_July_Brent_Q3_forecast",
+          "value": 11,
+          "unit": "USD_per_barrel",
+          "date": "2026-08"
+        }
+      ],
+      "evidence_level": "primary_official_data_or_forecast",
+      "salience_signal_type": "physical_energy_and_forecast_not_public_salience",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "A conditional agency forecast is not a verified probability that shipping normalizes on that schedule.",
+        "Distinguish financial prices, shipping flows, inventories and production.",
+        "Use the archived August PDF; a later September release lies outside the freeze."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "source_vintage": {
+        "forecast_completed": "2026-08-06",
+        "release_date": "2026-08-11"
+      }
+    },
+    {
+      "id": "E01",
+      "topic": "taxes_fiscal",
+      "topics": [
+        "taxes_fiscal",
+        "jobs_growth",
+        "affordability_inflation"
+      ],
+      "date": "2026-05-18",
+      "published_at": null,
+      "publication_precision": "document_data_as_of_day",
+      "source_url": "https://www.fec.gov/resources/cms-content/documents/2026pdates.pdf",
+      "source_title": "2026 Congressional Primary Dates and Candidate Filing Deadlines for Ballot Access",
+      "source_type": "election",
+      "jurisdiction": "United States federal elections",
+      "party": null,
+      "stage": "official_calendar",
+      "claim": "The general-election calendar lists November 3, 2026 and state-specific nomination dates; New Hampshire's September 8 and later primaries were not complete at the freeze.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "general_election_date",
+          "value": "2026-11-03",
+          "unit": "date"
+        },
+        {
+          "metric": "New_Hampshire_primary",
+          "value": "2026-09-08",
+          "unit": "date"
+        },
+        {
+          "metric": "Rhode_Island_primary",
+          "value": "2026-09-09",
+          "unit": "date"
+        },
+        {
+          "metric": "Delaware_primary",
+          "value": "2026-09-15",
+          "unit": "date"
+        },
+        {
+          "metric": "Louisiana_House_election_rounds",
+          "value": [
+            "2026-11-03",
+            "2026-12-12"
+          ],
+          "unit": "dates"
+        }
+      ],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "FEC compiles dates but state election offices administer elections.",
+        "Calendar is a May 18 vintage and dates can change; no assertion that every later modification is captured.",
+        "Do not use post-freeze New Hampshire primary results.",
+        "Louisiana timing can extend resolution beyond November 3."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "date_basis": "PDF explicitly states data as of May 18, 2026; posting timestamp unavailable"
+    },
+    {
+      "id": "E02",
+      "topic": "taxes_fiscal",
+      "topics": [
+        "taxes_fiscal",
+        "fed_rates",
+        "ai_jobs_regulation"
+      ],
+      "date": "2026-07-14",
+      "published_at": null,
+      "publication_precision": "section_as_of_day",
+      "source_url": "https://www.dailypress.senate.gov/on-the-floor/senate-facts/",
+      "source_title": "Senate Facts - 119th Congress party lineup",
+      "source_type": "election",
+      "jurisdiction": "United States Senate",
+      "party": null,
+      "stage": "dated_official_composition",
+      "claim": "Senate Press Gallery's July 14 lineup is 53 Republicans, 45 Democrats and two independents caucusing with Democrats; its 2026 election list has 13 Democratic and 22 Republican seats.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "Republican_seats",
+          "value": 53,
+          "unit": "seats"
+        },
+        {
+          "metric": "Democratic_seats",
+          "value": 45,
+          "unit": "seats"
+        },
+        {
+          "metric": "independent_D_caucusing_seats",
+          "value": 2,
+          "unit": "seats"
+        },
+        {
+          "metric": "2026_election_seats_D",
+          "value": 13,
+          "unit": "seats"
+        },
+        {
+          "metric": "2026_election_seats_R",
+          "value": 22,
+          "unit": "seats"
+        }
+      ],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "The page labels a list Class II while including special-election seats; do not call all 35 seats regular Class II elections.",
+        "Race exposure differs by geography; national vote shares cannot translate mechanically into Senate control.",
+        "Dynamic site retrieved after freeze; use the dated lineup, not unrelated page updates."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "date_basis": "Use only the explicitly July 14, 2026 section; page contains mixed historical/live sections."
+    },
+    {
+      "id": "E03",
+      "topic": "electricity_datacenters",
+      "topics": [
+        "electricity_datacenters",
+        "ai_jobs_regulation",
+        "healthcare",
+        "housing",
+        "taxes_fiscal"
+      ],
+      "date": "2026-06-25",
+      "published_at": null,
+      "publication_precision": "last_updated_day",
+      "source_url": "https://www.ncsl.org/elections-and-campaigns/ncsl-state-elections-2026",
+      "source_title": "NCSL State Elections 2026",
+      "source_type": "election",
+      "jurisdiction": "United States state legislatures",
+      "party": null,
+      "stage": "official_association_election_inventory",
+      "claim": "NCSL's June 25 summary identifies 6,139 legislative seats across 46 states and races in 88 of 99 state chambers.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "state_legislative_seats_up",
+          "value": 6139,
+          "unit": "seats"
+        },
+        {
+          "metric": "states_with_legislative_elections",
+          "value": 46,
+          "unit": "states"
+        },
+        {
+          "metric": "chambers_with_elections",
+          "value": 88,
+          "unit": "chambers"
+        },
+        {
+          "metric": "total_state_chambers",
+          "value": 99,
+          "unit": "chambers"
+        }
+      ],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Not every chamber elects all seats at once.",
+        "NCSL partisan-control color reflects party counts and may differ from governing coalitions.",
+        "This is an inventory, not a fitted 6,139-race prediction model."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "E04",
+      "topic": "electricity_datacenters",
+      "topics": [
+        "electricity_datacenters",
+        "housing",
+        "healthcare",
+        "taxes_fiscal"
+      ],
+      "date": "2026-08-03",
+      "published_at": null,
+      "publication_precision": "day",
+      "source_url": "https://www.nga.org/news/press-releases/highlights-from-the-2026-nga-summer-meeting/",
+      "source_title": "Highlights from the 2026 NGA Summer Meeting",
+      "source_type": "election",
+      "jurisdiction": "United States states and territories",
+      "party": null,
+      "stage": "official_association_election_inventory",
+      "claim": "NGA reports 39 gubernatorial elections scheduled for November, including territorial elections, with substantial turnover expected.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {
+          "metric": "gubernatorial_elections_states_and_territories",
+          "value": 39,
+          "unit": "elections",
+          "date": "2026-11"
+        }
+      ],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "39 includes territories; do not describe this as 39 U.S. states.",
+        "NGA's expectation of more than twenty new governors is a projection, not a final result.",
+        "Governor control does not imply control of both legislative chambers or independent regulators."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Publication or explicitly dated information predates the 2026-09-08T15:07:00Z freeze; retrieved subsequently. Unrelated live-page content was not used.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      },
+      "supporting_urls": [
+        "https://www.nga.org/governors/elections/"
+      ]
+    },
+    {
+      "id": "E05",
+      "topic": "taxes_fiscal",
+      "topics": [
+        "taxes_fiscal",
+        "ai_jobs_regulation",
+        "healthcare",
+        "fed_rates"
+      ],
+      "date": null,
+      "published_at": null,
+      "publication_precision": "undated_standing_background",
+      "source_url": "https://www.senate.gov/about/powers-procedures/voting.htm",
+      "source_title": "U.S. Senate: About Voting",
+      "source_type": "election",
+      "jurisdiction": "United States Senate",
+      "party": null,
+      "stage": "standing_institutional_rule",
+      "claim": "Most Senate passage votes require a simple majority; ordinary legislative cloture generally requires three-fifths of duly chosen and sworn senators; passage and cloture are distinct procedural thresholds.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [],
+      "evidence_level": "primary_institutional_background",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Cloture and passage thresholds differ; specific exceptions and Senate precedents must be checked for each proposal.",
+        "Budget reconciliation is a constrained procedure, not a general bypass for all policy.",
+        "House/Senate control markets alone are not policy-enactment probabilities."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Undated institutional background, verified at retrieval; excluded from dated-event counts and salience trends.",
+      "retrieval": {
+        "method": "web search followed by primary-source page/PDF open; manually transcribed and checked",
+        "retrieved_at": null, "retrieved_on": "2026-09-08", "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "E06",
+      "topic": "electricity_datacenters",
+      "topics": ["electricity_datacenters", "affordability_inflation", "taxes_fiscal"],
+      "date": "2026-04-09",
+      "published_at": null,
+      "publication_precision": "document_signed_day",
+      "date_basis": "County clerk notice signed April 9, 2026; the document's upload timestamp was not verified.",
+      "source_url": "https://www.bayfieldcounty.wi.gov/DocumentCenter/View/20824/Notice-of-Election-Partisan-Primary-August-11-2026-and-General-Election-November-3-2026",
+      "source_title": "Notice of Election: Partisan Primary August 11, 2026 and General Election November 3, 2026",
+      "source_type": "election",
+      "jurisdiction": "Wisconsin statewide election dates; notice issued by Bayfield County Clerk",
+      "party": null,
+      "stage": "official_election_notice",
+      "claim": "The official county notice places Wisconsin's partisan primary on August 11 and general election on November 3; it lists January 4, 2027 as expiration of the current governor's term.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [
+        {"metric": "wisconsin_partisan_primary_date", "value": "2026-08-11", "unit": "calendar_date"},
+        {"metric": "wisconsin_general_election_date", "value": "2026-11-03", "unit": "calendar_date"},
+        {"metric": "current_wisconsin_governor_term_expiration", "value": "2027-01-04", "unit": "calendar_date"}
+      ],
+      "evidence_level": "primary_official_document",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "The statewide election dates are transferable; the listed legislative districts are county-specific and are not a statewide seat inventory.",
+        "An August 11 morning-to-September 8 price comparison crosses nomination resolution and first post-primary polling, so it cannot isolate an issue-salience effect.",
+        "Election timing is distinct from the assumption of office and from a policy's enactment or implementation date."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "The signed official notice predates the freeze; retrieved subsequently. Upload timestamp unverified.",
+      "supporting_urls": ["https://electiontraining.wi.gov/sites/default/files/2025-10/Cycle%20of%20Elections_0.pdf"],
+      "retrieval": {
+        "method": "Opened official county PDF and Wisconsin Elections Commission training PDF; manually checked dated notice and election calendar",
+        "retrieved_at": null,
+        "retrieved_on": "2026-09-08",
+        "time_precision": "day",
+        "raw_document_saved": false
+      }
+    },
+    {
+      "id": "E07",
+      "topic": "taxes_fiscal",
+      "topics": ["taxes_fiscal", "ai_jobs_regulation", "healthcare", "fed_rates", "trade_tariffs"],
+      "date": null,
+      "published_at": null,
+      "publication_precision": "undated_standing_background",
+      "source_url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "source_title": "The Constitution of the United States: A Transcription",
+      "source_type": "election",
+      "jurisdiction": "United States federal government",
+      "party": null,
+      "stage": "standing_institutional_rule",
+      "claim": "The Constitution separates the president's four-year term, presidential presentment and veto, Senate consent to appointments, and the vice president's tie-breaking Senate vote; a congressional midterm result does not replace the presidency.",
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "sample": null,
+      "fieldwork": null,
+      "question": null,
+      "question_is_paraphrase": true,
+      "observations": [],
+      "evidence_level": "primary_institutional_background",
+      "salience_signal_type": "policy_or_background",
+      "trend_status": "not_a_trend_observation",
+      "uncertainty": [
+        "Holding the incumbent presidency fixed assumes ordinary continuation of the term; this is a scenario convention, not a statement that succession is impossible.",
+        "The vice president's floor vote does not itself specify committee organization or discharge arrangements in an evenly divided Senate.",
+        "An institutional route to policy is not a probability of enactment, an executive authority determination for a particular rule, or a forecast of Fed decisions."
+      ],
+      "as_of_eligible": true,
+      "as_of_caveat": "Undated constitutional background, verified at retrieval; excluded from dated-event counts and salience trends.",
+      "retrieval": {
+        "method": "Opened National Archives constitutional transcription and checked relevant Article I and Article II provisions",
+        "retrieved_at": null,
+        "retrieved_on": "2026-09-08",
+        "time_precision": "day",
+        "raw_document_saved": false
+      }
+    }
+  ]
+}

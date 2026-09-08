@@ -1,0 +1,11 @@
+﻿id,record_id,metric,baseline,latest,delta_pp,baseline_date,latest_date,population,signal,verdict
+T01,P02,gasoline_cost,34,56,22,2026-01,2026-07,adults receiving separate gasoline question,economic_concern,large nominal increase; not an election-priority measure
+T02,P02,electricity_cost,51,54,3,2026-01,2026-07,adults receiving separate electricity question,economic_concern,high concern; small movement does not establish acceleration
+T03,P02,housing_cost,62,64,2,2026-01,2026-07,adults,economic_concern,high level rather than demonstrated surge
+T04,P02,healthcare_cost,71,69,-2,2026-01,2026-07,adults,economic_concern,"persistently highest listed cost concern, not rising"
+T05,P05,data_centers_costs_outweigh_benefits,62,73,11,2026-01-21/2026-01-28,2026-07-22/2026-07-29,adults,opposition,rising opposition on stable question; not directly measured electoral salience
+T06,P06,data_centers_costs_outweigh_benefits,70,78,8,2026-02-11/2026-02-19,2026-08-12/2026-08-20,Wisconsin registered voters,opposition,rising opposition from comparable February baseline; only +2 points July to August
+T07,P07,more_concerned_than_excited,47,55,8,2025,2026-06,adults aged 18–29,AI_attitude,youth-specific increase; does not establish youth turnout or vote effects
+T08,P03,inflation_most_important_problem,15,11,-4,2026-05,2026-07,adults,open_ended_national_priority,counterevidence to indiscriminate claims all affordability salience is rising
+T09,P06,Iran_war_not_worth_cost,71,70,-1,2026-07,2026-08,Wisconsin registered voters,war_attitude,high opposition; essentially stable nominal reading
+T10,P06,ICE_enforcement_disapprove,56,57,1,2026-02,2026-08,Wisconsin registered voters,enforcement_attitude,no evidence of a substantial increase in this series
