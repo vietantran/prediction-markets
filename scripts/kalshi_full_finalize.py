@@ -74,6 +74,8 @@ def main():
             result = subprocess.run([str(python), "-u", str(workspace / "scripts" / script), *argv],
                                     cwd=workspace, stdout=f, stderr=subprocess.STDOUT,
                                     creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+        if result.returncode != 0:
+            raise RuntimeError(f"{script} exited with code {result.returncode}; see {log}")
         return result.returncode
 
     try:
@@ -163,10 +165,24 @@ def main():
                     "daily_convention": "Raw API sessions plus separately derived UTC days",
                     "snapshot_time_basis": "Market counters and order books at retrieval; eligibility and candle windows use frozen asof"}
         write(root / "collection_manifest.json", manifest)
+        if not complete:
+            state.update(collection_complete=False, audit_complete=False)
+            raise RuntimeError(
+                "Collection audit incomplete; Excel export withheld. See collection_manifest.json"
+            )
         progress("exporting_excel", audited_market_count=len(markets), audit_complete=complete)
         code = run("kalshi_full_export.py", ["--root", str(root), "--out", str(root / "excel" / "final")],
                    python=args.export_python)
-        progress("finished" if code == 0 else "export_failed", status="complete" if code == 0 else "error",
+        exported = read(root / "excel" / "final" / "export_manifest.json")
+        if (exported.get("status") not in {
+                "FULL WITHIN DOCUMENTED SCOPE", "API EXTRACT COMPLETE; CATEGORY SCOPE APPROXIMATE"}
+                or exported.get("errors")
+                or exported.get("inputs", {}).get("datasets_complete") is not True
+                or exported.get("asof_utc") != config["asof_utc"]
+                or exported.get("selected_datasets") != "all"
+                or not (root / "excel" / "final" / "INDEX.xlsx").exists()):
+            raise RuntimeError("Excel export is incomplete or inconsistent; see export_manifest.json")
+        progress("finished", status="complete",
                  collection_complete=complete, export_exit_code=code,
                  final_index=str(root / "excel" / "final" / "INDEX.xlsx"))
     except Exception as exc:
